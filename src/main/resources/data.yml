@@ -1,0 +1,5852 @@
+createdAt: 1641145578
+genres:
+  - name: "Skill Game"
+    targets:
+    - "Children"
+    - "Teenagers"
+    - "Adults"
+    - "Seniors"
+    - "All"
+    design:
+      gameplay: 40
+      graphics: 10
+      sound: 10
+      control: 40
+    subgenres:
+    - name: "None"
+      matches: true
+      directions:
+        length: 5
+        depth: 2
+        friendliness: 8
+        innovation: 5
+        story: 2
+        characters: 3
+        levels: 8
+        missions: 7
+        hardcore: 7
+        cruelty: 1
+        complexity: 7
+    - name: "Puzzle Game"
+      matches: true
+      directions:
+        length: 7
+        depth: 3
+        friendliness: 7
+        innovation: 4
+        story: 3
+        characters: 2
+        levels: 7
+        missions: 7
+        hardcore: 7
+        cruelty: 0
+        complexity: 7
+    - name: "Racing"
+      directions:
+        length: 7
+        depth: 4
+        friendliness: 8
+        innovation: 5
+        story: 1
+        characters: 2
+        levels: 8
+        missions: 5
+        hardcore: 7
+        cruelty: 0
+        complexity: 5
+    - name: "Adventure"
+      directions:
+        length: 4
+        depth: 2
+        friendliness: 6
+        innovation: 3
+        story: 6
+        characters: 6
+        levels: 7
+        missions: 6
+        hardcore: 6
+        cruelty: 3
+        complexity: 7
+    - name: "Strategy"
+      directions:
+        length: 7
+        depth: 7
+        friendliness: 4
+        innovation: 4
+        story: 1
+        characters: 2
+        levels: 7
+        missions: 8
+        hardcore: 3
+        cruelty: 3
+        complexity: 7
+    - name: "Role-Playing Game"
+      directions:
+        length: 7
+        depth: 4
+        friendliness: 5
+        innovation: 3
+        story: 5
+        characters: 5
+        levels: 6
+        missions: 5
+        hardcore: 4
+        cruelty: 3
+        complexity: 7
+    - name: "Action"
+      matches: true
+      directions:
+        length: 5
+        depth: 3
+        friendliness: 7
+        innovation: 5
+        story: 3
+        characters: 3
+        levels: 9
+        missions: 5
+        hardcore: 6
+        cruelty: 4
+        complexity: 8
+    - name: "Platformer"
+      matches: true
+      directions:
+        length: 6
+        depth: 1
+        friendliness: 9
+        innovation: 5
+        story: 2
+        characters: 4
+        levels: 9
+        missions: 4
+        hardcore: 7
+        cruelty: 2
+        complexity: 6
+    - name: "Simulation"
+      directions:
+        length: 6
+        depth: 6
+        friendliness: 4
+        innovation: 6
+        story: 1
+        characters: 2
+        levels: 7
+        missions: 8
+        hardcore: 3
+        cruelty: 4
+        complexity: 7
+    - name: "Sports Game"
+      directions:
+        length: 6
+        depth: 3
+        friendliness: 9
+        innovation: 6
+        story: 2
+        characters: 3
+        levels: 5
+        missions: 6
+        hardcore: 7
+        cruelty: 0
+        complexity: 5
+    - name: "Economic Simulation"
+      directions:
+        length: 8
+        depth: 6
+        friendliness: 4
+        innovation: 7
+        story: 1
+        characters: 2
+        levels: 6
+        missions: 6
+        hardcore: 3
+        cruelty: 1
+        complexity: 7
+    - name: "Fighting Game"
+      directions:
+        length: 6
+        depth: 2
+        friendliness: 9
+        innovation: 3
+        story: 3
+        characters: 6
+        levels: 7
+        missions: 4
+        hardcore: 6
+        cruelty: 5
+        complexity: 7
+    - name: "Building Game"
+      directions:
+        length: 8
+        depth: 7
+        friendliness: 5
+        innovation: 6
+        story: 1
+        characters: 2
+        levels: 6
+        missions: 5
+        hardcore: 4
+        cruelty: 2
+        complexity: 6
+    - name: "First-Person Shooter"
+      directions:
+        length: 5
+        depth: 2
+        friendliness: 8
+        innovation: 4
+        story: 3
+        characters: 3
+        levels: 9
+        missions: 6
+        hardcore: 5
+        cruelty: 5
+        complexity: 7
+    - name: "Third-Person Shooter"
+      directions:
+        length: 6
+        depth: 3
+        friendliness: 6
+        innovation: 4
+        story: 3
+        characters: 4
+        levels: 8
+        missions: 6
+        hardcore: 5
+        cruelty: 4
+        complexity: 6
+    - name: "Interactive Movie"
+      directions:
+        length: 5
+        depth: 3
+        friendliness: 7
+        innovation: 4
+        story: 6
+        characters: 6
+        levels: 5
+        missions: 4
+        hardcore: 7
+        cruelty: 4
+        complexity: 5
+    - name: "Real-Time Strategy"
+      directions:
+        length: 6
+        depth: 6
+        friendliness: 5
+        innovation: 4
+        story: 2
+        characters: 2
+        levels: 8
+        missions: 7
+        hardcore: 4
+        cruelty: 3
+        complexity: 7
+    - name: "Visual Novel"
+      directions:
+        length: 6
+        depth: 3
+        friendliness: 7
+        innovation: 3
+        story: 6
+        characters: 6
+        levels: 5
+        missions: 4
+        hardcore: 7
+        cruelty: 2
+        complexity: 4
+    topics:
+    - Agriculture
+    - Animals
+    - Archaeology
+    - Art
+    - Baseball
+    - Basketball
+    - Birds
+    - Building Blocks
+    - Candy
+    - Cars
+    - Casinos
+    - Cats
+    - Chemistry
+    - Chickens
+    - Cities
+    - Climbing
+    - Cooking
+    - Cyberpunk
+    - Cyberspace
+    - Dancing
+    - Deck Building
+    - Digging
+    - Diving
+    - Dogs
+    - Dragons
+    - Drawing
+    - Dreams
+    - Education
+    - Elements
+    - Espionage
+    - Everyday Life
+    - Evolution
+    - Expeditions
+    - Factories
+    - Fairies
+    - Fantasy
+    - Fashion
+    - Fish
+    - Fishing
+    - Fitness
+    - Food
+    - Frogs
+    - Fruits
+    - Gambling
+    - Ghosts
+    - Goats
+    - Hacking
+    - Handball
+    - Healthcare
+    - Hospital
+    - Insects
+    - Jet Ski
+    - Kids
+    - Mathematics
+    - Middle Ages
+    - Mining
+    - Movies
+    - Mushrooms
+    - Music
+    - Octopus
+    - Orcs
+    - Parallel Worlds
+    - Parlor Games
+    - Physics
+    - Pinball
+    - Planets
+    - Plants
+    - Playing Cards
+    - Plumber
+    - Portals
+    - Prison
+    - Puzzles
+    - Quiz Show
+    - Rabbits
+    - Renovation
+    - Riding
+    - Rockstars
+    - Sailing
+    - School
+    - Science
+    - Sheep
+    - Singing
+    - Skydiving
+    - Soccer
+    - Skiing
+    - Space
+    - Sports
+    - Steampunk
+    - Stone Age
+    - Stones
+    - Swimming
+    - Table Tennis
+    - Tennis
+    - Theme Parks
+    - Thieves
+    - Time Travel
+    - Toys
+    - Trains
+    - Transportation
+    - Treasure
+    - Viruses
+    - Volleyball
+    - Wizards
+    - Worms
+    - Zoo
+    - Pets
+  - name: Puzzle Game
+    targets:
+      - "Teenagers"
+      - "Adults"
+      - "Seniors"
+    design:
+      gameplay: 50
+      graphics: 10
+      sound: 10
+      control: 30
+    subgenres:
+      - name: "None"
+        matches: true
+        directions:
+          length: 7
+          depth: 2
+          friendliness: 7
+          innovation: 4
+          story: 4
+          characters: 2
+          levels: 6
+          missions: 8
+          hardcore: 8
+          cruelty: 0
+          complexity: 8
+      - name: "Skill Game"
+        matches: true
+        directions:
+          length: 7
+          depth: 3
+          friendliness: 7
+          innovation: 4
+          story: 3
+          characters: 2
+          levels: 7
+          missions: 7
+          hardcore: 7
+          cruelty: 0
+          complexity: 7
+      - name: "Racing"
+        directions:
+          length: 8
+          depth: 3
+          friendliness: 7
+          innovation: 5
+          story: 2
+          characters: 2
+          levels: 7
+          missions: 6
+          hardcore: 8
+          cruelty: 0
+          complexity: 6
+      - name: "Adventure"
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 7
+          innovation: 2
+          story: 7
+          characters: 5
+          levels: 6
+          missions: 6
+          hardcore: 6
+          cruelty: 2
+          complexity: 7
+      - name: "Strategy"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 3
+          innovation: 4
+          story: 2
+          characters: 1
+          levels: 6
+          missions: 9
+          hardcore: 4
+          cruelty: 3
+          complexity: 8
+      - name: "Role-Playing Game"
+        directions:
+          length: 8
+          depth: 4
+          friendliness: 3
+          innovation: 3
+          story: 6
+          characters: 5
+          levels: 5
+          missions: 6
+          hardcore: 5
+          cruelty: 3
+          complexity: 7
+      - name: "Action"
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 7
+          innovation: 5
+          story: 4
+          characters: 3
+          levels: 8
+          missions: 6
+          hardcore: 6
+          cruelty: 3
+          complexity: 8
+      - name: "Platformer"
+        matches: true
+        directions:
+          length: 7
+          depth: 2
+          friendliness: 8
+          innovation: 4
+          story: 3
+          characters: 3
+          levels: 8
+          missions: 5
+          hardcore: 8
+          cruelty: 1
+          complexity: 6
+      - name: "Simulation"
+        directions:
+          length: 7
+          depth: 5
+          friendliness: 4
+          innovation: 5
+          story: 2
+          characters: 2
+          levels: 6
+          missions: 9
+          hardcore: 4
+          cruelty: 3
+          complexity: 8
+      - name: "Sports Game"
+        directions:
+          length: 7
+          depth: 3
+          friendliness: 9
+          innovation: 6
+          story: 3
+          characters: 2
+          levels: 4
+          missions: 6
+          hardcore: 7
+          cruelty: 0
+          complexity: 6
+      - name: "Economic Simulation"
+        directions:
+          length: 9
+          depth: 7
+          friendliness: 4
+          innovation: 6
+          story: 2
+          characters: 1
+          levels: 5
+          missions: 6
+          hardcore: 4
+          cruelty: 1
+          complexity: 7
+      - name: "Fighting Game"
+        directions:
+          length: 7
+          depth: 2
+          friendliness: 8
+          innovation: 3
+          story: 4
+          characters: 6
+          levels: 6
+          missions: 4
+          hardcore: 7
+          cruelty: 4
+          complexity: 8
+      - name: "Building Game"
+        directions:
+          length: 9
+          depth: 7
+          friendliness: 4
+          innovation: 6
+          story: 2
+          characters: 1
+          levels: 5
+          missions: 6
+          hardcore: 5
+          cruelty: 2
+          complexity: 7
+      - name: "First-Person Shooter"
+        directions:
+          length: 6
+          depth: 1
+          friendliness: 7
+          innovation: 4
+          story: 4
+          characters: 3
+          levels: 8
+          missions: 7
+          hardcore: 5
+          cruelty: 4
+          complexity: 7
+      - name: "Third-Person Shooter"
+        directions:
+          length: 7
+          depth: 2
+          friendliness: 6
+          innovation: 3
+          story: 4
+          characters: 4
+          levels: 7
+          missions: 7
+          hardcore: 6
+          cruelty: 3
+          complexity: 6
+      - name: "Interactive Movie"
+        matches: true
+        directions:
+          length: 6
+          depth: 2
+          friendliness: 7
+          innovation: 3
+          story: 7
+          characters: 6
+          levels: 4
+          missions: 5
+          hardcore: 7
+          cruelty: 3
+          complexity: 5
+      - name: "Real-Time Strategy"
+        directions:
+          length: 7
+          depth: 5
+          friendliness: 4
+          innovation: 4
+          story: 3
+          characters: 2
+          levels: 7
+          missions: 8
+          hardcore: 5
+          cruelty: 3
+          complexity: 7
+      - name: "Visual Novel"
+        matches: true
+        directions:
+          length: 7
+          depth: 2
+          friendliness: 6
+          innovation: 3
+          story: 7
+          characters: 6
+          levels: 4
+          missions: 5
+          hardcore: 7
+          cruelty: 2
+          complexity: 5
+    topics:
+      - Agriculture
+      - Animals
+      - Archaeology
+      - Art
+      - Building Blocks
+      - Candy
+      - Casinos
+      - Chemistry
+      - Cities
+      - Conspiracies
+      - Cooking
+      - Cyberpunk
+      - Cyberspace
+      - Dancing
+      - Dating
+      - Deck Building
+      - Detective
+      - Digging
+      - Diving
+      - Dragons
+      - Drawing
+      - Dreams
+      - Education
+      - Elements
+      - Erotica
+      - Espionage
+      - Everyday Life
+      - Evolution
+      - Expeditions
+      - Fairies
+      - Fantasy
+      - Fashion
+      - Fish
+      - Fitness
+      - Food
+      - Fruits
+      - Gambling
+      - Ghosts
+      - Hacking
+      - Horror
+      - Hospital
+      - Kids
+      - Mathematics
+      - Middle Ages
+      - Mining
+      - Movies
+      - Music
+      - Octopus
+      - Parallel Worlds
+      - Parlor Games
+      - Physics
+      - Planets
+      - Plants
+      - Playing Cards
+      - Plumber
+      - Portals
+      - Prison
+      - Puzzles
+      - Quiz Show
+      - Rockstars
+      - Romans
+      - School
+      - Science
+      - Ships
+      - Singing
+      - Skateboards
+      - Space
+      - Steampunk
+      - Stone Age
+      - Stones
+      - Television
+      - Theme Parks
+      - Time Travel
+      - Toys
+      - Trains
+      - Transportation
+      - Treasure
+      - Viruses
+      - Wizards
+      - Worms
+      - Zoo
+      - Pets
+  - name: "Racing"
+    targets:
+      - "Children"
+      - "Teenagers"
+      - "Adults"
+      - "Seniors"
+      - "All"
+    design:
+      gameplay: 10
+      graphics: 40
+      sound: 30
+      control: 20
+    subgenres:
+      - name: "None"
+        matches: true
+        directions:
+          length: 7
+          depth: 4
+          friendliness: 8
+          innovation: 6
+          story: 1
+          characters: 2
+          levels: 8
+          missions: 4
+          hardcore: 8
+          cruelty: 0
+          complexity: 4
+      - name: "Skill Game"
+        directions:
+          length: 7
+          depth: 4
+          friendliness: 8
+          innovation: 5
+          story: 1
+          characters: 2
+          levels: 8
+          missions: 5
+          hardcore: 7
+          cruelty: 0
+          complexity: 5
+      - name: "Puzzle Game"
+        directions:
+          length: 8
+          depth: 3
+          friendliness: 7
+          innovation: 5
+          story: 2
+          characters: 2
+          levels: 7
+          missions: 6
+          hardcore: 8
+          cruelty: 0
+          complexity: 6
+      - name: "Adventure"
+        directions:
+          length: 5
+          depth: 3
+          friendliness: 7
+          innovation: 4
+          story: 5
+          characters: 5
+          levels: 7
+          missions: 4
+          hardcore: 6
+          cruelty: 2
+          complexity: 5
+      - name: "Strategy"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 4
+          innovation: 5
+          story: 1
+          characters: 1
+          levels: 7
+          missions: 7
+          hardcore: 4
+          cruelty: 3
+          complexity: 6
+      - name: "Role-Playing Game"
+        directions:
+          length: 8
+          depth: 5
+          friendliness: 4
+          innovation: 4
+          story: 4
+          characters: 5
+          levels: 6
+          missions: 4
+          hardcore: 5
+          cruelty: 3
+          complexity: 5
+      - name: "Action"
+        matches: true
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 7
+          innovation: 6
+          story: 2
+          characters: 3
+          levels: 9
+          missions: 4
+          hardcore: 6
+          cruelty: 3
+          complexity: 6
+      - name: "Platformer"
+        directions:
+          length: 7
+          depth: 3
+          friendliness: 9
+          innovation: 5
+          story: 1
+          characters: 3
+          levels: 9
+          missions: 3
+          hardcore: 8
+          cruelty: 1
+          complexity: 4
+      - name: "Simulation"
+        matches: true
+        directions:
+          length: 7
+          depth: 6
+          friendliness: 4
+          innovation: 6
+          story: 1
+          characters: 2
+          levels: 7
+          missions: 7
+          hardcore: 4
+          cruelty: 3
+          complexity: 6
+      - name: "Sports Game"
+        matches: true
+        directions:
+          length: 7
+          depth: 4
+          friendliness: 10
+          innovation: 7
+          story: 1
+          characters: 2
+          levels: 5
+          missions: 4
+          hardcore: 7
+          cruelty: 0
+          complexity: 4
+      - name: "Economic Simulation"
+        directions:
+          length: 9
+          depth: 8
+          friendliness: 4
+          innovation: 7
+          story: 1
+          characters: 1
+          levels: 6
+          missions: 4
+          hardcore: 4
+          cruelty: 1
+          complexity: 5
+      - name: "Fighting Game"
+        directions:
+          length: 7
+          depth: 3
+          friendliness: 9
+          innovation: 4
+          story: 2
+          characters: 6
+          levels: 7
+          missions: 2
+          hardcore: 7
+          cruelty: 4
+          complexity: 6
+      - name: "Building Game"
+        directions:
+          length: 9
+          depth: 8
+          friendliness: 4
+          innovation: 7
+          story: 1
+          characters: 1
+          levels: 6
+          missions: 4
+          hardcore: 5
+          cruelty: 2
+          complexity: 5
+      - name: "First-Person Shooter"
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 7
+          innovation: 5
+          story: 2
+          characters: 3
+          levels: 9
+          missions: 5
+          hardcore: 5
+          cruelty: 4
+          complexity: 5
+      - name: "Third-Person Shooter"
+        directions:
+          length: 7
+          depth: 3
+          friendliness: 6
+          innovation: 4
+          story: 3
+          characters: 4
+          levels: 8
+          missions: 5
+          hardcore: 6
+          cruelty: 3
+          complexity: 4
+      - name: "Interactive Movie"
+        directions:
+          length: 6
+          depth: 4
+          friendliness: 7
+          innovation: 4
+          story: 5
+          characters: 6
+          levels: 5
+          missions: 3
+          hardcore: 7
+          cruelty: 3
+          complexity: 3
+      - name: "Real-Time Strategy"
+        directions:
+          length: 7
+          depth: 6
+          friendliness: 4
+          innovation: 5
+          story: 2
+          characters: 2
+          levels: 8
+          missions: 6
+          hardcore: 5
+          cruelty: 3
+          complexity: 5
+      - name: "Visual Novel"
+        directions:
+          length: 7
+          depth: 3
+          friendliness: 7
+          innovation: 4
+          story: 5
+          characters: 6
+          levels: 5
+          missions: 3
+          hardcore: 7
+          cruelty: 2
+          complexity: 3
+    topics:
+      - Airplanes
+      - Bicycle
+      - Cabs
+      - Cars
+      - Economy
+      - Jet Ski
+      - Motorcycles
+      - Motorsports
+      - Riding
+      - Sailing
+      - Skateboards
+      - Skiing
+      - Skydiving
+      - Sports
+      - Transportation
+      - Trucks
+  - name: "Adventure"
+    targets:
+      - "Adults"
+      - "Seniors"
+    design:
+      gameplay: 40
+      graphics: 30
+      sound: 15
+      control: 15
+    subgenres:
+      - name: "None"
+        matches: true
+        directions:
+          length: 2
+          depth: 1
+          friendliness: 5
+          innovation: 1
+          story: 10
+          characters: 9
+          levels: 7
+          missions: 5
+          hardcore: 5
+          cruelty: 5
+          complexity: 7
+      - name: "Skill Game"
+        directions:
+          length: 4
+          depth: 2
+          friendliness: 6
+          innovation: 3
+          story: 6
+          characters: 6
+          levels: 7
+          missions: 6
+          hardcore: 6
+          cruelty: 3
+          complexity: 7
+      - name: "Puzzle Game"
+        matches: true
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 7
+          innovation: 2
+          story: 7
+          characters: 5
+          levels: 6
+          missions: 6
+          hardcore: 6
+          cruelty: 2
+          complexity: 7
+      - name: "Racing"
+        directions:
+          length: 5
+          depth: 3
+          friendliness: 7
+          innovation: 4
+          story: 5
+          characters: 5
+          levels: 7
+          missions: 4
+          hardcore: 6
+          cruelty: 2
+          complexity: 5
+      - name: "Strategy"
+        directions:
+          length: 6
+          depth: 6
+          friendliness: 3
+          innovation: 2
+          story: 5
+          characters: 5
+          levels: 6
+          missions: 7
+          hardcore: 2
+          cruelty: 5
+          complexity: 7
+      - name: "Role-Playing Game"
+        directions:
+          length: 6
+          depth: 4
+          friendliness: 2
+          innovation: 1
+          story: 9
+          characters: 8
+          levels: 6
+          missions: 4
+          hardcore: 3
+          cruelty: 5
+          complexity: 7
+      - name: "Action"
+        directions:
+          length: 3
+          depth: 2
+          friendliness: 7
+          innovation: 3
+          story: 7
+          characters: 6
+          levels: 8
+          missions: 4
+          hardcore: 5
+          cruelty: 6
+          complexity: 8
+      - name: "Platformer"
+        matches: true
+        directions:
+          length: 4
+          depth: 2
+          friendliness: 7
+          innovation: 3
+          story: 6
+          characters: 7
+          levels: 8
+          missions: 3
+          hardcore: 6
+          cruelty: 4
+          complexity: 6
+      - name: "Simulation"
+        directions:
+          length: 4
+          depth: 5
+          friendliness: 4
+          innovation: 4
+          story: 5
+          characters: 5
+          levels: 6
+          missions: 7
+          hardcore: 2
+          cruelty: 6
+          complexity: 7
+      - name: "Sports Game"
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 7
+          innovation: 4
+          story: 6
+          characters: 6
+          levels: 5
+          missions: 5
+          hardcore: 6
+          cruelty: 2
+          complexity: 5
+      - name: "Economic Simulation"
+        directions:
+          length: 7
+          depth: 6
+          friendliness: 2
+          innovation: 5
+          story: 5
+          characters: 5
+          levels: 5
+          missions: 5
+          hardcore: 2
+          cruelty: 3
+          complexity: 7
+      - name: "Fighting Game"
+        directions:
+          length: 4
+          depth: 2
+          friendliness: 8
+          innovation: 1
+          story: 7
+          characters: 9
+          levels: 6
+          missions: 3
+          hardcore: 5
+          cruelty: 7
+          complexity: 7
+      - name: "Building Game"
+        directions:
+          length: 7
+          depth: 6
+          friendliness: 3
+          innovation: 4
+          story: 5
+          characters: 5
+          levels: 6
+          missions: 4
+          hardcore: 3
+          cruelty: 4
+          complexity: 6
+      - name: "First-Person Shooter"
+        directions:
+          length: 4
+          depth: 2
+          friendliness: 6
+          innovation: 2
+          story: 7
+          characters: 6
+          levels: 8
+          missions: 5
+          hardcore: 4
+          cruelty: 7
+          complexity: 7
+      - name: "Third-Person Shooter"
+        matches: true
+        directions:
+          length: 4
+          depth: 2
+          friendliness: 6
+          innovation: 2
+          story: 7
+          characters: 7
+          levels: 7
+          missions: 5
+          hardcore: 4
+          cruelty: 6
+          complexity: 6
+      - name: "Interactive Movie"
+        matches: true
+        directions:
+          length: 3
+          depth: 2
+          friendliness: 6
+          innovation: 2
+          story: 10
+          characters: 9
+          levels: 5
+          missions: 3
+          hardcore: 6
+          cruelty: 6
+          complexity: 5
+      - name: "Real-Time Strategy"
+        directions:
+          length: 5
+          depth: 5
+          friendliness: 4
+          innovation: 2
+          story: 6
+          characters: 5
+          levels: 7
+          missions: 6
+          hardcore: 3
+          cruelty: 5
+          complexity: 7
+      - name: "Visual Novel"
+        matches: true
+        directions:
+          length: 4
+          depth: 2
+          friendliness: 6
+          innovation: 1
+          story: 10
+          characters: 9
+          levels: 5
+          missions: 3
+          hardcore: 6
+          cruelty: 4
+          complexity: 4
+    topics:
+      - Agents
+      - Androids
+      - Angels
+      - Anime
+      - Apocalypse
+      - Archaeology
+      - Comedy
+      - Crime
+      - Cyberpunk
+      - Cyborgs
+      - Dating
+      - Demons
+      - Deck Building
+      - Detective
+      - Devils
+      - Dragons
+      - Dreams
+      - Druids
+      - Dungeons
+      - Dwarfs
+      - Elves
+      - End Times
+      - Erotica
+      - Everyday Life
+      - Expeditions
+      - Fairies
+      - Fantasy
+      - Ghosts
+      - Gods
+      - Hell
+      - Historical
+      - Horror
+      - Ice Age
+      - Islands
+      - Kids
+      - Knights
+      - Middle Ages
+      - Monkeys
+      - Monster
+      - Noble Houses
+      - Orcs
+      - Parallel Worlds
+      - Pirates
+      - Planets
+      - Police
+      - Radioactivity
+      - Religion
+      - Reporters
+      - Romans
+      - Saboteurs
+      - Skeletons
+      - Space
+      - Steampunk
+      - Stone Age
+      - Super Villains
+      - Thieves
+      - Time Travel
+      - Treasure
+      - Treasure Hunters
+      - Trolls
+      - Vampires
+      - Vikings
+      - Werewolves
+      - Wild West
+      - Witches
+      - Wizards
+      - World Wars
+  - name: "Role-Playing Game"
+    targets:
+      - "Adults"
+      - "Seniors"
+    design:
+      gameplay: 40
+      graphics: 30
+      sound: 15
+      control: 15
+    subgenres:
+      - name: "None"
+        matches: true
+        directions:
+          length: 8
+          depth: 5
+          friendliness: 0
+          innovation: 2
+          story: 8
+          characters: 8
+          levels: 5
+          missions: 4
+          hardcore: 2
+          cruelty: 6
+          complexity: 7
+      - name: "Action"
+        directions:
+          length: 6
+          depth: 4
+          friendliness: 3
+          innovation: 4
+          story: 6
+          characters: 6
+          levels: 7
+          missions: 4
+          hardcore: 3
+          cruelty: 6
+          complexity: 8
+      - name: "Skill Game"
+        directions:
+          length: 7
+          depth: 4
+          friendliness: 5
+          innovation: 3
+          story: 5
+          characters: 5
+          levels: 6
+          missions: 5
+          hardcore: 4
+          cruelty: 3
+          complexity: 7
+      - name: "Puzzle Game"
+        matches: true
+        directions:
+          length: 8
+          depth: 4
+          friendliness: 3
+          innovation: 3
+          story: 6
+          characters: 5
+          levels: 5
+          missions: 6
+          hardcore: 5
+          cruelty: 3
+          complexity: 7
+      - name: "Racing"
+        directions:
+          length: 8
+          depth: 5
+          friendliness: 4
+          innovation: 4
+          story: 4
+          characters: 5
+          levels: 6
+          missions: 4
+          hardcore: 5
+          cruelty: 3
+          complexity: 5
+      - name: "Adventure"
+        matches: true
+        directions:
+          length: 6
+          depth: 4
+          friendliness: 2
+          innovation: 1
+          story: 9
+          characters: 8
+          levels: 6
+          missions: 4
+          hardcore: 3
+          cruelty: 5
+          complexity: 7
+      - name: "Strategy"
+        directions:
+          length: 9
+          depth: 8
+          friendliness: 0
+          innovation: 3
+          story: 4
+          characters: 4
+          levels: 5
+          missions: 7
+          hardcore: 1
+          cruelty: 6
+          complexity: 7
+      - name: "Platformer"
+        matches: true
+        directions:
+          length: 7
+          depth: 4
+          friendliness: 5
+          innovation: 3
+          story: 5
+          characters: 6
+          levels: 7
+          missions: 3
+          hardcore: 5
+          cruelty: 4
+          complexity: 6
+      - name: "Simulation"
+        directions:
+          length: 7
+          depth: 7
+          friendliness: 1
+          innovation: 4
+          story: 4
+          characters: 5
+          levels: 5
+          missions: 7
+          hardcore: 1
+          cruelty: 6
+          complexity: 7
+      - name: "Sports Game"
+        directions:
+          length: 8
+          depth: 4
+          friendliness: 5
+          innovation: 5
+          story: 5
+          characters: 5
+          levels: 4
+          missions: 4
+          hardcore: 4
+          cruelty: 3
+          complexity: 5
+      - name: "Economic Simulation"
+        directions:
+          length: 10
+          depth: 8
+          friendliness: 1
+          innovation: 5
+          story: 4
+          characters: 4
+          levels: 4
+          missions: 4
+          hardcore: 1
+          cruelty: 4
+          complexity: 7
+      - name: "Fighting Game"
+        directions:
+          length: 7
+          depth: 4
+          friendliness: 5
+          innovation: 2
+          story: 6
+          characters: 9
+          levels: 5
+          missions: 2
+          hardcore: 4
+          cruelty: 7
+          complexity: 7
+      - name: "Building Game"
+        directions:
+          length: 10
+          depth: 8
+          friendliness: 0
+          innovation: 5
+          story: 4
+          characters: 4
+          levels: 5
+          missions: 4
+          hardcore: 2
+          cruelty: 5
+          complexity: 6
+      - name: "First-Person Shooter"
+        matches: true
+        directions:
+          length: 7
+          depth: 3
+          friendliness: 3
+          innovation: 3
+          story: 6
+          characters: 6
+          levels: 7
+          missions: 5
+          hardcore: 2
+          cruelty: 7
+          complexity: 7
+      - name: "Third-Person Shooter"
+        matches: true
+        directions:
+          length: 7
+          depth: 4
+          friendliness: 3
+          innovation: 2
+          story: 6
+          characters: 7
+          levels: 6
+          missions: 5
+          hardcore: 3
+          cruelty: 6
+          complexity: 6
+      - name: "Interactive Movie"
+        directions:
+          length: 6
+          depth: 4
+          friendliness: 3
+          innovation: 2
+          story: 9
+          characters: 9
+          levels: 4
+          missions: 3
+          hardcore: 4
+          cruelty: 6
+          complexity: 5
+      - name: "Real-Time Strategy"
+        matches: true
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 0
+          innovation: 3
+          story: 5
+          characters: 5
+          levels: 6
+          missions: 6
+          hardcore: 2
+          cruelty: 6
+          complexity: 7
+      - name: "Visual Novel"
+        directions:
+          length: 7
+          depth: 3
+          friendliness: 3
+          innovation: 2
+          story: 9
+          characters: 9
+          levels: 4
+          missions: 3
+          hardcore: 4
+          cruelty: 5
+          complexity: 4
+    topics:
+      - Androids
+      - Angels
+      - Anime
+      - Apocalypse
+      - Barbarians
+      - Castles
+      - Cyberpunk
+      - Cyborgs
+      - Deck Building
+      - Demons
+      - Devils
+      - Dragons
+      - Druids
+      - Dungeons
+      - Dwarfs
+      - Elves
+      - End Times
+      - Fairies
+      - Fantasy
+      - Ghosts
+      - Gods
+      - Hell
+      - Hunting
+      - Islands
+      - Knights
+      - Martial Arts
+      - Middle Ages
+      - Monster
+      - Noble Houses
+      - Orcs
+      - Pirates
+      - Planets
+      - Radioactivity
+      - Romans
+      - Samurai
+      - Sandbox
+      - Skeletons
+      - Space
+      - Space Stations
+      - Steampunk
+      - Thieves
+      - Time Travel
+      - Treasure
+      - Treasure Hunters
+      - Trolls
+      - Vampires
+      - Vikings
+      - Werewolves
+      - Witches
+      - Wizards
+  - name: "Strategy"
+    targets:
+      - "Adults"
+      - "Seniors"
+    design:
+      gameplay: 50
+      graphics: 10
+      sound: 10
+      control: 30
+    subgenres:
+      - name: "None"
+        matches: true
+        directions:
+          length: 8
+          depth: 10
+          friendliness: 0
+          innovation: 4
+          story: 1
+          characters: 1
+          levels: 6
+          missions: 10
+          hardcore: 0
+          cruelty: 6
+          complexity: 8
+      - name: "Skill Game"
+        directions:
+          length: 7
+          depth: 7
+          friendliness: 4
+          innovation: 4
+          story: 1
+          characters: 2
+          levels: 7
+          missions: 8
+          hardcore: 3
+          cruelty: 3
+          complexity: 7
+      - name: "Puzzle Game"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 3
+          innovation: 4
+          story: 2
+          characters: 1
+          levels: 6
+          missions: 9
+          hardcore: 4
+          cruelty: 3
+          complexity: 8
+      - name: "Racing"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 4
+          innovation: 5
+          story: 1
+          characters: 1
+          levels: 7
+          missions: 7
+          hardcore: 4
+          cruelty: 3
+          complexity: 6
+      - name: "Adventure"
+        directions:
+          length: 6
+          depth: 6
+          friendliness: 3
+          innovation: 2
+          story: 5
+          characters: 5
+          levels: 6
+          missions: 7
+          hardcore: 2
+          cruelty: 5
+          complexity: 7
+      - name: "Role-Playing Game"
+        matches: true
+        directions:
+          length: 9
+          depth: 8
+          friendliness: 0
+          innovation: 3
+          story: 4
+          characters: 4
+          levels: 5
+          missions: 7
+          hardcore: 1
+          cruelty: 6
+          complexity: 7
+      - name: "Action"
+        matches: true
+        directions:
+          length: 6
+          depth: 7
+          friendliness: 3
+          innovation: 5
+          story: 2
+          characters: 2
+          levels: 8
+          missions: 7
+          hardcore: 2
+          cruelty: 6
+          complexity: 8
+      - name: "Platformer"
+        directions:
+          length: 7
+          depth: 6
+          friendliness: 5
+          innovation: 4
+          story: 1
+          characters: 3
+          levels: 8
+          missions: 6
+          hardcore: 4
+          cruelty: 4
+          complexity: 6
+      - name: "Simulation"
+        directions:
+          length: 7
+          depth: 10
+          friendliness: 0
+          innovation: 5
+          story: 1
+          characters: 1
+          levels: 6
+          missions: 10
+          hardcore: 0
+          cruelty: 6
+          complexity: 8
+      - name: "Sports Game"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 5
+          innovation: 6
+          story: 1
+          characters: 2
+          levels: 4
+          missions: 7
+          hardcore: 3
+          cruelty: 3
+          complexity: 6
+      - name: "Economic Simulation"
+        matches: true
+        directions:
+          length: 10
+          depth: 10
+          friendliness: 0
+          innovation: 6
+          story: 1
+          characters: 1
+          levels: 5
+          missions: 7
+          hardcore: 0
+          cruelty: 4
+          complexity: 7
+      - name: "Fighting Game"
+        directions:
+          length: 7
+          depth: 7
+          friendliness: 5
+          innovation: 3
+          story: 2
+          characters: 5
+          levels: 6
+          missions: 5
+          hardcore: 3
+          cruelty: 7
+          complexity: 8
+      - name: "Building Game"
+        matches: true
+        directions:
+          length: 10
+          depth: 10
+          friendliness: 0
+          innovation: 6
+          story: 1
+          characters: 1
+          levels: 5
+          missions: 7
+          hardcore: 1
+          cruelty: 5
+          complexity: 7
+      - name: "First-Person Shooter"
+        directions:
+          length: 7
+          depth: 6
+          friendliness: 3
+          innovation: 4
+          story: 2
+          characters: 2
+          levels: 8
+          missions: 8
+          hardcore: 1
+          cruelty: 7
+          complexity: 7
+      - name: "Third-Person Shooter"
+        directions:
+          length: 7
+          depth: 7
+          friendliness: 2
+          innovation: 3
+          story: 3
+          characters: 3
+          levels: 7
+          missions: 8
+          hardcore: 2
+          cruelty: 6
+          complexity: 6
+      - name: "Interactive Movie"
+        directions:
+          length: 6
+          depth: 7
+          friendliness: 4
+          innovation: 3
+          story: 5
+          characters: 5
+          levels: 4
+          missions: 6
+          hardcore: 3
+          cruelty: 6
+          complexity: 5
+      - name: "Real-Time Strategy"
+        matches: true
+        directions:
+          length: 8
+          depth: 9
+          friendliness: 0
+          innovation: 4
+          story: 2
+          characters: 1
+          levels: 7
+          missions: 9
+          hardcore: 1
+          cruelty: 6
+          complexity: 7
+      - name: "Visual Novel"
+        directions:
+          length: 7
+          depth: 7
+          friendliness: 3
+          innovation: 3
+          story: 5
+          characters: 5
+          levels: 4
+          missions: 6
+          hardcore: 3
+          cruelty: 5
+          complexity: 5
+    topics:
+      - Agriculture
+      - Airplanes
+      - Aliens
+      - Androids
+      - Apocalypse
+      - Barbarians
+      - Building Blocks
+      - Bunker
+      - Castles
+      - Chemistry
+      - Cinema
+      - Cities
+      - Civilizations
+      - Colonization
+      - Companies
+      - Conquest
+      - Cooking
+      - Crime
+      - Deck Building
+      - Digging
+      - Dragons
+      - Dwarfs
+      - Economy
+      - Education
+      - Elements
+      - End Times
+      - Espionage
+      - Everyday Life
+      - Evolution
+      - Expeditions
+      - Factories
+      - Fantasy
+      - Fire Department
+      - Food
+      - Gambling
+      - Game Development
+      - Gangsters
+      - Healthcare
+      - Historical
+      - Hospital
+      - Industrialization
+      - Knights
+      - Mafia
+      - Mecha
+      - Mercenary
+      - Middle Ages
+      - Military
+      - Mining
+      - Noble Houses
+      - Parlor Games
+      - Physics
+      - Planets
+      - Playing Cards
+      - Police
+      - Politics
+      - Radioactivity
+      - Renovation
+      - Revolution
+      - Robots
+      - Romans
+      - Saboteurs
+      - Sailing
+      - Science
+      - Space
+      - Space Stations
+      - Spaceships
+      - Special Forces
+      - Steampunk
+      - Stones
+      - Submarines
+      - Tanks
+      - Television
+      - Theme Parks
+      - Trains
+      - Transportation
+      - Trucks
+      - UFOs
+      - Vacation
+      - Vikings
+      - Wild West
+      - Wizards
+      - World Wars
+      - Zoo
+  - name: "Action"
+    targets:
+      - "Teenagers"
+      - "Adults"
+    design:
+      gameplay: 10
+      graphics: 40
+      sound: 30
+      control: 20
+    subgenres:
+      - name: "None"
+        matches: true
+        directions:
+          length: 3
+          depth: 2
+          friendliness: 7
+          innovation: 6
+          story: 4
+          characters: 4
+          levels: 10
+          missions: 4
+          hardcore: 5
+          cruelty: 7
+          complexity: 9
+      - name: "Skill Game"
+        matches: true
+        directions:
+          length: 5
+          depth: 3
+          friendliness: 7
+          innovation: 5
+          story: 3
+          characters: 3
+          levels: 9
+          missions: 5
+          hardcore: 6
+          cruelty: 4
+          complexity: 8
+      - name: "Puzzle Game"
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 7
+          innovation: 5
+          story: 4
+          characters: 3
+          levels: 8
+          missions: 6
+          hardcore: 6
+          cruelty: 3
+          complexity: 8
+      - name: "Racing"
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 7
+          innovation: 6
+          story: 2
+          characters: 3
+          levels: 9
+          missions: 4
+          hardcore: 6
+          cruelty: 3
+          complexity: 6
+      - name: "Adventure"
+        matches: true
+        directions:
+          length: 3
+          depth: 2
+          friendliness: 7
+          innovation: 3
+          story: 7
+          characters: 6
+          levels: 8
+          missions: 4
+          hardcore: 5
+          cruelty: 6
+          complexity: 8
+      - name: "Role-Playing Game"
+        matches: true
+        directions:
+          length: 6
+          depth: 4
+          friendliness: 3
+          innovation: 4
+          story: 6
+          characters: 6
+          levels: 7
+          missions: 4
+          hardcore: 3
+          cruelty: 6
+          complexity: 8
+      - name: "Strategy"
+        directions:
+          length: 6
+          depth: 7
+          friendliness: 3
+          innovation: 5
+          story: 2
+          characters: 2
+          levels: 8
+          missions: 7
+          hardcore: 2
+          cruelty: 6
+          complexity: 8
+      - name: "Platformer"
+        matches: true
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 8
+          innovation: 5
+          story: 3
+          characters: 4
+          levels: 10
+          missions: 3
+          hardcore: 6
+          cruelty: 5
+          complexity: 7
+      - name: "Simulation"
+        directions:
+          length: 5
+          depth: 5
+          friendliness: 4
+          innovation: 6
+          story: 2
+          characters: 3
+          levels: 8
+          missions: 7
+          hardcore: 2
+          cruelty: 7
+          complexity: 8
+      - name: "Sports Game"
+        directions:
+          length: 5
+          depth: 3
+          friendliness: 9
+          innovation: 7
+          story: 3
+          characters: 3
+          levels: 6
+          missions: 4
+          hardcore: 6
+          cruelty: 3
+          complexity: 6
+      - name: "Economic Simulation"
+        directions:
+          length: 7
+          depth: 7
+          friendliness: 4
+          innovation: 7
+          story: 2
+          characters: 2
+          levels: 7
+          missions: 4
+          hardcore: 2
+          cruelty: 4
+          complexity: 8
+      - name: "Fighting Game"
+        matches: true
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 8
+          innovation: 4
+          story: 4
+          characters: 7
+          levels: 8
+          missions: 2
+          hardcore: 5
+          cruelty: 8
+          complexity: 8
+      - name: "Building Game"
+        directions:
+          length: 7
+          depth: 7
+          friendliness: 4
+          innovation: 7
+          story: 2
+          characters: 2
+          levels: 7
+          missions: 4
+          hardcore: 3
+          cruelty: 5
+          complexity: 7
+      - name: "First-Person Shooter"
+        matches: true
+        directions:
+          length: 4
+          depth: 1
+          friendliness: 7
+          innovation: 5
+          story: 4
+          characters: 4
+          levels: 10
+          missions: 5
+          hardcore: 4
+          cruelty: 8
+          complexity: 8
+      - name: "Third-Person Shooter"
+        matches: true
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 6
+          innovation: 4
+          story: 4
+          characters: 5
+          levels: 9
+          missions: 5
+          hardcore: 4
+          cruelty: 7
+          complexity: 7
+      - name: "Interactive Movie"
+        directions:
+          length: 4
+          depth: 2
+          friendliness: 7
+          innovation: 4
+          story: 7
+          characters: 7
+          levels: 6
+          missions: 3
+          hardcore: 6
+          cruelty: 7
+          complexity: 6
+      - name: "Real-Time Strategy"
+        directions:
+          length: 5
+          depth: 5
+          friendliness: 4
+          innovation: 5
+          story: 3
+          characters: 3
+          levels: 9
+          missions: 6
+          hardcore: 3
+          cruelty: 6
+          complexity: 8
+      - name: "Visual Novel"
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 6
+          innovation: 4
+          story: 7
+          characters: 7
+          levels: 6
+          missions: 3
+          hardcore: 6
+          cruelty: 5
+          complexity: 5
+    topics:
+      - Agents
+      - Airplanes
+      - Aliens
+      - Androids
+      - Angels
+      - Animals
+      - Anime
+      - Apocalypse
+      - Assassins
+      - Barbarians
+      - Bounty Hunter
+      - Boxing
+      - Bunker
+      - Castles
+      - Climbing
+      - Comedy
+      - Conquest
+      - Conspiracies
+      - Contract Killer
+      - Cowboys
+      - Crime
+      - Crocodiles
+      - Cyberpunk
+      - Cyberspace
+      - Cyborgs
+      - Demons
+      - Detective
+      - Devils
+      - Digging
+      - Dinosaurs
+      - Diving
+      - Dragons
+      - Dungeons
+      - Dwarfs
+      - Elves
+      - End Times
+      - Espionage
+      - Fantasy
+      - Fire Department
+      - Gangsters
+      - Ghosts
+      - Gods
+      - Helicopters
+      - Hell
+      - Historical
+      - Horror
+      - Hunting
+      - Ice Age
+      - Insects
+      - Karate
+      - Knights
+      - Mafia
+      - Martial Arts
+      - Mecha
+      - Mercenary
+      - Middle Ages
+      - Military
+      - Monkeys
+      - Monster
+      - Ninjas
+      - Orcs
+      - Paintball
+      - Parallel Worlds
+      - Pirates
+      - Planets
+      - Plants
+      - Police
+      - Portals
+      - Predators
+      - Prison
+      - Puzzles
+      - Radioactivity
+      - Revolution
+      - Robots
+      - Romans
+      - Saboteurs
+      - Samurai
+      - Skeletons
+      - Skydiving
+      - Space
+      - Space Stations
+      - Spaceships
+      - Special Forces
+      - Squirrels
+      - Steampunk
+      - Stone Age
+      - Stones
+      - Submarines
+      - Super Villains
+      - Superheroes
+      - Survival
+      - Tanks
+      - Thieves
+      - Time Travel
+      - Treasure
+      - Treasure Hunters
+      - Trolls
+      - UFOs
+      - Vampires
+      - Vikings
+      - Viruses
+      - Werewolves
+      - Wild West
+      - Witches
+      - Wizards
+      - World Wars
+      - Worms
+      - Wrestling
+      - Zombies
+      - Pets
+  - name: "Platformer"
+    targets:
+      - "Children"
+      - "Teenagers"
+    design:
+      gameplay: 25
+      graphics: 25
+      sound: 25
+      control: 25
+    subgenres:
+      - name: "None"
+        matches: true
+        directions:
+          length: 5
+          depth: 1
+          friendliness: 10
+          innovation: 5
+          story: 2
+          characters: 5
+          levels: 10
+          missions: 2
+          hardcore: 8
+          cruelty: 3
+          complexity: 5
+      - name: "Skill Game"
+        matches: true
+        directions:
+          length: 6
+          depth: 1
+          friendliness: 9
+          innovation: 5
+          story: 2
+          characters: 4
+          levels: 9
+          missions: 4
+          hardcore: 7
+          cruelty: 2
+          complexity: 6
+      - name: "Puzzle Game"
+        matches: true
+        directions:
+          length: 7
+          depth: 2
+          friendliness: 8
+          innovation: 4
+          story: 3
+          characters: 3
+          levels: 8
+          missions: 5
+          hardcore: 8
+          cruelty: 1
+          complexity: 6
+      - name: "Racing"
+        directions:
+          length: 7
+          depth: 3
+          friendliness: 9
+          innovation: 5
+          story: 1
+          characters: 3
+          levels: 9
+          missions: 3
+          hardcore: 8
+          cruelty: 1
+          complexity: 4
+      - name: "Adventure"
+        matches: true
+        directions:
+          length: 4
+          depth: 2
+          friendliness: 7
+          innovation: 3
+          story: 6
+          characters: 7
+          levels: 8
+          missions: 3
+          hardcore: 6
+          cruelty: 4
+          complexity: 6
+      - name: "Role-Playing Game"
+        matches: true
+        directions:
+          length: 7
+          depth: 4
+          friendliness: 5
+          innovation: 3
+          story: 5
+          characters: 6
+          levels: 7
+          missions: 3
+          hardcore: 5
+          cruelty: 4
+          complexity: 6
+      - name: "Strategy"
+        directions:
+          length: 7
+          depth: 6
+          friendliness: 5
+          innovation: 4
+          story: 1
+          characters: 3
+          levels: 8
+          missions: 6
+          hardcore: 4
+          cruelty: 4
+          complexity: 6
+      - name: "Action"
+        matches: true
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 8
+          innovation: 5
+          story: 3
+          characters: 4
+          levels: 10
+          missions: 3
+          hardcore: 6
+          cruelty: 5
+          complexity: 7
+      - name: "Simulation"
+        directions:
+          length: 6
+          depth: 5
+          friendliness: 5
+          innovation: 6
+          story: 1
+          characters: 3
+          levels: 8
+          missions: 6
+          hardcore: 4
+          cruelty: 5
+          complexity: 6
+      - name: "Sports Game"
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 10
+          innovation: 6
+          story: 2
+          characters: 4
+          levels: 6
+          missions: 3
+          hardcore: 7
+          cruelty: 1
+          complexity: 4
+      - name: "Economic Simulation"
+        directions:
+          length: 8
+          depth: 6
+          friendliness: 5
+          innovation: 7
+          story: 1
+          characters: 3
+          levels: 7
+          missions: 3
+          hardcore: 4
+          cruelty: 2
+          complexity: 6
+      - name: "Fighting Game"
+        matches: true
+        directions:
+          length: 6
+          depth: 2
+          friendliness: 10
+          innovation: 3
+          story: 3
+          characters: 7
+          levels: 8
+          missions: 1
+          hardcore: 7
+          cruelty: 6
+          complexity: 6
+      - name: "Building Game"
+        directions:
+          length: 8
+          depth: 6
+          friendliness: 6
+          innovation: 6
+          story: 1
+          characters: 3
+          levels: 7
+          missions: 3
+          hardcore: 5
+          cruelty: 3
+          complexity: 5
+      - name: "First-Person Shooter"
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 8
+          innovation: 4
+          story: 3
+          characters: 4
+          levels: 10
+          missions: 4
+          hardcore: 5
+          cruelty: 6
+          complexity: 6
+      - name: "Third-Person Shooter"
+        directions:
+          length: 6
+          depth: 2
+          friendliness: 7
+          innovation: 4
+          story: 3
+          characters: 5
+          levels: 9
+          missions: 4
+          hardcore: 6
+          cruelty: 5
+          complexity: 5
+      - name: "Interactive Movie"
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 8
+          innovation: 4
+          story: 6
+          characters: 7
+          levels: 6
+          missions: 2
+          hardcore: 7
+          cruelty: 5
+          complexity: 4
+      - name: "Real-Time Strategy"
+        directions:
+          length: 6
+          depth: 5
+          friendliness: 6
+          innovation: 4
+          story: 2
+          characters: 3
+          levels: 9
+          missions: 5
+          hardcore: 5
+          cruelty: 4
+          complexity: 6
+      - name: "Visual Novel"
+        directions:
+          length: 6
+          depth: 2
+          friendliness: 8
+          innovation: 3
+          story: 6
+          characters: 7
+          levels: 6
+          missions: 2
+          hardcore: 7
+          cruelty: 3
+          complexity: 3
+    topics:
+      - Agents
+      - Androids
+      - Angels
+      - Animals
+      - Anime
+      - Assassins
+      - Barbarians
+      - Birds
+      - Boxing
+      - Building Blocks
+      - Candy
+      - Castles
+      - Cats
+      - Chickens
+      - Climbing
+      - Comedy
+      - Contract Killer
+      - Cowboys
+      - Crocodiles
+      - Cyberpunk
+      - Cyberspace
+      - Cyborgs
+      - Dancing
+      - Demons
+      - Detective
+      - Devils
+      - Digging
+      - Dinosaurs
+      - Dogs
+      - Dragons
+      - Drawing
+      - Dreams
+      - Druids
+      - Dungeons
+      - Dwarfs
+      - Elements
+      - Elves
+      - End Times
+      - Espionage
+      - Everyday Life
+      - Evolution
+      - Extreme Sports
+      - Fairies
+      - Fantasy
+      - Fire Department
+      - Fish
+      - Fitness
+      - Frogs
+      - Fruits
+      - Gangsters
+      - Ghosts
+      - Goats
+      - Gods
+      - Hell
+      - Horror
+      - Horses
+      - Hunting
+      - Ice Age
+      - Insects
+      - Islands
+      - Karate
+      - Kids
+      - Knights
+      - Martial Arts
+      - Mercenary
+      - Middle Ages
+      - Monkeys
+      - Monster
+      - Mushrooms
+      - Music
+      - Ninjas
+      - Octopus
+      - Orcs
+      - Paintball
+      - Parallel Worlds
+      - Pinball
+      - Pirates
+      - Plants
+      - Plumber
+      - Police
+      - Portals
+      - Predators
+      - Prison
+      - Puzzles
+      - Rabbits
+      - Reporters
+      - Revolution
+      - Riding
+      - Robots
+      - Romans
+      - Saboteurs
+      - Samurai
+      - School
+      - Sheep
+      - Skateboards
+      - Skeletons
+      - Skiing
+      - Skydiving
+      - Space
+      - Space Stations
+      - Spaceships
+      - Special Forces
+      - Squirrels
+      - Steampunk
+      - Stone Age
+      - Stones
+      - Super Villains
+      - Superheroes
+      - Survival
+      - Thieves
+      - Time Travel
+      - Toys
+      - Treasure
+      - Treasure Hunters
+      - Trolls
+      - Vampires
+      - Vikings
+      - Werewolves
+      - Wild West
+      - Witches
+      - Wizards
+      - World Wars
+      - Zombies
+      - Pets
+  - name: "Simulation"
+    targets:
+      - "Teenagers"
+      - "Adults"
+    design:
+      gameplay: 10
+      graphics: 40
+      sound: 20
+      control: 30
+    subgenres:
+      - name: "None"
+        matches: true
+        directions:
+          length: 5
+          depth: 8
+          friendliness: 1
+          innovation: 7
+          story: 1
+          characters: 2
+          levels: 6
+          missions: 10
+          hardcore: 0
+          cruelty: 7
+          complexity: 8
+      - name: "Skill Game"
+        directions:
+          length: 6
+          depth: 6
+          friendliness: 4
+          innovation: 6
+          story: 1
+          characters: 2
+          levels: 7
+          missions: 8
+          hardcore: 3
+          cruelty: 4
+          complexity: 7
+      - name: "Puzzle Game"
+        directions:
+          length: 7
+          depth: 5
+          friendliness: 4
+          innovation: 5
+          story: 2
+          characters: 2
+          levels: 6
+          missions: 9
+          hardcore: 4
+          cruelty: 3
+          complexity: 8
+      - name: "Racing"
+        matches: true
+        directions:
+          length: 7
+          depth: 6
+          friendliness: 4
+          innovation: 6
+          story: 1
+          characters: 2
+          levels: 7
+          missions: 7
+          hardcore: 4
+          cruelty: 3
+          complexity: 6
+      - name: "Adventure"
+        directions:
+          length: 4
+          depth: 5
+          friendliness: 4
+          innovation: 4
+          story: 5
+          characters: 5
+          levels: 6
+          missions: 7
+          hardcore: 2
+          cruelty: 6
+          complexity: 7
+      - name: "Role-Playing Game"
+        directions:
+          length: 7
+          depth: 7
+          friendliness: 1
+          innovation: 4
+          story: 4
+          characters: 5
+          levels: 5
+          missions: 7
+          hardcore: 1
+          cruelty: 6
+          complexity: 7
+      - name: "Strategy"
+        matches: true
+        directions:
+          length: 7
+          depth: 10
+          friendliness: 0
+          innovation: 5
+          story: 1
+          characters: 1
+          levels: 6
+          missions: 10
+          hardcore: 0
+          cruelty: 6
+          complexity: 8
+      - name: "Action"
+        matches: true
+        directions:
+          length: 5
+          depth: 5
+          friendliness: 4
+          innovation: 6
+          story: 2
+          characters: 3
+          levels: 8
+          missions: 7
+          hardcore: 2
+          cruelty: 7
+          complexity: 8
+      - name: "Platformer"
+        directions:
+          length: 6
+          depth: 5
+          friendliness: 5
+          innovation: 6
+          story: 1
+          characters: 3
+          levels: 8
+          missions: 6
+          hardcore: 4
+          cruelty: 5
+          complexity: 6
+      - name: "Sports Game"
+        matches: true
+        directions:
+          length: 6
+          depth: 6
+          friendliness: 6
+          innovation: 8
+          story: 1
+          characters: 2
+          levels: 4
+          missions: 7
+          hardcore: 3
+          cruelty: 3
+          complexity: 6
+      - name: "Economic Simulation"
+        directions:
+          length: 8
+          depth: 10
+          friendliness: 0
+          innovation: 8
+          story: 1
+          characters: 1
+          levels: 5
+          missions: 7
+          hardcore: 0
+          cruelty: 4
+          complexity: 7
+      - name: "Fighting Game"
+        directions:
+          length: 6
+          depth: 6
+          friendliness: 5
+          innovation: 4
+          story: 2
+          characters: 6
+          levels: 6
+          missions: 5
+          hardcore: 3
+          cruelty: 8
+          complexity: 8
+      - name: "Building Game"
+        directions:
+          length: 8
+          depth: 10
+          friendliness: 1
+          innovation: 7
+          story: 1
+          characters: 1
+          levels: 5
+          missions: 7
+          hardcore: 1
+          cruelty: 5
+          complexity: 7
+      - name: "First-Person Shooter"
+        matches: true
+        directions:
+          length: 5
+          depth: 5
+          friendliness: 4
+          innovation: 5
+          story: 2
+          characters: 3
+          levels: 8
+          missions: 8
+          hardcore: 1
+          cruelty: 8
+          complexity: 7
+      - name: "Third-Person Shooter"
+        directions:
+          length: 5
+          depth: 5
+          friendliness: 3
+          innovation: 5
+          story: 3
+          characters: 4
+          levels: 7
+          missions: 8
+          hardcore: 2
+          cruelty: 7
+          complexity: 6
+      - name: "Interactive Movie"
+        directions:
+          length: 5
+          depth: 5
+          friendliness: 4
+          innovation: 5
+          story: 5
+          characters: 6
+          levels: 4
+          missions: 6
+          hardcore: 3
+          cruelty: 7
+          complexity: 5
+      - name: "Real-Time Strategy"
+        directions:
+          length: 6
+          depth: 8
+          friendliness: 1
+          innovation: 5
+          story: 2
+          characters: 2
+          levels: 7
+          missions: 9
+          hardcore: 1
+          cruelty: 6
+          complexity: 7
+      - name: "Visual Novel"
+        directions:
+          length: 6
+          depth: 6
+          friendliness: 3
+          innovation: 4
+          story: 5
+          characters: 6
+          levels: 4
+          missions: 6
+          hardcore: 3
+          cruelty: 5
+          complexity: 5
+    topics:
+      - Agriculture
+      - Airplanes
+      - Animals
+      - Bicycle
+      - Cabs
+      - Cars
+      - Casinos
+      - Cities
+      - Climbing
+      - Companies
+      - Cooking
+      - Doctors
+      - Evolution
+      - Extreme Sports
+      - Fire Department
+      - Fish
+      - Fishing
+      - Gambling
+      - Healthcare
+      - Helicopters
+      - Historical
+      - Horses
+      - Insects
+      - Jet Ski
+      - Mecha
+      - Mercenary
+      - Military
+      - Mining
+      - Motorcycles
+      - Motorsports
+      - Paintball
+      - Pinball
+      - Planets
+      - Police
+      - Politics
+      - Predators
+      - Renovation
+      - Robots
+      - Sailing
+      - Sandbox
+      - Ships
+      - Skateboards
+      - Skiing
+      - Skydiving
+      - Soccer
+      - Space
+      - Space Stations
+      - Spaceships
+      - Sports
+      - Submarines
+      - Survival
+      - Swimming
+      - Tanks
+      - Theme Parks
+      - Trains
+      - Transportation
+      - Trucks
+      - UFOs
+      - Vacation
+      - World Wars
+      - Wrestling
+      - Zoo
+  - name: "Sports Game"
+    targets:
+      - "Children"
+      - "Teenagers"
+      - "Adults"
+    design:
+      gameplay: 20
+      graphics: 30
+      sound: 10
+      control: 40
+    subgenres:
+      - name: "None"
+        matches: true
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 10
+          innovation: 8
+          story: 2
+          characters: 3
+          levels: 3
+          missions: 5
+          hardcore: 7
+          cruelty: 0
+          complexity: 4
+      - name: "Skill Game"
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 9
+          innovation: 6
+          story: 2
+          characters: 3
+          levels: 5
+          missions: 6
+          hardcore: 7
+          cruelty: 0
+          complexity: 5
+      - name: "Puzzle Game"
+        directions:
+          length: 7
+          depth: 3
+          friendliness: 9
+          innovation: 6
+          story: 3
+          characters: 2
+          levels: 4
+          missions: 6
+          hardcore: 7
+          cruelty: 0
+          complexity: 6
+      - name: "Racing"
+        directions:
+          length: 7
+          depth: 4
+          friendliness: 10
+          innovation: 7
+          story: 1
+          characters: 2
+          levels: 5
+          missions: 4
+          hardcore: 7
+          cruelty: 0
+          complexity: 4
+      - name: "Adventure"
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 7
+          innovation: 4
+          story: 6
+          characters: 6
+          levels: 5
+          missions: 5
+          hardcore: 6
+          cruelty: 2
+          complexity: 5
+      - name: "Role-Playing Game"
+        directions:
+          length: 8
+          depth: 4
+          friendliness: 5
+          innovation: 5
+          story: 5
+          characters: 5
+          levels: 4
+          missions: 4
+          hardcore: 4
+          cruelty: 3
+          complexity: 5
+      - name: "Strategy"
+        matches: true
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 5
+          innovation: 6
+          story: 1
+          characters: 2
+          levels: 4
+          missions: 7
+          hardcore: 3
+          cruelty: 3
+          complexity: 6
+      - name: "Action"
+        matches: true
+        directions:
+          length: 5
+          depth: 3
+          friendliness: 9
+          innovation: 7
+          story: 3
+          characters: 3
+          levels: 6
+          missions: 4
+          hardcore: 6
+          cruelty: 3
+          complexity: 6
+      - name: "Platformer"
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 10
+          innovation: 6
+          story: 2
+          characters: 4
+          levels: 6
+          missions: 3
+          hardcore: 7
+          cruelty: 1
+          complexity: 4
+      - name: "Simulation"
+        matches: true
+        directions:
+          length: 6
+          depth: 6
+          friendliness: 6
+          innovation: 8
+          story: 1
+          characters: 2
+          levels: 4
+          missions: 7
+          hardcore: 3
+          cruelty: 3
+          complexity: 6
+      - name: "Economic Simulation"
+        matches: true
+        directions:
+          length: 9
+          depth: 7
+          friendliness: 5
+          innovation: 8
+          story: 1
+          characters: 2
+          levels: 3
+          missions: 5
+          hardcore: 3
+          cruelty: 1
+          complexity: 5
+      - name: "Fighting Game"
+        matches: true
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 10
+          innovation: 5
+          story: 3
+          characters: 6
+          levels: 4
+          missions: 3
+          hardcore: 6
+          cruelty: 4
+          complexity: 6
+      - name: "Building Game"
+        directions:
+          length: 9
+          depth: 7
+          friendliness: 5
+          innovation: 8
+          story: 1
+          characters: 2
+          levels: 4
+          missions: 4
+          hardcore: 4
+          cruelty: 2
+          complexity: 5
+      - name: "First-Person Shooter"
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 8
+          innovation: 6
+          story: 3
+          characters: 3
+          levels: 6
+          missions: 5
+          hardcore: 5
+          cruelty: 4
+          complexity: 5
+      - name: "Third-Person Shooter"
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 8
+          innovation: 6
+          story: 3
+          characters: 4
+          levels: 5
+          missions: 5
+          hardcore: 5
+          cruelty: 3
+          complexity: 4
+      - name: "Interactive Movie"
+        directions:
+          length: 5
+          depth: 3
+          friendliness: 9
+          innovation: 5
+          story: 6
+          characters: 6
+          levels: 3
+          missions: 3
+          hardcore: 7
+          cruelty: 3
+          complexity: 3
+      - name: "Real-Time Strategy"
+        directions:
+          length: 7
+          depth: 6
+          friendliness: 6
+          innovation: 6
+          story: 2
+          characters: 2
+          levels: 5
+          missions: 6
+          hardcore: 4
+          cruelty: 3
+          complexity: 5
+      - name: "Visual Novel"
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 8
+          innovation: 5
+          story: 6
+          characters: 6
+          levels: 3
+          missions: 3
+          hardcore: 7
+          cruelty: 2
+          complexity: 3
+    topics:
+      - Airplanes
+      - American Football
+      - Animals
+      - Baseball
+      - Basketball
+      - Bicycle
+      - Boxing
+      - Cars
+      - Climbing
+      - Companies
+      - Cricket
+      - Cyborgs
+      - Dancing
+      - Diving
+      - Economy
+      - Extreme Sports
+      - Fish
+      - Fishing
+      - Fitness
+      - Golf
+      - Handball
+      - Historical
+      - Horses
+      - Ice Hockey
+      - Jet Ski
+      - Karate
+      - Kids
+      - Knights
+      - Martial Arts
+      - Motorcycles
+      - Motorsports
+      - Orcs
+      - Paintball
+      - Romans
+      - Rugby
+      - Sailing
+      - Ships
+      - Skateboards
+      - Skydiving
+      - Soccer
+      - Skiing
+      - Space Stations
+      - Sports
+      - Swimming
+      - Table Tennis
+      - Tennis
+      - Trucks
+      - Vacation
+      - Volleyball
+      - Wrestling
+
+  - name: "Economic Simulation"
+    targets:
+      - "Adults"
+      - "Seniors"
+    design:
+      gameplay: 50
+      graphics: 20
+      sound: 10
+      control: 20
+    subgenres:
+      - name: "None"
+        matches: true
+        directions:
+          length: 10
+          depth: 10
+          friendliness: 0
+          innovation: 9
+          story: 1
+          characters: 1
+          levels: 4
+          missions: 5
+          hardcore: 0
+          cruelty: 2
+          complexity: 7
+      - name: "Skill Game"
+        directions:
+          length: 8
+          depth: 6
+          friendliness: 4
+          innovation: 7
+          story: 1
+          characters: 2
+          levels: 6
+          missions: 6
+          hardcore: 3
+          cruelty: 1
+          complexity: 7
+      - name: "Puzzle Game"
+        directions:
+          length: 9
+          depth: 7
+          friendliness: 4
+          innovation: 6
+          story: 2
+          characters: 1
+          levels: 5
+          missions: 6
+          hardcore: 4
+          cruelty: 1
+          complexity: 7
+      - name: "Racing"
+        directions:
+          length: 9
+          depth: 8
+          friendliness: 4
+          innovation: 7
+          story: 1
+          characters: 1
+          levels: 6
+          missions: 4
+          hardcore: 4
+          cruelty: 1
+          complexity: 5
+      - name: "Adventure"
+        directions:
+          length: 7
+          depth: 6
+          friendliness: 2
+          innovation: 5
+          story: 5
+          characters: 5
+          levels: 5
+          missions: 5
+          hardcore: 2
+          cruelty: 3
+          complexity: 7
+      - name: "Role-Playing Game"
+        directions:
+          length: 10
+          depth: 8
+          friendliness: 1
+          innovation: 5
+          story: 4
+          characters: 4
+          levels: 4
+          missions: 4
+          hardcore: 1
+          cruelty: 4
+          complexity: 7
+      - name: "Strategy"
+        matches: true
+        directions:
+          length: 10
+          depth: 10
+          friendliness: 0
+          innovation: 6
+          story: 1
+          characters: 1
+          levels: 5
+          missions: 7
+          hardcore: 0
+          cruelty: 4
+          complexity: 7
+      - name: "Action"
+        directions:
+          length: 7
+          depth: 7
+          friendliness: 4
+          innovation: 7
+          story: 2
+          characters: 2
+          levels: 7
+          missions: 4
+          hardcore: 2
+          cruelty: 4
+          complexity: 8
+      - name: "Platformer"
+        directions:
+          length: 8
+          depth: 6
+          friendliness: 5
+          innovation: 7
+          story: 1
+          characters: 3
+          levels: 7
+          missions: 3
+          hardcore: 4
+          cruelty: 2
+          complexity: 6
+      - name: "Simulation"
+        directions:
+          length: 8
+          depth: 10
+          friendliness: 0
+          innovation: 8
+          story: 1
+          characters: 1
+          levels: 5
+          missions: 7
+          hardcore: 0
+          cruelty: 4
+          complexity: 7
+      - name: "Sports Game"
+        matches: true
+        directions:
+          length: 9
+          depth: 7
+          friendliness: 5
+          innovation: 8
+          story: 1
+          characters: 2
+          levels: 3
+          missions: 5
+          hardcore: 3
+          cruelty: 1
+          complexity: 5
+      - name: "Fighting Game"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 5
+          innovation: 5
+          story: 2
+          characters: 5
+          levels: 5
+          missions: 3
+          hardcore: 3
+          cruelty: 5
+          complexity: 7
+      - name: "Building Game"
+        matches: true
+        directions:
+          length: 10
+          depth: 10
+          friendliness: 1
+          innovation: 9
+          story: 1
+          characters: 1
+          levels: 4
+          missions: 4
+          hardcore: 1
+          cruelty: 3
+          complexity: 6
+      - name: "First-Person Shooter"
+        directions:
+          length: 8
+          depth: 6
+          friendliness: 4
+          innovation: 6
+          story: 2
+          characters: 2
+          levels: 7
+          missions: 5
+          hardcore: 1
+          cruelty: 5
+          complexity: 7
+      - name: "Third-Person Shooter"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 2
+          innovation: 6
+          story: 3
+          characters: 3
+          levels: 6
+          missions: 5
+          hardcore: 2
+          cruelty: 4
+          complexity: 6
+      - name: "Interactive Movie"
+        directions:
+          length: 7
+          depth: 7
+          friendliness: 4
+          innovation: 6
+          story: 5
+          characters: 5
+          levels: 3
+          missions: 3
+          hardcore: 3
+          cruelty: 4
+          complexity: 5
+      - name: "Real-Time Strategy"
+        matches: true
+        directions:
+          length: 9
+          depth: 10
+          friendliness: 0
+          innovation: 6
+          story: 2
+          characters: 1
+          levels: 6
+          missions: 6
+          hardcore: 1
+          cruelty: 4
+          complexity: 7
+      - name: "Visual Novel"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 4
+          innovation: 5
+          story: 5
+          characters: 5
+          levels: 3
+          missions: 3
+          hardcore: 3
+          cruelty: 3
+          complexity: 4
+    topics:
+      - Agriculture
+      - American Football
+      - Animals
+      - Art
+      - Baseball
+      - Basketball
+      - Bicycle
+      - Boxing
+      - Cabs
+      - Candy
+      - Cars
+      - Casinos
+      - Castles
+      - Cinema
+      - Cities
+      - Civilizations
+      - Colonization
+      - Companies
+      - Conquest
+      - Cooking
+      - Cricket
+      - Crime
+      - Digging
+      - Doctors
+      - Dungeons
+      - Economy
+      - Education
+      - End Times
+      - Erotica
+      - Everyday Life
+      - Factories
+      - Fashion
+      - Fire Department
+      - Fish
+      - Fitness
+      - Food
+      - Gambling
+      - Game Development
+      - Gangsters
+      - Golf
+      - Handball
+      - Healthcare
+      - Hell
+      - Historical
+      - Horses
+      - Hospital
+      - Ice Age
+      - Ice Hockey
+      - Industrialization
+      - Islands
+      - Knights
+      - Mafia
+      - Mathematics
+      - Middle Ages
+      - Mining
+      - Motorcycles
+      - Motorsports
+      - Movies
+      - Music
+      - Noble Houses
+      - Pirates
+      - Planets
+      - Police
+      - Politics
+      - Prison
+      - Renovation
+      - Riding
+      - Rockstars
+      - Romans
+      - Rugby
+      - Sandbox
+      - School
+      - Science
+      - Ships
+      - Singing
+      - Soccer
+      - Space
+      - Sports
+      - Steampunk
+      - Super Villains
+      - Table Tennis
+      - Television
+      - Tennis
+      - Theme Parks
+      - Thieves
+      - Trains
+      - Transportation
+      - Treasure
+      - Trucks
+      - Vacation
+      - Volleyball
+      - Wild West
+      - Wrestling
+      - Zoo
+  - name: "Fighting Game"
+    targets:
+      - "Teenagers"
+      - "Adults"
+    design:
+      gameplay: 20
+      graphics: 20
+      sound: 10
+      control: 50
+    subgenres:
+      - name: "None"
+        matches: true
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 10
+          innovation: 2
+          story: 4
+          characters: 10
+          levels: 6
+          missions: 1
+          hardcore: 6
+          cruelty: 9
+          complexity: 8
+      - name: "Skill Game"
+        directions:
+          length: 6
+          depth: 2
+          friendliness: 9
+          innovation: 3
+          story: 3
+          characters: 6
+          levels: 7
+          missions: 4
+          hardcore: 6
+          cruelty: 5
+          complexity: 7
+      - name: "Puzzle Game"
+        directions:
+          length: 7
+          depth: 2
+          friendliness: 8
+          innovation: 3
+          story: 4
+          characters: 6
+          levels: 6
+          missions: 4
+          hardcore: 7
+          cruelty: 4
+          complexity: 8
+      - name: "Racing"
+        directions:
+          length: 7
+          depth: 3
+          friendliness: 9
+          innovation: 4
+          story: 2
+          characters: 6
+          levels: 7
+          missions: 2
+          hardcore: 7
+          cruelty: 4
+          complexity: 6
+      - name: "Adventure"
+        directions:
+          length: 4
+          depth: 2
+          friendliness: 8
+          innovation: 1
+          story: 7
+          characters: 9
+          levels: 6
+          missions: 3
+          hardcore: 5
+          cruelty: 7
+          complexity: 7
+      - name: "Role-Playing Game"
+        directions:
+          length: 7
+          depth: 4
+          friendliness: 5
+          innovation: 2
+          story: 6
+          characters: 9
+          levels: 5
+          missions: 2
+          hardcore: 4
+          cruelty: 7
+          complexity: 7
+      - name: "Strategy"
+        directions:
+          length: 7
+          depth: 7
+          friendliness: 5
+          innovation: 3
+          story: 2
+          characters: 5
+          levels: 6
+          missions: 5
+          hardcore: 3
+          cruelty: 7
+          complexity: 8
+      - name: "Action"
+        matches: true
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 8
+          innovation: 4
+          story: 4
+          characters: 7
+          levels: 8
+          missions: 2
+          hardcore: 5
+          cruelty: 8
+          complexity: 8
+      - name: "Platformer"
+        matches: true
+        directions:
+          length: 6
+          depth: 2
+          friendliness: 10
+          innovation: 3
+          story: 3
+          characters: 7
+          levels: 8
+          missions: 1
+          hardcore: 7
+          cruelty: 6
+          complexity: 6
+      - name: "Simulation"
+        directions:
+          length: 6
+          depth: 6
+          friendliness: 5
+          innovation: 4
+          story: 2
+          characters: 6
+          levels: 6
+          missions: 5
+          hardcore: 3
+          cruelty: 8
+          complexity: 8
+      - name: "Sports Game"
+        matches: true
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 10
+          innovation: 5
+          story: 3
+          characters: 6
+          levels: 4
+          missions: 3
+          hardcore: 6
+          cruelty: 4
+          complexity: 6
+      - name: "Economic Simulation"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 5
+          innovation: 5
+          story: 2
+          characters: 5
+          levels: 5
+          missions: 3
+          hardcore: 3
+          cruelty: 5
+          complexity: 7
+      - name: "Building Game"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 6
+          innovation: 5
+          story: 2
+          characters: 5
+          levels: 5
+          missions: 2
+          hardcore: 4
+          cruelty: 6
+          complexity: 7
+      - name: "First-Person Shooter"
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 8
+          innovation: 3
+          story: 4
+          characters: 7
+          levels: 8
+          missions: 3
+          hardcore: 4
+          cruelty: 9
+          complexity: 7
+      - name: "Third-Person Shooter"
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 7
+          innovation: 2
+          story: 4
+          characters: 8
+          levels: 7
+          missions: 3
+          hardcore: 5
+          cruelty: 8
+          complexity: 6
+      - name: "Interactive Movie"
+        directions:
+          length: 5
+          depth: 3
+          friendliness: 8
+          innovation: 2
+          story: 7
+          characters: 10
+          levels: 4
+          missions: 1
+          hardcore: 6
+          cruelty: 8
+          complexity: 5
+      - name: "Real-Time Strategy"
+        directions:
+          length: 6
+          depth: 6
+          friendliness: 5
+          innovation: 3
+          story: 3
+          characters: 6
+          levels: 7
+          missions: 4
+          hardcore: 4
+          cruelty: 7
+          complexity: 7
+      - name: "Visual Novel"
+        directions:
+          length: 6
+          depth: 2
+          friendliness: 8
+          innovation: 2
+          story: 7
+          characters: 10
+          levels: 4
+          missions: 1
+          hardcore: 6
+          cruelty: 6
+          complexity: 5
+    topics:
+      - Androids
+      - Animals
+      - Assassins
+      - Barbarians
+      - Boxing
+      - Contract Killer
+      - Cyberpunk
+      - Cyborgs
+      - Demons
+      - Dinosaurs
+      - Fantasy
+      - Fire Department
+      - Fitness
+      - Gods
+      - Karate
+      - Martial Arts
+      - Mecha
+      - Monster
+      - Ninjas
+      - Orcs
+      - Predators
+      - Robots
+      - Samurai
+      - Skeletons
+      - Space
+      - Sports
+      - Superheroes
+      - Trolls
+      - Vikings
+      - Werewolves
+      - Wrestling
+      - Pets
+  - name: "Building Game"
+    targets:
+      - "Adults"
+      - "Seniors"
+    design:
+      gameplay: 30
+      graphics: 20
+      sound: 20
+      control: 30
+    subgenres:
+      - name: "None"
+        matches: true
+        directions:
+          length: 10
+          depth: 10
+          friendliness: 1
+          innovation: 8
+          story: 1
+          characters: 1
+          levels: 5
+          missions: 4
+          hardcore: 2
+          cruelty: 4
+          complexity: 6
+      - name: "Skill Game"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 5
+          innovation: 6
+          story: 1
+          characters: 2
+          levels: 6
+          missions: 5
+          hardcore: 4
+          cruelty: 2
+          complexity: 6
+      - name: "Puzzle Game"
+        directions:
+          length: 9
+          depth: 7
+          friendliness: 4
+          innovation: 6
+          story: 2
+          characters: 1
+          levels: 5
+          missions: 6
+          hardcore: 5
+          cruelty: 2
+          complexity: 7
+      - name: "Racing"
+        directions:
+          length: 9
+          depth: 8
+          friendliness: 4
+          innovation: 7
+          story: 1
+          characters: 1
+          levels: 6
+          missions: 4
+          hardcore: 5
+          cruelty: 2
+          complexity: 5
+      - name: "Adventure"
+        directions:
+          length: 7
+          depth: 6
+          friendliness: 3
+          innovation: 4
+          story: 5
+          characters: 5
+          levels: 6
+          missions: 4
+          hardcore: 3
+          cruelty: 4
+          complexity: 6
+      - name: "Role-Playing Game"
+        directions:
+          length: 10
+          depth: 8
+          friendliness: 0
+          innovation: 5
+          story: 4
+          characters: 4
+          levels: 5
+          missions: 4
+          hardcore: 2
+          cruelty: 5
+          complexity: 6
+      - name: "Strategy"
+        matches: true
+        directions:
+          length: 10
+          depth: 10
+          friendliness: 0
+          innovation: 6
+          story: 1
+          characters: 1
+          levels: 5
+          missions: 7
+          hardcore: 1
+          cruelty: 5
+          complexity: 7
+      - name: "Action"
+        directions:
+          length: 7
+          depth: 7
+          friendliness: 4
+          innovation: 7
+          story: 2
+          characters: 2
+          levels: 7
+          missions: 4
+          hardcore: 3
+          cruelty: 5
+          complexity: 7
+      - name: "Platformer"
+        directions:
+          length: 8
+          depth: 6
+          friendliness: 6
+          innovation: 6
+          story: 1
+          characters: 3
+          levels: 7
+          missions: 3
+          hardcore: 5
+          cruelty: 3
+          complexity: 5
+      - name: "Simulation"
+        directions:
+          length: 8
+          depth: 10
+          friendliness: 1
+          innovation: 7
+          story: 1
+          characters: 1
+          levels: 5
+          missions: 7
+          hardcore: 1
+          cruelty: 5
+          complexity: 7
+      - name: "Sports Game"
+        directions:
+          length: 9
+          depth: 7
+          friendliness: 5
+          innovation: 8
+          story: 1
+          characters: 2
+          levels: 4
+          missions: 4
+          hardcore: 4
+          cruelty: 2
+          complexity: 5
+      - name: "Economic Simulation"
+        matches: true
+        directions:
+          length: 10
+          depth: 10
+          friendliness: 1
+          innovation: 9
+          story: 1
+          characters: 1
+          levels: 4
+          missions: 4
+          hardcore: 1
+          cruelty: 3
+          complexity: 6
+      - name: "Fighting Game"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 6
+          innovation: 5
+          story: 2
+          characters: 5
+          levels: 5
+          missions: 2
+          hardcore: 4
+          cruelty: 6
+          complexity: 7
+      - name: "First-Person Shooter"
+        directions:
+          length: 8
+          depth: 6
+          friendliness: 4
+          innovation: 6
+          story: 2
+          characters: 2
+          levels: 7
+          missions: 5
+          hardcore: 2
+          cruelty: 6
+          complexity: 6
+      - name: "Third-Person Shooter"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 3
+          innovation: 5
+          story: 3
+          characters: 3
+          levels: 6
+          missions: 5
+          hardcore: 3
+          cruelty: 5
+          complexity: 5
+      - name: "Interactive Movie"
+        directions:
+          length: 7
+          depth: 7
+          friendliness: 4
+          innovation: 5
+          story: 5
+          characters: 5
+          levels: 4
+          missions: 3
+          hardcore: 4
+          cruelty: 5
+          complexity: 4
+      - name: "Real-Time Strategy"
+        matches: true
+        directions:
+          length: 9
+          depth: 9
+          friendliness: 1
+          innovation: 6
+          story: 2
+          characters: 1
+          levels: 6
+          missions: 6
+          hardcore: 2
+          cruelty: 5
+          complexity: 6
+      - name: "Visual Novel"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 3
+          innovation: 5
+          story: 5
+          characters: 5
+          levels: 4
+          missions: 3
+          hardcore: 4
+          cruelty: 4
+          complexity: 4
+    topics:
+      - Agriculture
+      - Animals
+      - Apocalypse
+      - Barbarians
+      - Building Blocks
+      - Casinos
+      - Castles
+      - Cinema
+      - Cities
+      - Civilizations
+      - Companies
+      - Conquest
+      - Cooking
+      - Cowboys
+      - Crime
+      - Digging
+      - Doctors
+      - Dungeons
+      - Dwarfs
+      - Economy
+      - Education
+      - Elves
+      - End Times
+      - Evolution
+      - Expeditions
+      - Factories
+      - Fitness
+      - Gods
+      - Healthcare
+      - Hell
+      - Hospital
+      - Ice Age
+      - Industrialization
+      - Insects
+      - Islands
+      - Knights
+      - Middle Ages
+      - Mining
+      - Monster
+      - Noble Houses
+      - Orcs
+      - Parlor Games
+      - Pirates
+      - Planets
+      - Plants
+      - Police
+      - Prison
+      - Radioactivity
+      - Renovation
+      - Romans
+      - Sandbox
+      - School
+      - Ships
+      - Space
+      - Space Stations
+      - Stone Age
+      - Stones
+      - Survival
+      - Television
+      - Theme Parks
+      - Trains
+      - Transportation
+      - Treasure
+      - Trucks
+      - Vacation
+      - Vikings
+      - Wild West
+      - World Wars
+      - Zombies
+      - Zoo
+
+  - name: "Interactive Movie"
+    targets:
+      - "Teenagers"
+      - "Adults"
+      - "Seniors"
+    design:
+      gameplay: 10
+      graphics: 50
+      sound: 30
+      control: 10
+    subgenres:
+      - name: "None"
+        matches: true
+        directions:
+          length: 3
+          depth: 2
+          friendliness: 7
+          innovation: 3
+          story: 10
+          characters: 10
+          levels: 3
+          missions: 2
+          hardcore: 7
+          cruelty: 7
+          complexity: 3
+      - name: "Skill Game"
+        matches: true
+        directions:
+          length: 5
+          depth: 3
+          friendliness: 7
+          innovation: 4
+          story: 6
+          characters: 6
+          levels: 5
+          missions: 4
+          hardcore: 7
+          cruelty: 4
+          complexity: 5
+      - name: "Puzzle Game"
+        matches: true
+        directions:
+          length: 6
+          depth: 2
+          friendliness: 7
+          innovation: 3
+          story: 7
+          characters: 6
+          levels: 4
+          missions: 5
+          hardcore: 7
+          cruelty: 3
+          complexity: 5
+      - name: "Racing"
+        directions:
+          length: 6
+          depth: 4
+          friendliness: 7
+          innovation: 4
+          story: 5
+          characters: 6
+          levels: 5
+          missions: 3
+          hardcore: 7
+          cruelty: 3
+          complexity: 3
+      - name: "Adventure"
+        matches: true
+        directions:
+          length: 3
+          depth: 2
+          friendliness: 6
+          innovation: 2
+          story: 10
+          characters: 9
+          levels: 5
+          missions: 3
+          hardcore: 6
+          cruelty: 6
+          complexity: 5
+      - name: "Role-Playing Game"
+        directions:
+          length: 6
+          depth: 4
+          friendliness: 3
+          innovation: 2
+          story: 9
+          characters: 9
+          levels: 4
+          missions: 3
+          hardcore: 4
+          cruelty: 6
+          complexity: 5
+      - name: "Strategy"
+        directions:
+          length: 6
+          depth: 7
+          friendliness: 4
+          innovation: 3
+          story: 5
+          characters: 5
+          levels: 4
+          missions: 6
+          hardcore: 3
+          cruelty: 6
+          complexity: 5
+      - name: "Action"
+        directions:
+          length: 4
+          depth: 2
+          friendliness: 7
+          innovation: 4
+          story: 7
+          characters: 7
+          levels: 6
+          missions: 3
+          hardcore: 6
+          cruelty: 7
+          complexity: 6
+      - name: "Platformer"
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 8
+          innovation: 4
+          story: 6
+          characters: 7
+          levels: 6
+          missions: 2
+          hardcore: 7
+          cruelty: 5
+          complexity: 4
+      - name: "Simulation"
+        directions:
+          length: 5
+          depth: 5
+          friendliness: 4
+          innovation: 5
+          story: 5
+          characters: 6
+          levels: 4
+          missions: 6
+          hardcore: 3
+          cruelty: 7
+          complexity: 5
+      - name: "Sports Game"
+        directions:
+          length: 5
+          depth: 3
+          friendliness: 9
+          innovation: 5
+          story: 6
+          characters: 6
+          levels: 3
+          missions: 3
+          hardcore: 7
+          cruelty: 3
+          complexity: 3
+      - name: "Economic Simulation"
+        directions:
+          length: 7
+          depth: 7
+          friendliness: 4
+          innovation: 6
+          story: 5
+          characters: 5
+          levels: 3
+          missions: 3
+          hardcore: 3
+          cruelty: 4
+          complexity: 5
+      - name: "Fighting Game"
+        directions:
+          length: 5
+          depth: 3
+          friendliness: 8
+          innovation: 2
+          story: 7
+          characters: 10
+          levels: 4
+          missions: 1
+          hardcore: 6
+          cruelty: 8
+          complexity: 5
+      - name: "Building Game"
+        directions:
+          length: 7
+          depth: 7
+          friendliness: 4
+          innovation: 5
+          story: 5
+          characters: 5
+          levels: 4
+          missions: 3
+          hardcore: 4
+          cruelty: 5
+          complexity: 4
+      - name: "First-Person Shooter"
+        directions:
+          length: 4
+          depth: 2
+          friendliness: 7
+          innovation: 3
+          story: 7
+          characters: 7
+          levels: 6
+          missions: 4
+          hardcore: 5
+          cruelty: 8
+          complexity: 5
+      - name: "Third-Person Shooter"
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 6
+          innovation: 3
+          story: 7
+          characters: 8
+          levels: 5
+          missions: 4
+          hardcore: 5
+          cruelty: 7
+          complexity: 4
+      - name: "Real-Time Strategy"
+        directions:
+          length: 5
+          depth: 6
+          friendliness: 4
+          innovation: 3
+          story: 6
+          characters: 6
+          levels: 5
+          missions: 5
+          hardcore: 4
+          cruelty: 6
+          complexity: 5
+      - name: "Visual Novel"
+        matches: true
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 6
+          innovation: 2
+          story: 10
+          characters: 10
+          levels: 3
+          missions: 2
+          hardcore: 7
+          cruelty: 5
+          complexity: 2
+    topics:
+      - Agents
+      - Aliens
+      - Androids
+      - Angels
+      - Anime
+      - Apocalypse
+      - Bounty Hunter
+      - Comedy
+      - Conspiracies
+      - Contract Killer
+      - Cowboys
+      - Crime
+      - Cyberpunk
+      - Cyberspace
+      - Cyborgs
+      - Dancing
+      - Dating
+      - Demons
+      - Detective
+      - Dragons
+      - End Times
+      - Erotica
+      - Espionage
+      - Everyday Life
+      - Fantasy
+      - Gangsters
+      - Ghosts
+      - Hacking
+      - Horror
+      - Kids
+      - Knights
+      - Mafia
+      - Military
+      - Movies
+      - Music
+      - Ninjas
+      - Noble Houses
+      - Parallel Worlds
+      - Prison
+      - Reporters
+      - Revolution
+      - Robots
+      - Saboteurs
+      - Samurai
+      - Skeletons
+      - Spaceships
+      - Super Villains
+      - Superheroes
+      - Time Travel
+      - UFOs
+      - Vampires
+      - Werewolves
+      - Wild West
+      - Witches
+      - Wizards
+      - World Wars
+  - name: "Real-Time Strategy"
+    targets:
+      - "Teenagers"
+      - "Adults"
+    design:
+      gameplay: 30
+      graphics: 30
+      sound: 10
+      control: 30
+    subgenres:
+      - name: "None"
+        matches: true
+        directions:
+          length: 6
+          depth: 8
+          friendliness: 1
+          innovation: 4
+          story: 3
+          characters: 2
+          levels: 8
+          missions: 8
+          hardcore: 2
+          cruelty: 6
+          complexity: 7
+      - name: "Skill Game"
+        directions:
+          length: 6
+          depth: 6
+          friendliness: 5
+          innovation: 4
+          story: 2
+          characters: 2
+          levels: 8
+          missions: 7
+          hardcore: 4
+          cruelty: 3
+          complexity: 7
+      - name: "Puzzle Game"
+        directions:
+          length: 7
+          depth: 5
+          friendliness: 4
+          innovation: 4
+          story: 3
+          characters: 2
+          levels: 7
+          missions: 8
+          hardcore: 5
+          cruelty: 3
+          complexity: 7
+      - name: "Racing"
+        directions:
+          length: 7
+          depth: 6
+          friendliness: 4
+          innovation: 5
+          story: 2
+          characters: 2
+          levels: 8
+          missions: 6
+          hardcore: 5
+          cruelty: 3
+          complexity: 5
+      - name: "Adventure"
+        directions:
+          length: 5
+          depth: 5
+          friendliness: 4
+          innovation: 2
+          story: 6
+          characters: 5
+          levels: 7
+          missions: 6
+          hardcore: 3
+          cruelty: 5
+          complexity: 7
+      - name: "Role-Playing Game"
+        matches: true
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 0
+          innovation: 3
+          story: 5
+          characters: 5
+          levels: 6
+          missions: 6
+          hardcore: 2
+          cruelty: 6
+          complexity: 7
+      - name: "Strategy"
+        matches: true
+        directions:
+          length: 8
+          depth: 9
+          friendliness: 0
+          innovation: 4
+          story: 2
+          characters: 1
+          levels: 7
+          missions: 9
+          hardcore: 1
+          cruelty: 6
+          complexity: 7
+      - name: "Action"
+        matches: true
+        directions:
+          length: 5
+          depth: 5
+          friendliness: 4
+          innovation: 5
+          story: 3
+          characters: 3
+          levels: 9
+          missions: 6
+          hardcore: 3
+          cruelty: 6
+          complexity: 8
+      - name: "Platformer"
+        directions:
+          length: 6
+          depth: 5
+          friendliness: 6
+          innovation: 4
+          story: 2
+          characters: 3
+          levels: 9
+          missions: 5
+          hardcore: 5
+          cruelty: 4
+          complexity: 6
+      - name: "Simulation"
+        directions:
+          length: 6
+          depth: 8
+          friendliness: 1
+          innovation: 5
+          story: 2
+          characters: 2
+          levels: 7
+          missions: 9
+          hardcore: 1
+          cruelty: 6
+          complexity: 7
+      - name: "Sports Game"
+        directions:
+          length: 7
+          depth: 6
+          friendliness: 6
+          innovation: 6
+          story: 2
+          characters: 2
+          levels: 5
+          missions: 6
+          hardcore: 4
+          cruelty: 3
+          complexity: 5
+      - name: "Economic Simulation"
+        matches: true
+        directions:
+          length: 9
+          depth: 10
+          friendliness: 0
+          innovation: 6
+          story: 2
+          characters: 1
+          levels: 6
+          missions: 6
+          hardcore: 1
+          cruelty: 4
+          complexity: 7
+      - name: "Fighting Game"
+        directions:
+          length: 6
+          depth: 6
+          friendliness: 5
+          innovation: 3
+          story: 3
+          characters: 6
+          levels: 7
+          missions: 4
+          hardcore: 4
+          cruelty: 7
+          complexity: 7
+      - name: "Building Game"
+        matches: true
+        directions:
+          length: 9
+          depth: 9
+          friendliness: 1
+          innovation: 6
+          story: 2
+          characters: 1
+          levels: 6
+          missions: 6
+          hardcore: 2
+          cruelty: 5
+          complexity: 6
+      - name: "Interactive Movie"
+        directions:
+          length: 5
+          depth: 6
+          friendliness: 4
+          innovation: 3
+          story: 6
+          characters: 6
+          levels: 5
+          missions: 5
+          hardcore: 4
+          cruelty: 6
+          complexity: 5
+      - name: "First-Person Shooter"
+        directions:
+          length: 6
+          depth: 4
+          friendliness: 4
+          innovation: 4
+          story: 3
+          characters: 3
+          levels: 9
+          missions: 7
+          hardcore: 2
+          cruelty: 7
+          complexity: 7
+      - name: "Third-Person Shooter"
+        directions:
+          length: 6
+          depth: 5
+          friendliness: 3
+          innovation: 3
+          story: 4
+          characters: 4
+          levels: 8
+          missions: 7
+          hardcore: 3
+          cruelty: 6
+          complexity: 6
+      - name: "Visual Novel"
+        directions:
+          length: 6
+          depth: 6
+          friendliness: 3
+          innovation: 3
+          story: 6
+          characters: 6
+          levels: 5
+          missions: 5
+          hardcore: 4
+          cruelty: 5
+          complexity: 4
+    topics:
+      - Aliens
+      - Androids
+      - Animals
+      - Apocalypse
+      - Bunker
+      - Castles
+      - Cities
+      - Civilizations
+      - Colonization
+      - Companies
+      - Conquest
+      - Cowboys
+      - Cyborgs
+      - Deck Building
+      - Demons
+      - Dinosaurs
+      - Dragons
+      - Druids
+      - Dungeons
+      - Dwarfs
+      - Economy
+      - Elves
+      - End Times
+      - Espionage
+      - Factories
+      - Fantasy
+      - Fire Department
+      - Gods
+      - Helicopters
+      - Historical
+      - Ice Age
+      - Industrialization
+      - Insects
+      - Knights
+      - Martial Arts
+      - Mecha
+      - Mercenary
+      - Middle Ages
+      - Military
+      - Mining
+      - Noble Houses
+      - Orcs
+      - Planets
+      - Plants
+      - Police
+      - Radioactivity
+      - Robots
+      - Romans
+      - Saboteurs
+      - Sailing
+      - Samurai
+      - Science
+      - Ships
+      - Space
+      - Space Stations
+      - Spaceships
+      - Special Forces
+      - Steampunk
+      - Stone Age
+      - Submarines
+      - Tanks
+      - Trains
+      - Transportation
+      - Trolls
+      - UFOs
+      - Vikings
+      - Wild West
+      - Wizards
+      - World Wars
+  - name: "First-Person Shooter"
+    targets:
+      - "Teenagers"
+      - "Adults"
+    design:
+      gameplay: 10
+      graphics: 50
+      sound: 20
+      control: 20
+    subgenres:
+      - name: "None"
+        matches: true
+        directions:
+          length: 4
+          depth: 1
+          friendliness: 7
+          innovation: 4
+          story: 4
+          characters: 4
+          levels: 10
+          missions: 6
+          hardcore: 3
+          cruelty: 9
+          complexity: 7
+      - name: "Skill Game"
+        matches: true
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 8
+          innovation: 4
+          story: 3
+          characters: 3
+          levels: 9
+          missions: 6
+          hardcore: 5
+          cruelty: 5
+          complexity: 7
+      - name: "Puzzle Game"
+        directions:
+          length: 6
+          depth: 1
+          friendliness: 7
+          innovation: 4
+          story: 4
+          characters: 3
+          levels: 8
+          missions: 7
+          hardcore: 5
+          cruelty: 4
+          complexity: 7
+      - name: "Racing"
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 7
+          innovation: 5
+          story: 2
+          characters: 3
+          levels: 9
+          missions: 5
+          hardcore: 5
+          cruelty: 4
+          complexity: 5
+      - name: "Adventure"
+        matches: true
+        directions:
+          length: 4
+          depth: 2
+          friendliness: 6
+          innovation: 2
+          story: 7
+          characters: 6
+          levels: 8
+          missions: 5
+          hardcore: 4
+          cruelty: 7
+          complexity: 7
+      - name: "Role-Playing Game"
+        matches: true
+        directions:
+          length: 7
+          depth: 3
+          friendliness: 3
+          innovation: 3
+          story: 6
+          characters: 6
+          levels: 7
+          missions: 5
+          hardcore: 2
+          cruelty: 7
+          complexity: 7
+      - name: "Action"
+        matches: true
+        directions:
+          length: 4
+          depth: 1
+          friendliness: 7
+          innovation: 5
+          story: 4
+          characters: 4
+          levels: 10
+          missions: 5
+          hardcore: 4
+          cruelty: 8
+          complexity: 8
+      - name: "Strategy"
+        directions:
+          length: 7
+          depth: 6
+          friendliness: 3
+          innovation: 4
+          story: 2
+          characters: 2
+          levels: 8
+          missions: 8
+          hardcore: 1
+          cruelty: 7
+          complexity: 7
+      - name: "Platformer"
+        matches: true
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 8
+          innovation: 4
+          story: 3
+          characters: 4
+          levels: 10
+          missions: 4
+          hardcore: 5
+          cruelty: 6
+          complexity: 6
+      - name: "Simulation"
+        matches: true
+        directions:
+          length: 5
+          depth: 5
+          friendliness: 4
+          innovation: 5
+          story: 2
+          characters: 3
+          levels: 8
+          missions: 8
+          hardcore: 1
+          cruelty: 8
+          complexity: 7
+      - name: "Sports Game"
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 8
+          innovation: 6
+          story: 3
+          characters: 3
+          levels: 6
+          missions: 5
+          hardcore: 5
+          cruelty: 4
+          complexity: 5
+      - name: "Economic Simulation"
+        directions:
+          length: 8
+          depth: 6
+          friendliness: 4
+          innovation: 6
+          story: 2
+          characters: 2
+          levels: 7
+          missions: 5
+          hardcore: 1
+          cruelty: 5
+          complexity: 7
+      - name: "Fighting Game"
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 8
+          innovation: 3
+          story: 4
+          characters: 7
+          levels: 8
+          missions: 3
+          hardcore: 4
+          cruelty: 9
+          complexity: 7
+      - name: "Building Game"
+        directions:
+          length: 8
+          depth: 6
+          friendliness: 4
+          innovation: 6
+          story: 2
+          characters: 2
+          levels: 7
+          missions: 5
+          hardcore: 2
+          cruelty: 6
+          complexity: 6
+      - name: "Interactive Movie"
+        directions:
+          length: 4
+          depth: 2
+          friendliness: 7
+          innovation: 3
+          story: 7
+          characters: 7
+          levels: 6
+          missions: 4
+          hardcore: 5
+          cruelty: 8
+          complexity: 5
+      - name: "Real-Time Strategy"
+        directions:
+          length: 6
+          depth: 4
+          friendliness: 4
+          innovation: 4
+          story: 3
+          characters: 3
+          levels: 9
+          missions: 7
+          hardcore: 2
+          cruelty: 7
+          complexity: 7
+      - name: "Third-Person Shooter"
+        matches: true
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 6
+          innovation: 3
+          story: 4
+          characters: 5
+          levels: 9
+          missions: 6
+          hardcore: 3
+          cruelty: 8
+          complexity: 6
+      - name: "Visual Novel"
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 6
+          innovation: 3
+          story: 7
+          characters: 7
+          levels: 6
+          missions: 4
+          hardcore: 5
+          cruelty: 6
+          complexity: 4
+    topics:
+      - Agents
+      - Aliens
+      - Androids
+      - Angels
+      - Apocalypse
+      - Assassins
+      - Barbarians
+      - Bounty Hunter
+      - Boxing
+      - Bunker
+      - Castles
+      - Climbing
+      - Conspiracies
+      - Contract Killer
+      - Cowboys
+      - Crime
+      - Cyberpunk
+      - Cyberspace
+      - Cyborgs
+      - Demons
+      - Detective
+      - Devils
+      - Dinosaurs
+      - Dragons
+      - Druids
+      - Dungeons
+      - Dwarfs
+      - Elves
+      - End Times
+      - Espionage
+      - Fantasy
+      - Gangsters
+      - Ghosts
+      - Gods
+      - Helicopters
+      - Hell
+      - Historical
+      - Horror
+      - Hunting
+      - Ice Age
+      - Insects
+      - Karate
+      - Knights
+      - Mafia
+      - Martial Arts
+      - Mecha
+      - Mercenary
+      - Middle Ages
+      - Military
+      - Monster
+      - Ninjas
+      - Orcs
+      - Parallel Worlds
+      - Physics
+      - Police
+      - Portals
+      - Predators
+      - Prison
+      - Puzzles
+      - Radioactivity
+      - Revolution
+      - Riding
+      - Robots
+      - Romans
+      - Saboteurs
+      - Samurai
+      - Sandbox
+      - Skeletons
+      - Skydiving
+      - Space
+      - Space Stations
+      - Spaceships
+      - Special Forces
+      - Steampunk
+      - Stone Age
+      - Submarines
+      - Super Villains
+      - Superheroes
+      - Survival
+      - Tanks
+      - Thieves
+      - Time Travel
+      - Treasure Hunters
+      - Trolls
+      - UFOs
+      - Vampires
+      - Vikings
+      - Werewolves
+      - Wild West
+      - Witches
+      - Wizards
+      - World Wars
+      - Zombies
+  - name: "Visual Novel"
+    targets:
+      - "Children"
+      - "Teenagers"
+      - "Adults"
+      - "Seniors"
+      - "All"
+    design:
+      gameplay: 40
+      graphics: 40
+      sound: 10
+      control: 10
+    subgenres:
+      - name: "None"
+        matches: true
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 6
+          innovation: 2
+          story: 10
+          characters: 10
+          levels: 3
+          missions: 2
+          hardcore: 7
+          cruelty: 4
+          complexity: 2
+      - name: "Skill Game"
+        matches: true
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 7
+          innovation: 3
+          story: 6
+          characters: 6
+          levels: 5
+          missions: 4
+          hardcore: 7
+          cruelty: 2
+          complexity: 4
+      - name: "Puzzle Game"
+        matches: true
+        directions:
+          length: 7
+          depth: 2
+          friendliness: 6
+          innovation: 3
+          story: 7
+          characters: 6
+          levels: 4
+          missions: 5
+          hardcore: 7
+          cruelty: 2
+          complexity: 5
+      - name: "Racing"
+        directions:
+          length: 7
+          depth: 3
+          friendliness: 7
+          innovation: 4
+          story: 5
+          characters: 6
+          levels: 5
+          missions: 3
+          hardcore: 7
+          cruelty: 2
+          complexity: 3
+      - name: "Adventure"
+        matches: true
+        directions:
+          length: 4
+          depth: 2
+          friendliness: 6
+          innovation: 1
+          story: 10
+          characters: 9
+          levels: 5
+          missions: 3
+          hardcore: 6
+          cruelty: 4
+          complexity: 4
+      - name: "Role-Playing Game"
+        matches: true
+        directions:
+          length: 7
+          depth: 3
+          friendliness: 3
+          innovation: 2
+          story: 9
+          characters: 9
+          levels: 4
+          missions: 3
+          hardcore: 4
+          cruelty: 5
+          complexity: 4
+      - name: "Strategy"
+        directions:
+          length: 7
+          depth: 7
+          friendliness: 3
+          innovation: 3
+          story: 5
+          characters: 5
+          levels: 4
+          missions: 6
+          hardcore: 3
+          cruelty: 5
+          complexity: 5
+      - name: "Action"
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 6
+          innovation: 4
+          story: 7
+          characters: 7
+          levels: 6
+          missions: 3
+          hardcore: 6
+          cruelty: 5
+          complexity: 5
+      - name: "Platformer"
+        directions:
+          length: 6
+          depth: 2
+          friendliness: 8
+          innovation: 3
+          story: 6
+          characters: 7
+          levels: 6
+          missions: 2
+          hardcore: 7
+          cruelty: 3
+          complexity: 3
+      - name: "Simulation"
+        directions:
+          length: 6
+          depth: 6
+          friendliness: 3
+          innovation: 4
+          story: 5
+          characters: 6
+          levels: 4
+          missions: 6
+          hardcore: 3
+          cruelty: 5
+          complexity: 5
+      - name: "Sports Game"
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 8
+          innovation: 5
+          story: 6
+          characters: 6
+          levels: 3
+          missions: 3
+          hardcore: 7
+          cruelty: 2
+          complexity: 3
+      - name: "Economic Simulation"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 4
+          innovation: 5
+          story: 5
+          characters: 5
+          levels: 3
+          missions: 3
+          hardcore: 3
+          cruelty: 3
+          complexity: 4
+      - name: "Fighting Game"
+        directions:
+          length: 6
+          depth: 2
+          friendliness: 8
+          innovation: 2
+          story: 7
+          characters: 10
+          levels: 4
+          missions: 1
+          hardcore: 6
+          cruelty: 6
+          complexity: 5
+      - name: "Building Game"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 3
+          innovation: 5
+          story: 5
+          characters: 5
+          levels: 4
+          missions: 3
+          hardcore: 4
+          cruelty: 4
+          complexity: 4
+      - name: "Interactive Movie"
+        matches: true
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 6
+          innovation: 2
+          story: 10
+          characters: 10
+          levels: 3
+          missions: 2
+          hardcore: 7
+          cruelty: 5
+          complexity: 2
+      - name: "Real-Time Strategy"
+        directions:
+          length: 6
+          depth: 6
+          friendliness: 3
+          innovation: 3
+          story: 6
+          characters: 6
+          levels: 5
+          missions: 5
+          hardcore: 4
+          cruelty: 5
+          complexity: 4
+      - name: "First-Person Shooter"
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 6
+          innovation: 3
+          story: 7
+          characters: 7
+          levels: 6
+          missions: 4
+          hardcore: 5
+          cruelty: 6
+          complexity: 4
+      - name: "Third-Person Shooter"
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 5
+          innovation: 2
+          story: 7
+          characters: 8
+          levels: 5
+          missions: 4
+          hardcore: 5
+          cruelty: 5
+          complexity: 3
+    topics:
+      - Androids
+      - Angels
+      - Anime
+      - Art
+      - Assassins
+      - Birds
+      - Cats
+      - Chickens
+      - Comedy
+      - Conspiracies
+      - Contract Killer
+      - Cowboys
+      - Cyberpunk
+      - Dancing
+      - Dating
+      - Demons
+      - Detective
+      - Doctors
+      - Dogs
+      - Dragons
+      - Drawing
+      - Elves
+      - Erotica
+      - Everyday Life
+      - Fairies
+      - Fantasy
+      - Fashion
+      - Ghosts
+      - Goats
+      - Horror
+      - Hospital
+      - Hunting
+      - Kids
+      - Middle Ages
+      - Military
+      - Movies
+      - Music
+      - Ninjas
+      - Noble Houses
+      - Politics
+      - Rabbits
+      - Reporters
+      - Samurai
+      - School
+      - Sheep
+      - Singing
+      - Steampunk
+      - Super Villains
+      - Superheroes
+      - Theme Parks
+      - Thieves
+      - Toys
+      - Treasure
+      - Werewolves
+      - Wild West
+      - World Wars
+      - Zombies
+      - Zoo
+      - Pets
+  - name: "Third-Person Shooter"
+    targets:
+      - "Teenagers"
+      - "Adults"
+    design:
+      gameplay: 20
+      graphics: 40
+      sound: 20
+      control: 20
+    subgenres:
+      - name: "None"
+        matches: true
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 5
+          innovation: 3
+          story: 5
+          characters: 6
+          levels: 8
+          missions: 6
+          hardcore: 4
+          cruelty: 7
+          complexity: 5
+      - name: "Skill Game"
+        matches: true
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 6
+          innovation: 4
+          story: 3
+          characters: 4
+          levels: 8
+          missions: 6
+          hardcore: 5
+          cruelty: 4
+          complexity: 6
+      - name: "Puzzle Game"
+        directions:
+          length: 7
+          depth: 2
+          friendliness: 6
+          innovation: 3
+          story: 4
+          characters: 4
+          levels: 7
+          missions: 7
+          hardcore: 6
+          cruelty: 3
+          complexity: 6
+      - name: "Racing"
+        directions:
+          length: 7
+          depth: 3
+          friendliness: 6
+          innovation: 4
+          story: 3
+          characters: 4
+          levels: 8
+          missions: 5
+          hardcore: 6
+          cruelty: 3
+          complexity: 4
+      - name: "Adventure"
+        matches: true
+        directions:
+          length: 4
+          depth: 2
+          friendliness: 6
+          innovation: 2
+          story: 7
+          characters: 7
+          levels: 7
+          missions: 5
+          hardcore: 4
+          cruelty: 6
+          complexity: 6
+      - name: "Role-Playing Game"
+        matches: true
+        directions:
+          length: 7
+          depth: 4
+          friendliness: 3
+          innovation: 2
+          story: 6
+          characters: 7
+          levels: 6
+          missions: 5
+          hardcore: 3
+          cruelty: 6
+          complexity: 6
+      - name: "Strategy"
+        directions:
+          length: 7
+          depth: 7
+          friendliness: 2
+          innovation: 3
+          story: 3
+          characters: 3
+          levels: 7
+          missions: 8
+          hardcore: 2
+          cruelty: 6
+          complexity: 6
+      - name: "Action"
+        matches: true
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 6
+          innovation: 4
+          story: 4
+          characters: 5
+          levels: 9
+          missions: 5
+          hardcore: 4
+          cruelty: 7
+          complexity: 7
+      - name: "Platformer"
+        matches: true
+        directions:
+          length: 6
+          depth: 2
+          friendliness: 7
+          innovation: 4
+          story: 3
+          characters: 5
+          levels: 9
+          missions: 4
+          hardcore: 6
+          cruelty: 5
+          complexity: 5
+      - name: "Simulation"
+        matches: true
+        directions:
+          length: 5
+          depth: 5
+          friendliness: 3
+          innovation: 5
+          story: 3
+          characters: 4
+          levels: 7
+          missions: 8
+          hardcore: 2
+          cruelty: 7
+          complexity: 6
+      - name: "Sports Game"
+        matches: true
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 8
+          innovation: 6
+          story: 3
+          characters: 4
+          levels: 5
+          missions: 5
+          hardcore: 5
+          cruelty: 3
+          complexity: 4
+      - name: "Economic Simulation"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 2
+          innovation: 6
+          story: 3
+          characters: 3
+          levels: 6
+          missions: 5
+          hardcore: 2
+          cruelty: 4
+          complexity: 6
+      - name: "Fighting Game"
+        matches: true
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 7
+          innovation: 2
+          story: 4
+          characters: 8
+          levels: 7
+          missions: 3
+          hardcore: 5
+          cruelty: 8
+          complexity: 6
+      - name: "Building Game"
+        directions:
+          length: 8
+          depth: 7
+          friendliness: 3
+          innovation: 5
+          story: 3
+          characters: 3
+          levels: 6
+          missions: 5
+          hardcore: 3
+          cruelty: 5
+          complexity: 5
+      - name: "Interactive Movie"
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 6
+          innovation: 3
+          story: 7
+          characters: 8
+          levels: 5
+          missions: 4
+          hardcore: 5
+          cruelty: 7
+          complexity: 4
+      - name: "Real-Time Strategy"
+        directions:
+          length: 6
+          depth: 5
+          friendliness: 3
+          innovation: 3
+          story: 4
+          characters: 4
+          levels: 8
+          missions: 7
+          hardcore: 3
+          cruelty: 6
+          complexity: 6
+      - name: "First-Person Shooter"
+        matches: true
+        directions:
+          length: 5
+          depth: 2
+          friendliness: 6
+          innovation: 3
+          story: 4
+          characters: 5
+          levels: 9
+          missions: 6
+          hardcore: 3
+          cruelty: 8
+          complexity: 6
+      - name: "Visual Novel"
+        directions:
+          length: 6
+          depth: 3
+          friendliness: 5
+          innovation: 2
+          story: 7
+          characters: 8
+          levels: 5
+          missions: 4
+          hardcore: 5
+          cruelty: 5
+          complexity: 3
+    topics:
+      - Agents
+      - Aliens
+      - Androids
+      - Angels
+      - Apocalypse
+      - Assassins
+      - Barbarians
+      - Bounty Hunter
+      - Boxing
+      - Bunker
+      - Castles
+      - Climbing
+      - Conquest
+      - Conspiracies
+      - Contract Killer
+      - Cowboys
+      - Crime
+      - Cyberpunk
+      - Cyberspace
+      - Cyborgs
+      - Demons
+      - Detective
+      - Devils
+      - Dinosaurs
+      - Dragons
+      - Druids
+      - Dungeons
+      - Dwarfs
+      - Elves
+      - End Times
+      - Espionage
+      - Fantasy
+      - Fruits
+      - Gangsters
+      - Ghosts
+      - Gods
+      - Helicopters
+      - Hell
+      - Historical
+      - Horror
+      - Ice Age
+      - Insects
+      - Karate
+      - Knights
+      - Mafia
+      - Martial Arts
+      - Mecha
+      - Mercenary
+      - Middle Ages
+      - Monster
+      - Ninjas
+      - Orcs
+      - Parallel Worlds
+      - Physics
+      - Police
+      - Portals
+      - Predators
+      - Prison
+      - Puzzles
+      - Radioactivity
+      - Revolution
+      - Riding
+      - Robots
+      - Romans
+      - Saboteurs
+      - Sailing
+      - Samurai
+      - Sandbox
+      - Skateboards
+      - Skeletons
+      - Skydiving
+      - Space
+      - Space Stations
+      - Spaceships
+      - Special Forces
+      - Steampunk
+      - Stone Age
+      - Submarines
+      - Super Villains
+      - Superheroes
+      - Survival
+      - Tanks
+      - Thieves
+      - Time Travel
+      - Treasure Hunters
+      - Trolls
+      - UFOs
+      - Vampires
+      - Vikings
+      - Werewolves
+      - Wild West
+      - Witches
+      - Wizards
+      - World Wars
+      - Zombies
+      - Pets
