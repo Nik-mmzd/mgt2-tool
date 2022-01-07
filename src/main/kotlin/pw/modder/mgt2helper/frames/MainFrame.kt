@@ -7,13 +7,6 @@ import java.util.*
 import javax.swing.*
 import javax.swing.border.*
 
-// 0 genre, subjecnre
-// 1 target groups
-// 2 design direction
-// 3 project direction
-// 4 design priority
-// 5 topics
-
 class MainFrame(private val data: Genres): JFrame() {
     private val loc: ResourceBundle = ResourceBundle.getBundle("locale.gui", UTF8Control)
     init {
@@ -29,54 +22,48 @@ class MainFrame(private val data: Genres): JFrame() {
 
     private fun printData() {
         val main = genrePanel.genre.selectedItem as? Genre ?: return
-        val sub = genrePanel.subgenre.selectedItem as? Subgenre ?: return
-        val subData = data.genres.firstOrNull { it.name == sub.name }
 
-        topics.setListData(
-            when(subData) {
-                null -> main.topics
-                else -> subData.topics.intersect(main.topics.toSet())
-            }.sorted().toTypedArray()
-        )
+        val genre = when(val sub = genrePanel.subgenre.selectedItem) {
+            is Subgenre.Genre -> main + sub.genre
+            is Subgenre.None -> main
+            else -> return
+        }
 
-        targets.setListData(
-            when(subData) {
-                null -> main.targets
-                else -> main.targets.filter { it in subData.targets }
-            }.map { it.name }.toTypedArray()
-        )
+        topics.setListData(genre.topics.toTypedArray())
+        targets.setListData(genre.targets.map { it.name }.toTypedArray())
 
         with(designDirection) {
-            length.setValue(sub.directions.length)
-            depth.setValue(sub.directions.depth)
-            friendliness.setValue(sub.directions.friendliness)
-            innovation.setValue(sub.directions.innovation)
-            story.setValue(sub.directions.story)
-            characters.setValue(sub.directions.characters)
-            levels.setValue(sub.directions.levels)
-            missions.setValue(sub.directions.missions)
+            length.setValue(genre.directions.length)
+            depth.setValue(genre.directions.depth)
+            friendliness.setValue(genre.directions.friendliness)
+            innovation.setValue(genre.directions.innovation)
+            story.setValue(genre.directions.story)
+            characters.setValue(genre.directions.characters)
+            levels.setValue(genre.directions.levels)
+            missions.setValue(genre.directions.missions)
         }
 
         with(projectDirection) {
-            hardcore.setValue(sub.directions.hardcore)
-            cruelty.setValue(sub.directions.cruelty)
-            complexity.setValue(sub.directions.complexity)
+            hardcore.setValue(genre.directions.hardcore)
+            cruelty.setValue(genre.directions.cruelty)
+            complexity.setValue(genre.directions.complexity)
         }
 
         with(designPriority) {
-            gameplay.value = main.design.gameplay.toInt()
-            graphics.value = main.design.graphics.toInt()
-            sound.value = main.design.sound.toInt()
-            control.value = main.design.control.toInt()
+            gameplay.value = genre.design.gameplay.toInt()
+            graphics.value = genre.design.graphics.toInt()
+            sound.value = genre.design.sound.toInt()
+            control.value = genre.design.control.toInt()
         }
     }
 
     val genrePanel = GenrePanel(loc, data).apply {
         genre.addActionListener {
             subgenre.removeAllItems()
+            val genre = genre.selectedItem as Genre
             when(matchingOnly.isSelected) {
-                true -> (genre.selectedItem as Genre).subgenres.filter { it.matches }
-                false -> (genre.selectedItem as Genre).subgenres
+                true -> subgenres.filter { it is Subgenre.None || it.name in genre.subgenres }
+                false -> subgenres
             }.forEach(subgenre::addItem)
 
             printData()
@@ -88,9 +75,10 @@ class MainFrame(private val data: Genres): JFrame() {
 
         matchingOnly.addActionListener {
             subgenre.removeAllItems()
+            val genre = genre.selectedItem as Genre
             when(matchingOnly.isSelected) {
-                true -> (genre.selectedItem as Genre).subgenres.filter { it.matches }
-                false -> (genre.selectedItem as Genre).subgenres
+                true -> subgenres.filter { it is Subgenre.None || it.name in genre.subgenres }
+                false -> subgenres
             }.forEach(subgenre::addItem)
         }
 
@@ -147,6 +135,7 @@ class MainFrame(private val data: Genres): JFrame() {
     }
 
     init {
+        printData()
         pack()
     }
 }

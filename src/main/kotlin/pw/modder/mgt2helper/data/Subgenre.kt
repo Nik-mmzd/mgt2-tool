@@ -1,10 +1,13 @@
 package pw.modder.mgt2helper.data
 
-import kotlinx.serialization.Serializable
+sealed interface Subgenre {
+    val name: String
 
-@Serializable
-data class Subgenre(
-    val name: String,
-    val directions: Directions,
-    val matches: Boolean = false
-)
+    object None: Subgenre {
+        override val name = "none"
+    }
+    class Genre(val genre: pw.modder.mgt2helper.data.Genre): Subgenre {
+        override val name: String
+            get() = genre.name
+    }
+}
