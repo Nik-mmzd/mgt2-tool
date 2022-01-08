@@ -29,8 +29,8 @@ class MainFrame(private val data: Genres): JFrame() {
             else -> return
         }
 
-        topics.setListData(genre.topics.toTypedArray())
-        targets.setListData(genre.targets.map { it.name }.toTypedArray())
+        topics.setListData(genre.topics.map { loc.getString("theme.${it}") }.toTypedArray())
+        targets.setListData(genre.targets.map { loc.getString("target.${it.name.lowercase()}") }.toTypedArray())
 
         with(designDirection) {
             length.setValue(genre.directions.length)
@@ -63,7 +63,7 @@ class MainFrame(private val data: Genres): JFrame() {
             val genre = genre.selectedItem as Genre
             when(matchingOnly.isSelected) {
                 true -> subgenres.filter { it is Subgenre.None || it.name in genre.subgenres }
-                false -> subgenres
+                false -> subgenres.filter { it.name != genre.name }
             }.forEach(subgenre::addItem)
 
             printData()
@@ -78,7 +78,7 @@ class MainFrame(private val data: Genres): JFrame() {
             val genre = genre.selectedItem as Genre
             when(matchingOnly.isSelected) {
                 true -> subgenres.filter { it is Subgenre.None || it.name in genre.subgenres }
-                false -> subgenres
+                false -> subgenres.filter { it.name != genre.name }
             }.forEach(subgenre::addItem)
         }
 

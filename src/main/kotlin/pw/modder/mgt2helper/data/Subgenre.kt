@@ -6,6 +6,7 @@ sealed interface Subgenre {
     object None: Subgenre {
         override val name = "none"
     }
+
     class Genre(val genre: pw.modder.mgt2helper.data.Genre): Subgenre {
         override val name: String
             get() = genre.name

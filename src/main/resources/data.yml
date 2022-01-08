@@ -1,12 +1,12 @@
-createdAt: 1641145578
+createdAt: 1641609462
 genres:
-  - name: skill
+  - name: "skill"
     targets:
-    - "Children"
-    - "Teenagers"
-    - "Adults"
-    - "Seniors"
-    - "All"
+      - "Children"
+      - "Teenagers"
+      - "Adults"
+      - "Seniors"
+      - "All"
     design:
       gameplay: 40
       graphics: 10
@@ -25,117 +25,117 @@ genres:
       cruelty: 1
       complexity: 7
     subgenres:
-      - puzzle
-      - action
-      - platformer
+      - "puzzle"
+      - "action"
+      - "platformer"
     topics:
-    - Agriculture
-    - Animals
-    - Archaeology
-    - Art
-    - Baseball
-    - Basketball
-    - Birds
-    - Building Blocks
-    - Candy
-    - Cars
-    - Casinos
-    - Cats
-    - Chemistry
-    - Chickens
-    - Cities
-    - Climbing
-    - Cooking
-    - Cyberpunk
-    - Cyberspace
-    - Dancing
-    - Deck Building
-    - Digging
-    - Diving
-    - Dogs
-    - Dragons
-    - Drawing
-    - Dreams
-    - Education
-    - Elements
-    - Espionage
-    - Everyday Life
-    - Evolution
-    - Expeditions
-    - Factories
-    - Fairies
-    - Fantasy
-    - Fashion
-    - Fish
-    - Fishing
-    - Fitness
-    - Food
-    - Frogs
-    - Fruits
-    - Gambling
-    - Ghosts
-    - Goats
-    - Hacking
-    - Handball
-    - Healthcare
-    - Hospital
-    - Insects
-    - Jet Ski
-    - Kids
-    - Mathematics
-    - Middle Ages
-    - Mining
-    - Movies
-    - Mushrooms
-    - Music
-    - Octopus
-    - Orcs
-    - Parallel Worlds
-    - Parlor Games
-    - Physics
-    - Pinball
-    - Planets
-    - Plants
-    - Playing Cards
-    - Plumber
-    - Portals
-    - Prison
-    - Puzzles
-    - Quiz Show
-    - Rabbits
-    - Renovation
-    - Riding
-    - Rockstars
-    - Sailing
-    - School
-    - Science
-    - Sheep
-    - Singing
-    - Skydiving
-    - Soccer
-    - Skiing
-    - Space
-    - Sports
-    - Steampunk
-    - Stone Age
-    - Stones
-    - Swimming
-    - Table Tennis
-    - Tennis
-    - Theme Parks
-    - Thieves
-    - Time Travel
-    - Toys
-    - Trains
-    - Transportation
-    - Treasure
-    - Viruses
-    - Volleyball
-    - Wizards
-    - Worms
-    - Zoo
-    - Pets
-  - name: puzzle
+      - "agriculture"
+      - "animals"
+      - "archaeology"
+      - "art"
+      - "baseball"
+      - "basketball"
+      - "birds"
+      - "buildingblocks"
+      - "candy"
+      - "cars"
+      - "casinos"
+      - "cats"
+      - "chemistry"
+      - "chickens"
+      - "cities"
+      - "climbing"
+      - "cooking"
+      - "cyberpunk"
+      - "cyberspace"
+      - "dancing"
+      - "deckbuilding"
+      - "digging"
+      - "diving"
+      - "dogs"
+      - "dragons"
+      - "drawing"
+      - "dreams"
+      - "education"
+      - "elements"
+      - "espionage"
+      - "everydaylife"
+      - "evolution"
+      - "expeditions"
+      - "factories"
+      - "fairies"
+      - "fantasy"
+      - "fashion"
+      - "fish"
+      - "fishing"
+      - "fitness"
+      - "food"
+      - "frogs"
+      - "fruits"
+      - "gambling"
+      - "ghosts"
+      - "goats"
+      - "hacking"
+      - "handball"
+      - "healthcare"
+      - "hospital"
+      - "insects"
+      - "jetski"
+      - "kids"
+      - "mathematics"
+      - "middleages"
+      - "mining"
+      - "movies"
+      - "mushrooms"
+      - "music"
+      - "octopus"
+      - "orcs"
+      - "parallelworlds"
+      - "parlorgames"
+      - "physics"
+      - "pinball"
+      - "planets"
+      - "plants"
+      - "playingcards"
+      - "plumber"
+      - "portals"
+      - "prison"
+      - "puzzles"
+      - "quizshow"
+      - "rabbits"
+      - "renovation"
+      - "riding"
+      - "rockstars"
+      - "sailing"
+      - "school"
+      - "science"
+      - "sheep"
+      - "singing"
+      - "skydiving"
+      - "soccer"
+      - "skiing"
+      - "space"
+      - "sports"
+      - "steampunk"
+      - "stoneage"
+      - "stones"
+      - "swimming"
+      - "tabletennis"
+      - "tennis"
+      - "themeparks"
+      - "thieves"
+      - "timetravel"
+      - "toys"
+      - "trains"
+      - "transportation"
+      - "treasure"
+      - "viruses"
+      - "volleyball"
+      - "wizards"
+      - "worms"
+      - "zoo"
+      - "pets"
+  - name: "puzzle"
     targets:
       - "Teenagers"
       - "Adults"
@@ -158,94 +158,94 @@ genres:
       cruelty: 0
       complexity: 8
     subgenres:
-      - skill
-      - platformer
-      - interactive_movie
-      - visual_novel
+      - "skill"
+      - "platformer"
+      - "interactive_movie"
+      - "visual_novel"
     topics:
-      - Agriculture
-      - Animals
-      - Archaeology
-      - Art
-      - Building Blocks
-      - Candy
-      - Casinos
-      - Chemistry
-      - Cities
-      - Conspiracies
-      - Cooking
-      - Cyberpunk
-      - Cyberspace
-      - Dancing
-      - Dating
-      - Deck Building
-      - Detective
-      - Digging
-      - Diving
-      - Dragons
-      - Drawing
-      - Dreams
-      - Education
-      - Elements
-      - Erotica
-      - Espionage
-      - Everyday Life
-      - Evolution
-      - Expeditions
-      - Fairies
-      - Fantasy
-      - Fashion
-      - Fish
-      - Fitness
-      - Food
-      - Fruits
-      - Gambling
-      - Ghosts
-      - Hacking
-      - Horror
-      - Hospital
-      - Kids
-      - Mathematics
-      - Middle Ages
-      - Mining
-      - Movies
-      - Music
-      - Octopus
-      - Parallel Worlds
-      - Parlor Games
-      - Physics
-      - Planets
-      - Plants
-      - Playing Cards
-      - Plumber
-      - Portals
-      - Prison
-      - Puzzles
-      - Quiz Show
-      - Rockstars
-      - Romans
-      - School
-      - Science
-      - Ships
-      - Singing
-      - Skateboards
-      - Space
-      - Steampunk
-      - Stone Age
-      - Stones
-      - Television
-      - Theme Parks
-      - Time Travel
-      - Toys
-      - Trains
-      - Transportation
-      - Treasure
-      - Viruses
-      - Wizards
-      - Worms
-      - Zoo
-      - Pets
-  - name: racing
+      - "agriculture"
+      - "animals"
+      - "archaeology"
+      - "art"
+      - "buildingblocks"
+      - "candy"
+      - "casinos"
+      - "chemistry"
+      - "cities"
+      - "conspiracies"
+      - "cooking"
+      - "cyberpunk"
+      - "cyberspace"
+      - "dancing"
+      - "dating"
+      - "deckbuilding"
+      - "detective"
+      - "digging"
+      - "diving"
+      - "dragons"
+      - "drawing"
+      - "dreams"
+      - "education"
+      - "elements"
+      - "erotica"
+      - "espionage"
+      - "everydaylife"
+      - "evolution"
+      - "expeditions"
+      - "fairies"
+      - "fantasy"
+      - "fashion"
+      - "fish"
+      - "fitness"
+      - "food"
+      - "fruits"
+      - "gambling"
+      - "ghosts"
+      - "hacking"
+      - "horror"
+      - "hospital"
+      - "kids"
+      - "mathematics"
+      - "middleages"
+      - "mining"
+      - "movies"
+      - "music"
+      - "octopus"
+      - "parallelworlds"
+      - "parlorgames"
+      - "physics"
+      - "planets"
+      - "plants"
+      - "playingcards"
+      - "plumber"
+      - "portals"
+      - "prison"
+      - "puzzles"
+      - "quizshow"
+      - "rockstars"
+      - "romans"
+      - "school"
+      - "science"
+      - "ships"
+      - "singing"
+      - "skateboards"
+      - "space"
+      - "steampunk"
+      - "stoneage"
+      - "stones"
+      - "television"
+      - "themeparks"
+      - "timetravel"
+      - "toys"
+      - "trains"
+      - "transportation"
+      - "treasure"
+      - "viruses"
+      - "wizards"
+      - "worms"
+      - "zoo"
+      - "pets"
+  - name: "racing"
     targets:
       - "Children"
       - "Teenagers"
@@ -270,27 +270,27 @@ genres:
       cruelty: 0
       complexity: 4
     subgenres:
-      - action
-      - simulation
-      - sports
+      - "action"
+      - "simulation"
+      - "sports"
     topics:
-      - Airplanes
-      - Bicycle
-      - Cabs
-      - Cars
-      - Economy
-      - Jet Ski
-      - Motorcycles
-      - Motorsports
-      - Riding
-      - Sailing
-      - Skateboards
-      - Skiing
-      - Skydiving
-      - Sports
-      - Transportation
-      - Trucks
-  - name: adventure
+      - "airplanes"
+      - "bicycle"
+      - "cabs"
+      - "cars"
+      - "economy"
+      - "jetski"
+      - "motorcycles"
+      - "motorsports"
+      - "riding"
+      - "sailing"
+      - "skateboards"
+      - "skiing"
+      - "skydiving"
+      - "sports"
+      - "transportation"
+      - "trucks"
+  - name: "adventure"
     targets:
       - "Adults"
       - "Seniors"
@@ -312,80 +312,80 @@ genres:
       cruelty: 5
       complexity: 7
     subgenres:
-      - puzzle
-      - platformer
-      - interactive_movie
-      - visual_novel
-      - tps
+      - "puzzle"
+      - "platformer"
+      - "interactive_movie"
+      - "visual_novel"
+      - "tps"
     topics:
-      - Agents
-      - Androids
-      - Angels
-      - Anime
-      - Apocalypse
-      - Archaeology
-      - Comedy
-      - Crime
-      - Cyberpunk
-      - Cyborgs
-      - Dating
-      - Demons
-      - Deck Building
-      - Detective
-      - Devils
-      - Dragons
-      - Dreams
-      - Druids
-      - Dungeons
-      - Dwarfs
-      - Elves
-      - End Times
-      - Erotica
-      - Everyday Life
-      - Expeditions
-      - Fairies
-      - Fantasy
-      - Ghosts
-      - Gods
-      - Hell
-      - Historical
-      - Horror
-      - Ice Age
-      - Islands
-      - Kids
-      - Knights
-      - Middle Ages
-      - Monkeys
-      - Monster
-      - Noble Houses
-      - Orcs
-      - Parallel Worlds
-      - Pirates
-      - Planets
-      - Police
-      - Radioactivity
-      - Religion
-      - Reporters
-      - Romans
-      - Saboteurs
-      - Skeletons
-      - Space
-      - Steampunk
-      - Stone Age
-      - Super Villains
-      - Thieves
-      - Time Travel
-      - Treasure
-      - Treasure Hunters
-      - Trolls
-      - Vampires
-      - Vikings
-      - Werewolves
-      - Wild West
-      - Witches
-      - Wizards
-      - World Wars
-  - name: rpg
+      - "agents"
+      - "androids"
+      - "angels"
+      - "anime"
+      - "apocalypse"
+      - "archaeology"
+      - "comedy"
+      - "crime"
+      - "cyberpunk"
+      - "cyborgs"
+      - "dating"
+      - "demons"
+      - "deckbuilding"
+      - "detective"
+      - "devils"
+      - "dragons"
+      - "dreams"
+      - "druids"
+      - "dungeons"
+      - "dwarfs"
+      - "elves"
+      - "endtimes"
+      - "erotica"
+      - "everydaylife"
+      - "expeditions"
+      - "fairies"
+      - "fantasy"
+      - "ghosts"
+      - "gods"
+      - "hell"
+      - "historical"
+      - "horror"
+      - "iceage"
+      - "islands"
+      - "kids"
+      - "knights"
+      - "middleages"
+      - "monkeys"
+      - "monster"
+      - "noblehouses"
+      - "orcs"
+      - "parallelworlds"
+      - "pirates"
+      - "planets"
+      - "police"
+      - "radioactivity"
+      - "religion"
+      - "reporters"
+      - "romans"
+      - "saboteurs"
+      - "skeletons"
+      - "space"
+      - "steampunk"
+      - "stoneage"
+      - "supervillains"
+      - "thieves"
+      - "timetravel"
+      - "treasure"
+      - "treasurehunters"
+      - "trolls"
+      - "vampires"
+      - "vikings"
+      - "werewolves"
+      - "wildwest"
+      - "witches"
+      - "wizards"
+      - "worldwars"
+  - name: "rpg"
     targets:
       - "Adults"
       - "Seniors"
@@ -407,65 +407,65 @@ genres:
       cruelty: 6
       complexity: 7
     subgenres:
-      - puzzle
-      - adventure
-      - action
-      - platformer
-      - rts
-      - fps
-      - tps
+      - "puzzle"
+      - "adventure"
+      - "action"
+      - "platformer"
+      - "rts"
+      - "fps"
+      - "tps"
     topics:
-      - Androids
-      - Angels
-      - Anime
-      - Apocalypse
-      - Barbarians
-      - Castles
-      - Cyberpunk
-      - Cyborgs
-      - Deck Building
-      - Demons
-      - Devils
-      - Dragons
-      - Druids
-      - Dungeons
-      - Dwarfs
-      - Elves
-      - End Times
-      - Fairies
-      - Fantasy
-      - Ghosts
-      - Gods
-      - Hell
-      - Hunting
-      - Islands
-      - Knights
-      - Martial Arts
-      - Middle Ages
-      - Monster
-      - Noble Houses
-      - Orcs
-      - Pirates
-      - Planets
-      - Radioactivity
-      - Romans
-      - Samurai
-      - Sandbox
-      - Skeletons
-      - Space
-      - Space Stations
-      - Steampunk
-      - Thieves
-      - Time Travel
-      - Treasure
-      - Treasure Hunters
-      - Trolls
-      - Vampires
-      - Vikings
-      - Werewolves
-      - Witches
-      - Wizards
-  - name: strategy
+      - "androids"
+      - "angels"
+      - "anime"
+      - "apocalypse"
+      - "barbarians"
+      - "castles"
+      - "cyberpunk"
+      - "cyborgs"
+      - "deckbuilding"
+      - "demons"
+      - "devils"
+      - "dragons"
+      - "druids"
+      - "dungeons"
+      - "dwarfs"
+      - "elves"
+      - "endtimes"
+      - "fairies"
+      - "fantasy"
+      - "ghosts"
+      - "gods"
+      - "hell"
+      - "hunting"
+      - "islands"
+      - "knights"
+      - "martialarts"
+      - "middleages"
+      - "monster"
+      - "noblehouses"
+      - "orcs"
+      - "pirates"
+      - "planets"
+      - "radioactivity"
+      - "romans"
+      - "samurai"
+      - "sandbox"
+      - "skeletons"
+      - "space"
+      - "spacestations"
+      - "steampunk"
+      - "thieves"
+      - "timetravel"
+      - "treasure"
+      - "treasurehunters"
+      - "trolls"
+      - "vampires"
+      - "vikings"
+      - "werewolves"
+      - "witches"
+      - "wizards"
+  - name: "strategy"
     targets:
       - "Adults"
       - "Seniors"
@@ -487,96 +487,96 @@ genres:
       cruelty: 6
       complexity: 8
     subgenres:
-      - rpg
-      - action
-      - economic_simulation
-      - building
-      - rts
+      - "rpg"
+      - "action"
+      - "economic_simulation"
+      - "building"
+      - "rts"
     topics:
-      - Agriculture
-      - Airplanes
-      - Aliens
-      - Androids
-      - Apocalypse
-      - Barbarians
-      - Building Blocks
-      - Bunker
-      - Castles
-      - Chemistry
-      - Cinema
-      - Cities
-      - Civilizations
-      - Colonization
-      - Companies
-      - Conquest
-      - Cooking
-      - Crime
-      - Deck Building
-      - Digging
-      - Dragons
-      - Dwarfs
-      - Economy
-      - Education
-      - Elements
-      - End Times
-      - Espionage
-      - Everyday Life
-      - Evolution
-      - Expeditions
-      - Factories
-      - Fantasy
-      - Fire Department
-      - Food
-      - Gambling
-      - Game Development
-      - Gangsters
-      - Healthcare
-      - Historical
-      - Hospital
-      - Industrialization
-      - Knights
-      - Mafia
-      - Mecha
-      - Mercenary
-      - Middle Ages
-      - Military
-      - Mining
-      - Noble Houses
-      - Parlor Games
-      - Physics
-      - Planets
-      - Playing Cards
-      - Police
-      - Politics
-      - Radioactivity
-      - Renovation
-      - Revolution
-      - Robots
-      - Romans
-      - Saboteurs
-      - Sailing
-      - Science
-      - Space
-      - Space Stations
-      - Spaceships
-      - Special Forces
-      - Steampunk
-      - Stones
-      - Submarines
-      - Tanks
-      - Television
-      - Theme Parks
-      - Trains
-      - Transportation
-      - Trucks
-      - UFOs
-      - Vacation
-      - Vikings
-      - Wild West
-      - Wizards
-      - World Wars
-      - Zoo
-  - name: action
+      - "agriculture"
+      - "airplanes"
+      - "aliens"
+      - "androids"
+      - "apocalypse"
+      - "barbarians"
+      - "buildingblocks"
+      - "bunker"
+      - "castles"
+      - "chemistry"
+      - "cinema"
+      - "cities"
+      - "civilizations"
+      - "colonization"
+      - "companies"
+      - "conquest"
+      - "cooking"
+      - "crime"
+      - "deckbuilding"
+      - "digging"
+      - "dragons"
+      - "dwarfs"
+      - "economy"
+      - "education"
+      - "elements"
+      - "endtimes"
+      - "espionage"
+      - "everydaylife"
+      - "evolution"
+      - "expeditions"
+      - "factories"
+      - "fantasy"
+      - "firedepartment"
+      - "food"
+      - "gambling"
+      - "gamedevelopment"
+      - "gangsters"
+      - "healthcare"
+      - "historical"
+      - "hospital"
+      - "industrialization"
+      - "knights"
+      - "mafia"
+      - "mecha"
+      - "mercenary"
+      - "middleages"
+      - "military"
+      - "mining"
+      - "noblehouses"
+      - "parlorgames"
+      - "physics"
+      - "planets"
+      - "playingcards"
+      - "police"
+      - "politics"
+      - "radioactivity"
+      - "renovation"
+      - "revolution"
+      - "robots"
+      - "romans"
+      - "saboteurs"
+      - "sailing"
+      - "science"
+      - "space"
+      - "spacestations"
+      - "spaceships"
+      - "specialforces"
+      - "steampunk"
+      - "stones"
+      - "submarines"
+      - "tanks"
+      - "television"
+      - "themeparks"
+      - "trains"
+      - "transportation"
+      - "trucks"
+      - "ufos"
+      - "vacation"
+      - "vikings"
+      - "wildwest"
+      - "wizards"
+      - "worldwars"
+      - "zoo"
+  - name: "action"
     targets:
       - "Teenagers"
       - "Adults"
@@ -598,125 +598,125 @@ genres:
       cruelty: 7
       complexity: 9
     subgenres:
-      - skill
-      - adventure
-      - rpg
-      - platformer
-      - fighting
-      - fps
-      - tps
+      - "skill"
+      - "adventure"
+      - "rpg"
+      - "platformer"
+      - "fighting"
+      - "fps"
+      - "tps"
     topics:
-      - Agents
-      - Airplanes
-      - Aliens
-      - Androids
-      - Angels
-      - Animals
-      - Anime
-      - Apocalypse
-      - Assassins
-      - Barbarians
-      - Bounty Hunter
-      - Boxing
-      - Bunker
-      - Castles
-      - Climbing
-      - Comedy
-      - Conquest
-      - Conspiracies
-      - Contract Killer
-      - Cowboys
-      - Crime
-      - Crocodiles
-      - Cyberpunk
-      - Cyberspace
-      - Cyborgs
-      - Demons
-      - Detective
-      - Devils
-      - Digging
-      - Dinosaurs
-      - Diving
-      - Dragons
-      - Dungeons
-      - Dwarfs
-      - Elves
-      - End Times
-      - Espionage
-      - Fantasy
-      - Fire Department
-      - Gangsters
-      - Ghosts
-      - Gods
-      - Helicopters
-      - Hell
-      - Historical
-      - Horror
-      - Hunting
-      - Ice Age
-      - Insects
-      - Karate
-      - Knights
-      - Mafia
-      - Martial Arts
-      - Mecha
-      - Mercenary
-      - Middle Ages
-      - Military
-      - Monkeys
-      - Monster
-      - Ninjas
-      - Orcs
-      - Paintball
-      - Parallel Worlds
-      - Pirates
-      - Planets
-      - Plants
-      - Police
-      - Portals
-      - Predators
-      - Prison
-      - Puzzles
-      - Radioactivity
-      - Revolution
-      - Robots
-      - Romans
-      - Saboteurs
-      - Samurai
-      - Skeletons
-      - Skydiving
-      - Space
-      - Space Stations
-      - Spaceships
-      - Special Forces
-      - Squirrels
-      - Steampunk
-      - Stone Age
-      - Stones
-      - Submarines
-      - Super Villains
-      - Superheroes
-      - Survival
-      - Tanks
-      - Thieves
-      - Time Travel
-      - Treasure
-      - Treasure Hunters
-      - Trolls
-      - UFOs
-      - Vampires
-      - Vikings
-      - Viruses
-      - Werewolves
-      - Wild West
-      - Witches
-      - Wizards
-      - World Wars
-      - Worms
-      - Wrestling
-      - Zombies
-      - Pets
-  - name: platformer
+      - "agents"
+      - "airplanes"
+      - "aliens"
+      - "androids"
+      - "angels"
+      - "animals"
+      - "anime"
+      - "apocalypse"
+      - "assassins"
+      - "barbarians"
+      - "bountyhunter"
+      - "boxing"
+      - "bunker"
+      - "castles"
+      - "climbing"
+      - "comedy"
+      - "conquest"
+      - "conspiracies"
+      - "contractkiller"
+      - "cowboys"
+      - "crime"
+      - "crocodiles"
+      - "cyberpunk"
+      - "cyberspace"
+      - "cyborgs"
+      - "demons"
+      - "detective"
+      - "devils"
+      - "digging"
+      - "dinosaurs"
+      - "diving"
+      - "dragons"
+      - "dungeons"
+      - "dwarfs"
+      - "elves"
+      - "endtimes"
+      - "espionage"
+      - "fantasy"
+      - "firedepartment"
+      - "gangsters"
+      - "ghosts"
+      - "gods"
+      - "helicopters"
+      - "hell"
+      - "historical"
+      - "horror"
+      - "hunting"
+      - "iceage"
+      - "insects"
+      - "karate"
+      - "knights"
+      - "mafia"
+      - "martialarts"
+      - "mecha"
+      - "mercenary"
+      - "middleages"
+      - "military"
+      - "monkeys"
+      - "monster"
+      - "ninjas"
+      - "orcs"
+      - "paintball"
+      - "parallelworlds"
+      - "pirates"
+      - "planets"
+      - "plants"
+      - "police"
+      - "portals"
+      - "predators"
+      - "prison"
+      - "puzzles"
+      - "radioactivity"
+      - "revolution"
+      - "robots"
+      - "romans"
+      - "saboteurs"
+      - "samurai"
+      - "skeletons"
+      - "skydiving"
+      - "space"
+      - "spacestations"
+      - "spaceships"
+      - "specialforces"
+      - "squirrels"
+      - "steampunk"
+      - "stoneage"
+      - "stones"
+      - "submarines"
+      - "supervillains"
+      - "superheroes"
+      - "survival"
+      - "tanks"
+      - "thieves"
+      - "timetravel"
+      - "treasure"
+      - "treasurehunters"
+      - "trolls"
+      - "ufos"
+      - "vampires"
+      - "vikings"
+      - "viruses"
+      - "werewolves"
+      - "wildwest"
+      - "witches"
+      - "wizards"
+      - "worldwars"
+      - "worms"
+      - "wrestling"
+      - "zombies"
+      - "pets"
+  - name: "platformer"
     targets:
       - "Children"
       - "Teenagers"
@@ -738,138 +738,138 @@ genres:
       cruelty: 3
       complexity: 5
     subgenres:
-      - skill
-      - puzzle
-      - rpg
-      - adventure
-      - action
-      - fighting
+      - "skill"
+      - "puzzle"
+      - "rpg"
+      - "adventure"
+      - "action"
+      - "fighting"
     topics:
-      - Agents
-      - Androids
-      - Angels
-      - Animals
-      - Anime
-      - Assassins
-      - Barbarians
-      - Birds
-      - Boxing
-      - Building Blocks
-      - Candy
-      - Castles
-      - Cats
-      - Chickens
-      - Climbing
-      - Comedy
-      - Contract Killer
-      - Cowboys
-      - Crocodiles
-      - Cyberpunk
-      - Cyberspace
-      - Cyborgs
-      - Dancing
-      - Demons
-      - Detective
-      - Devils
-      - Digging
-      - Dinosaurs
-      - Dogs
-      - Dragons
-      - Drawing
-      - Dreams
-      - Druids
-      - Dungeons
-      - Dwarfs
-      - Elements
-      - Elves
-      - End Times
-      - Espionage
-      - Everyday Life
-      - Evolution
-      - Extreme Sports
-      - Fairies
-      - Fantasy
-      - Fire Department
-      - Fish
-      - Fitness
-      - Frogs
-      - Fruits
-      - Gangsters
-      - Ghosts
-      - Goats
-      - Gods
-      - Hell
-      - Horror
-      - Horses
-      - Hunting
-      - Ice Age
-      - Insects
-      - Islands
-      - Karate
-      - Kids
-      - Knights
-      - Martial Arts
-      - Mercenary
-      - Middle Ages
-      - Monkeys
-      - Monster
-      - Mushrooms
-      - Music
-      - Ninjas
-      - Octopus
-      - Orcs
-      - Paintball
-      - Parallel Worlds
-      - Pinball
-      - Pirates
-      - Plants
-      - Plumber
-      - Police
-      - Portals
-      - Predators
-      - Prison
-      - Puzzles
-      - Rabbits
-      - Reporters
-      - Revolution
-      - Riding
-      - Robots
-      - Romans
-      - Saboteurs
-      - Samurai
-      - School
-      - Sheep
-      - Skateboards
-      - Skeletons
-      - Skiing
-      - Skydiving
-      - Space
-      - Space Stations
-      - Spaceships
-      - Special Forces
-      - Squirrels
-      - Steampunk
-      - Stone Age
-      - Stones
-      - Super Villains
-      - Superheroes
-      - Survival
-      - Thieves
-      - Time Travel
-      - Toys
-      - Treasure
-      - Treasure Hunters
-      - Trolls
-      - Vampires
-      - Vikings
-      - Werewolves
-      - Wild West
-      - Witches
-      - Wizards
-      - World Wars
-      - Zombies
-      - Pets
-  - name: simulation
+      - "agents"
+      - "androids"
+      - "angels"
+      - "animals"
+      - "anime"
+      - "assassins"
+      - "barbarians"
+      - "birds"
+      - "boxing"
+      - "buildingblocks"
+      - "candy"
+      - "castles"
+      - "cats"
+      - "chickens"
+      - "climbing"
+      - "comedy"
+      - "contractkiller"
+      - "cowboys"
+      - "crocodiles"
+      - "cyberpunk"
+      - "cyberspace"
+      - "cyborgs"
+      - "dancing"
+      - "demons"
+      - "detective"
+      - "devils"
+      - "digging"
+      - "dinosaurs"
+      - "dogs"
+      - "dragons"
+      - "drawing"
+      - "dreams"
+      - "druids"
+      - "dungeons"
+      - "dwarfs"
+      - "elements"
+      - "elves"
+      - "endtimes"
+      - "espionage"
+      - "everydaylife"
+      - "evolution"
+      - "extremesports"
+      - "fairies"
+      - "fantasy"
+      - "firedepartment"
+      - "fish"
+      - "fitness"
+      - "frogs"
+      - "fruits"
+      - "gangsters"
+      - "ghosts"
+      - "goats"
+      - "gods"
+      - "hell"
+      - "horror"
+      - "horses"
+      - "hunting"
+      - "iceage"
+      - "insects"
+      - "islands"
+      - "karate"
+      - "kids"
+      - "knights"
+      - "martialarts"
+      - "mercenary"
+      - "middleages"
+      - "monkeys"
+      - "monster"
+      - "mushrooms"
+      - "music"
+      - "ninjas"
+      - "octopus"
+      - "orcs"
+      - "paintball"
+      - "parallelworlds"
+      - "pinball"
+      - "pirates"
+      - "plants"
+      - "plumber"
+      - "police"
+      - "portals"
+      - "predators"
+      - "prison"
+      - "puzzles"
+      - "rabbits"
+      - "reporters"
+      - "revolution"
+      - "riding"
+      - "robots"
+      - "romans"
+      - "saboteurs"
+      - "samurai"
+      - "school"
+      - "sheep"
+      - "skateboards"
+      - "skeletons"
+      - "skiing"
+      - "skydiving"
+      - "space"
+      - "spacestations"
+      - "spaceships"
+      - "specialforces"
+      - "squirrels"
+      - "steampunk"
+      - "stoneage"
+      - "stones"
+      - "supervillains"
+      - "superheroes"
+      - "survival"
+      - "thieves"
+      - "timetravel"
+      - "toys"
+      - "treasure"
+      - "treasurehunters"
+      - "trolls"
+      - "vampires"
+      - "vikings"
+      - "werewolves"
+      - "wildwest"
+      - "witches"
+      - "wizards"
+      - "worldwars"
+      - "zombies"
+      - "pets"
+  - name: "simulation"
     targets:
       - "Teenagers"
       - "Adults"
@@ -891,75 +891,75 @@ genres:
       cruelty: 7
       complexity: 8
     subgenres:
-      - strategy
-      - action
-      - sports
-      - fps
-      - racing
+      - "strategy"
+      - "action"
+      - "sports"
+      - "fps"
+      - "racing"
     topics:
-      - Agriculture
-      - Airplanes
-      - Animals
-      - Bicycle
-      - Cabs
-      - Cars
-      - Casinos
-      - Cities
-      - Climbing
-      - Companies
-      - Cooking
-      - Doctors
-      - Evolution
-      - Extreme Sports
-      - Fire Department
-      - Fish
-      - Fishing
-      - Gambling
-      - Healthcare
-      - Helicopters
-      - Historical
-      - Horses
-      - Insects
-      - Jet Ski
-      - Mecha
-      - Mercenary
-      - Military
-      - Mining
-      - Motorcycles
-      - Motorsports
-      - Paintball
-      - Pinball
-      - Planets
-      - Police
-      - Politics
-      - Predators
-      - Renovation
-      - Robots
-      - Sailing
-      - Sandbox
-      - Ships
-      - Skateboards
-      - Skiing
-      - Skydiving
-      - Soccer
-      - Space
-      - Space Stations
-      - Spaceships
-      - Sports
-      - Submarines
-      - Survival
-      - Swimming
-      - Tanks
-      - Theme Parks
-      - Trains
-      - Transportation
-      - Trucks
-      - UFOs
-      - Vacation
-      - World Wars
-      - Wrestling
-      - Zoo
-  - name: sports
+      - "agriculture"
+      - "airplanes"
+      - "animals"
+      - "bicycle"
+      - "cabs"
+      - "cars"
+      - "casinos"
+      - "cities"
+      - "climbing"
+      - "companies"
+      - "cooking"
+      - "doctors"
+      - "evolution"
+      - "extremesports"
+      - "firedepartment"
+      - "fish"
+      - "fishing"
+      - "gambling"
+      - "healthcare"
+      - "helicopters"
+      - "historical"
+      - "horses"
+      - "insects"
+      - "jetski"
+      - "mecha"
+      - "mercenary"
+      - "military"
+      - "mining"
+      - "motorcycles"
+      - "motorsports"
+      - "paintball"
+      - "pinball"
+      - "planets"
+      - "police"
+      - "politics"
+      - "predators"
+      - "renovation"
+      - "robots"
+      - "sailing"
+      - "sandbox"
+      - "ships"
+      - "skateboards"
+      - "skiing"
+      - "skydiving"
+      - "soccer"
+      - "space"
+      - "spacestations"
+      - "spaceships"
+      - "sports"
+      - "submarines"
+      - "survival"
+      - "swimming"
+      - "tanks"
+      - "themeparks"
+      - "trains"
+      - "transportation"
+      - "trucks"
+      - "ufos"
+      - "vacation"
+      - "worldwars"
+      - "wrestling"
+      - "zoo"
+  - name: "sports"
     targets:
       - "Children"
       - "Teenagers"
@@ -982,64 +982,63 @@ genres:
       cruelty: 0
       complexity: 4
     subgenres:
-      - strategy
-      - action
-      - simulation
-      - economic_simulation
-      - fighting
+      - "strategy"
+      - "action"
+      - "simulation"
+      - "economic_simulation"
+      - "fighting"
     topics:
-      - Airplanes
-      - American Football
-      - Animals
-      - Baseball
-      - Basketball
-      - Bicycle
-      - Boxing
-      - Cars
-      - Climbing
-      - Companies
-      - Cricket
-      - Cyborgs
-      - Dancing
-      - Diving
-      - Economy
-      - Extreme Sports
-      - Fish
-      - Fishing
-      - Fitness
-      - Golf
-      - Handball
-      - Historical
-      - Horses
-      - Ice Hockey
-      - Jet Ski
-      - Karate
-      - Kids
-      - Knights
-      - Martial Arts
-      - Motorcycles
-      - Motorsports
-      - Orcs
-      - Paintball
-      - Romans
-      - Rugby
-      - Sailing
-      - Ships
-      - Skateboards
-      - Skydiving
-      - Soccer
-      - Skiing
-      - Space Stations
-      - Sports
-      - Swimming
-      - Table Tennis
-      - Tennis
-      - Trucks
-      - Vacation
-      - Volleyball
-      - Wrestling
-
-  - name: economic_simulation
+      - "airplanes"
+      - "americanfootball"
+      - "animals"
+      - "baseball"
+      - "basketball"
+      - "bicycle"
+      - "boxing"
+      - "cars"
+      - "climbing"
+      - "companies"
+      - "cricket"
+      - "cyborgs"
+      - "dancing"
+      - "diving"
+      - "economy"
+      - "extremesports"
+      - "fish"
+      - "fishing"
+      - "fitness"
+      - "golf"
+      - "handball"
+      - "historical"
+      - "horses"
+      - "icehockey"
+      - "jetski"
+      - "karate"
+      - "kids"
+      - "knights"
+      - "martialarts"
+      - "motorcycles"
+      - "motorsports"
+      - "orcs"
+      - "paintball"
+      - "romans"
+      - "rugby"
+      - "sailing"
+      - "ships"
+      - "skateboards"
+      - "skydiving"
+      - "soccer"
+      - "skiing"
+      - "spacestations"
+      - "sports"
+      - "swimming"
+      - "tabletennis"
+      - "tennis"
+      - "trucks"
+      - "vacation"
+      - "volleyball"
+      - "wrestling"
+  - name: "economic_simulation"
     targets:
       - "Adults"
       - "Seniors"
@@ -1061,106 +1060,106 @@ genres:
       cruelty: 2
       complexity: 7
     subgenres:
-      - strategy
-      - sports
-      - building
-      - rts
+      - "strategy"
+      - "sports"
+      - "building"
+      - "rts"
     topics:
-      - Agriculture
-      - American Football
-      - Animals
-      - Art
-      - Baseball
-      - Basketball
-      - Bicycle
-      - Boxing
-      - Cabs
-      - Candy
-      - Cars
-      - Casinos
-      - Castles
-      - Cinema
-      - Cities
-      - Civilizations
-      - Colonization
-      - Companies
-      - Conquest
-      - Cooking
-      - Cricket
-      - Crime
-      - Digging
-      - Doctors
-      - Dungeons
-      - Economy
-      - Education
-      - End Times
-      - Erotica
-      - Everyday Life
-      - Factories
-      - Fashion
-      - Fire Department
-      - Fish
-      - Fitness
-      - Food
-      - Gambling
-      - Game Development
-      - Gangsters
-      - Golf
-      - Handball
-      - Healthcare
-      - Hell
-      - Historical
-      - Horses
-      - Hospital
-      - Ice Age
-      - Ice Hockey
-      - Industrialization
-      - Islands
-      - Knights
-      - Mafia
-      - Mathematics
-      - Middle Ages
-      - Mining
-      - Motorcycles
-      - Motorsports
-      - Movies
-      - Music
-      - Noble Houses
-      - Pirates
-      - Planets
-      - Police
-      - Politics
-      - Prison
-      - Renovation
-      - Riding
-      - Rockstars
-      - Romans
-      - Rugby
-      - Sandbox
-      - School
-      - Science
-      - Ships
-      - Singing
-      - Soccer
-      - Space
-      - Sports
-      - Steampunk
-      - Super Villains
-      - Table Tennis
-      - Television
-      - Tennis
-      - Theme Parks
-      - Thieves
-      - Trains
-      - Transportation
-      - Treasure
-      - Trucks
-      - Vacation
-      - Volleyball
-      - Wild West
-      - Wrestling
-      - Zoo
-  - name: fighting
+      - "agriculture"
+      - "americanfootball"
+      - "animals"
+      - "art"
+      - "baseball"
+      - "basketball"
+      - "bicycle"
+      - "boxing"
+      - "cabs"
+      - "candy"
+      - "cars"
+      - "casinos"
+      - "castles"
+      - "cinema"
+      - "cities"
+      - "civilizations"
+      - "colonization"
+      - "companies"
+      - "conquest"
+      - "cooking"
+      - "cricket"
+      - "crime"
+      - "digging"
+      - "doctors"
+      - "dungeons"
+      - "economy"
+      - "education"
+      - "endtimes"
+      - "erotica"
+      - "everydaylife"
+      - "factories"
+      - "fashion"
+      - "firedepartment"
+      - "fish"
+      - "fitness"
+      - "food"
+      - "gambling"
+      - "gamedevelopment"
+      - "gangsters"
+      - "golf"
+      - "handball"
+      - "healthcare"
+      - "hell"
+      - "historical"
+      - "horses"
+      - "hospital"
+      - "iceage"
+      - "icehockey"
+      - "industrialization"
+      - "islands"
+      - "knights"
+      - "mafia"
+      - "mathematics"
+      - "middleages"
+      - "mining"
+      - "motorcycles"
+      - "motorsports"
+      - "movies"
+      - "music"
+      - "noblehouses"
+      - "pirates"
+      - "planets"
+      - "police"
+      - "politics"
+      - "prison"
+      - "renovation"
+      - "riding"
+      - "rockstars"
+      - "romans"
+      - "rugby"
+      - "sandbox"
+      - "school"
+      - "science"
+      - "ships"
+      - "singing"
+      - "soccer"
+      - "space"
+      - "sports"
+      - "steampunk"
+      - "supervillains"
+      - "tabletennis"
+      - "television"
+      - "tennis"
+      - "themeparks"
+      - "thieves"
+      - "trains"
+      - "transportation"
+      - "treasure"
+      - "trucks"
+      - "vacation"
+      - "volleyball"
+      - "wildwest"
+      - "wrestling"
+      - "zoo"
+  - name: "fighting"
     targets:
       - "Teenagers"
       - "Adults"
@@ -1182,43 +1181,43 @@ genres:
       cruelty: 9
       complexity: 8
     subgenres:
-      - action
-      - platformer
-      - sports
+      - "action"
+      - "platformer"
+      - "sports"
     topics:
-      - Androids
-      - Animals
-      - Assassins
-      - Barbarians
-      - Boxing
-      - Contract Killer
-      - Cyberpunk
-      - Cyborgs
-      - Demons
-      - Dinosaurs
-      - Fantasy
-      - Fire Department
-      - Fitness
-      - Gods
-      - Karate
-      - Martial Arts
-      - Mecha
-      - Monster
-      - Ninjas
-      - Orcs
-      - Predators
-      - Robots
-      - Samurai
-      - Skeletons
-      - Space
-      - Sports
-      - Superheroes
-      - Trolls
-      - Vikings
-      - Werewolves
-      - Wrestling
-      - Pets
-  - name: building
+      - "androids"
+      - "animals"
+      - "assassins"
+      - "barbarians"
+      - "boxing"
+      - "contractkiller"
+      - "cyberpunk"
+      - "cyborgs"
+      - "demons"
+      - "dinosaurs"
+      - "fantasy"
+      - "firedepartment"
+      - "fitness"
+      - "gods"
+      - "karate"
+      - "martialarts"
+      - "mecha"
+      - "monster"
+      - "ninjas"
+      - "orcs"
+      - "predators"
+      - "robots"
+      - "samurai"
+      - "skeletons"
+      - "space"
+      - "sports"
+      - "superheroes"
+      - "trolls"
+      - "vikings"
+      - "werewolves"
+      - "wrestling"
+      - "pets"
+  - name: "building"
     targets:
       - "Adults"
       - "Seniors"
@@ -1240,82 +1239,81 @@ genres:
       cruelty: 4
       complexity: 6
     subgenres:
-      - strategy
-      - economic_simulation
-      - rts
+      - "strategy"
+      - "economic_simulation"
+      - "rts"
     topics:
-      - Agriculture
-      - Animals
-      - Apocalypse
-      - Barbarians
-      - Building Blocks
-      - Casinos
-      - Castles
-      - Cinema
-      - Cities
-      - Civilizations
-      - Companies
-      - Conquest
-      - Cooking
-      - Cowboys
-      - Crime
-      - Digging
-      - Doctors
-      - Dungeons
-      - Dwarfs
-      - Economy
-      - Education
-      - Elves
-      - End Times
-      - Evolution
-      - Expeditions
-      - Factories
-      - Fitness
-      - Gods
-      - Healthcare
-      - Hell
-      - Hospital
-      - Ice Age
-      - Industrialization
-      - Insects
-      - Islands
-      - Knights
-      - Middle Ages
-      - Mining
-      - Monster
-      - Noble Houses
-      - Orcs
-      - Parlor Games
-      - Pirates
-      - Planets
-      - Plants
-      - Police
-      - Prison
-      - Radioactivity
-      - Renovation
-      - Romans
-      - Sandbox
-      - School
-      - Ships
-      - Space
-      - Space Stations
-      - Stone Age
-      - Stones
-      - Survival
-      - Television
-      - Theme Parks
-      - Trains
-      - Transportation
-      - Treasure
-      - Trucks
-      - Vacation
-      - Vikings
-      - Wild West
-      - World Wars
-      - Zombies
-      - Zoo
-
-  - name: interactive_movie
+      - "agriculture"
+      - "animals"
+      - "apocalypse"
+      - "barbarians"
+      - "buildingblocks"
+      - "casinos"
+      - "castles"
+      - "cinema"
+      - "cities"
+      - "civilizations"
+      - "companies"
+      - "conquest"
+      - "cooking"
+      - "cowboys"
+      - "crime"
+      - "digging"
+      - "doctors"
+      - "dungeons"
+      - "dwarfs"
+      - "economy"
+      - "education"
+      - "elves"
+      - "endtimes"
+      - "evolution"
+      - "expeditions"
+      - "factories"
+      - "fitness"
+      - "gods"
+      - "healthcare"
+      - "hell"
+      - "hospital"
+      - "iceage"
+      - "industrialization"
+      - "insects"
+      - "islands"
+      - "knights"
+      - "middleages"
+      - "mining"
+      - "monster"
+      - "noblehouses"
+      - "orcs"
+      - "parlorgames"
+      - "pirates"
+      - "planets"
+      - "plants"
+      - "police"
+      - "prison"
+      - "radioactivity"
+      - "renovation"
+      - "romans"
+      - "sandbox"
+      - "school"
+      - "ships"
+      - "space"
+      - "spacestations"
+      - "stoneage"
+      - "stones"
+      - "survival"
+      - "television"
+      - "themeparks"
+      - "trains"
+      - "transportation"
+      - "treasure"
+      - "trucks"
+      - "vacation"
+      - "vikings"
+      - "wildwest"
+      - "worldwars"
+      - "zombies"
+      - "zoo"
+  - name: "interactive_movie"
     targets:
       - "Teenagers"
       - "Adults"
@@ -1338,68 +1336,68 @@ genres:
       cruelty: 7
       complexity: 3
     subgenres:
-      - skill
-      - puzzle
-      - adventure
-      - visual_novel
+      - "skill"
+      - "puzzle"
+      - "adventure"
+      - "visual_novel"
     topics:
-      - Agents
-      - Aliens
-      - Androids
-      - Angels
-      - Anime
-      - Apocalypse
-      - Bounty Hunter
-      - Comedy
-      - Conspiracies
-      - Contract Killer
-      - Cowboys
-      - Crime
-      - Cyberpunk
-      - Cyberspace
-      - Cyborgs
-      - Dancing
-      - Dating
-      - Demons
-      - Detective
-      - Dragons
-      - End Times
-      - Erotica
-      - Espionage
-      - Everyday Life
-      - Fantasy
-      - Gangsters
-      - Ghosts
-      - Hacking
-      - Horror
-      - Kids
-      - Knights
-      - Mafia
-      - Military
-      - Movies
-      - Music
-      - Ninjas
-      - Noble Houses
-      - Parallel Worlds
-      - Prison
-      - Reporters
-      - Revolution
-      - Robots
-      - Saboteurs
-      - Samurai
-      - Skeletons
-      - Spaceships
-      - Super Villains
-      - Superheroes
-      - Time Travel
-      - UFOs
-      - Vampires
-      - Werewolves
-      - Wild West
-      - Witches
-      - Wizards
-      - World Wars
-  - name: rts
+      - "agents"
+      - "aliens"
+      - "androids"
+      - "angels"
+      - "anime"
+      - "apocalypse"
+      - "bountyhunter"
+      - "comedy"
+      - "conspiracies"
+      - "contractkiller"
+      - "cowboys"
+      - "crime"
+      - "cyberpunk"
+      - "cyberspace"
+      - "cyborgs"
+      - "dancing"
+      - "dating"
+      - "demons"
+      - "detective"
+      - "dragons"
+      - "endtimes"
+      - "erotica"
+      - "espionage"
+      - "everydaylife"
+      - "fantasy"
+      - "gangsters"
+      - "ghosts"
+      - "hacking"
+      - "horror"
+      - "kids"
+      - "knights"
+      - "mafia"
+      - "military"
+      - "movies"
+      - "music"
+      - "ninjas"
+      - "noblehouses"
+      - "parallelworlds"
+      - "prison"
+      - "reporters"
+      - "revolution"
+      - "robots"
+      - "saboteurs"
+      - "samurai"
+      - "skeletons"
+      - "spaceships"
+      - "supervillains"
+      - "superheroes"
+      - "timetravel"
+      - "ufos"
+      - "vampires"
+      - "werewolves"
+      - "wildwest"
+      - "witches"
+      - "wizards"
+      - "worldwars"
+  - name: "rts"
     targets:
       - "Teenagers"
       - "Adults"
@@ -1421,82 +1419,82 @@ genres:
       cruelty: 6
       complexity: 7
     subgenres:
-      - rpg
-      - strategy
-      - action
-      - economic_simulation
-      - building_game
+      - "rpg"
+      - "strategy"
+      - "action"
+      - "economic_simulation"
+      - "building_game"
     topics:
-      - Aliens
-      - Androids
-      - Animals
-      - Apocalypse
-      - Bunker
-      - Castles
-      - Cities
-      - Civilizations
-      - Colonization
-      - Companies
-      - Conquest
-      - Cowboys
-      - Cyborgs
-      - Deck Building
-      - Demons
-      - Dinosaurs
-      - Dragons
-      - Druids
-      - Dungeons
-      - Dwarfs
-      - Economy
-      - Elves
-      - End Times
-      - Espionage
-      - Factories
-      - Fantasy
-      - Fire Department
-      - Gods
-      - Helicopters
-      - Historical
-      - Ice Age
-      - Industrialization
-      - Insects
-      - Knights
-      - Martial Arts
-      - Mecha
-      - Mercenary
-      - Middle Ages
-      - Military
-      - Mining
-      - Noble Houses
-      - Orcs
-      - Planets
-      - Plants
-      - Police
-      - Radioactivity
-      - Robots
-      - Romans
-      - Saboteurs
-      - Sailing
-      - Samurai
-      - Science
-      - Ships
-      - Space
-      - Space Stations
-      - Spaceships
-      - Special Forces
-      - Steampunk
-      - Stone Age
-      - Submarines
-      - Tanks
-      - Trains
-      - Transportation
-      - Trolls
-      - UFOs
-      - Vikings
-      - Wild West
-      - Wizards
-      - World Wars
-  - name: fps
+      - "aliens"
+      - "androids"
+      - "animals"
+      - "apocalypse"
+      - "bunker"
+      - "castles"
+      - "cities"
+      - "civilizations"
+      - "colonization"
+      - "companies"
+      - "conquest"
+      - "cowboys"
+      - "cyborgs"
+      - "deckbuilding"
+      - "demons"
+      - "dinosaurs"
+      - "dragons"
+      - "druids"
+      - "dungeons"
+      - "dwarfs"
+      - "economy"
+      - "elves"
+      - "endtimes"
+      - "espionage"
+      - "factories"
+      - "fantasy"
+      - "firedepartment"
+      - "gods"
+      - "helicopters"
+      - "historical"
+      - "iceage"
+      - "industrialization"
+      - "insects"
+      - "knights"
+      - "martialarts"
+      - "mecha"
+      - "mercenary"
+      - "middleages"
+      - "military"
+      - "mining"
+      - "noblehouses"
+      - "orcs"
+      - "planets"
+      - "plants"
+      - "police"
+      - "radioactivity"
+      - "robots"
+      - "romans"
+      - "saboteurs"
+      - "sailing"
+      - "samurai"
+      - "science"
+      - "ships"
+      - "space"
+      - "spacestations"
+      - "spaceships"
+      - "specialforces"
+      - "steampunk"
+      - "stoneage"
+      - "submarines"
+      - "tanks"
+      - "trains"
+      - "transportation"
+      - "trolls"
+      - "ufos"
+      - "vikings"
+      - "wildwest"
+      - "wizards"
+      - "worldwars"
+  - name: "fps"
     targets:
       - "Teenagers"
       - "Adults"
@@ -1518,108 +1516,108 @@ genres:
       cruelty: 9
       complexity: 7
     subgenres:
-      - skill
-      - adventure
-      - rpg
-      - action
-      - platformer
-      - simulation
-      - tps
+      - "skill"
+      - "adventure"
+      - "rpg"
+      - "action"
+      - "platformer"
+      - "simulation"
+      - "tps"
     topics:
-      - Agents
-      - Aliens
-      - Androids
-      - Angels
-      - Apocalypse
-      - Assassins
-      - Barbarians
-      - Bounty Hunter
-      - Boxing
-      - Bunker
-      - Castles
-      - Climbing
-      - Conspiracies
-      - Contract Killer
-      - Cowboys
-      - Crime
-      - Cyberpunk
-      - Cyberspace
-      - Cyborgs
-      - Demons
-      - Detective
-      - Devils
-      - Dinosaurs
-      - Dragons
-      - Druids
-      - Dungeons
-      - Dwarfs
-      - Elves
-      - End Times
-      - Espionage
-      - Fantasy
-      - Gangsters
-      - Ghosts
-      - Gods
-      - Helicopters
-      - Hell
-      - Historical
-      - Horror
-      - Hunting
-      - Ice Age
-      - Insects
-      - Karate
-      - Knights
-      - Mafia
-      - Martial Arts
-      - Mecha
-      - Mercenary
-      - Middle Ages
-      - Military
-      - Monster
-      - Ninjas
-      - Orcs
-      - Parallel Worlds
-      - Physics
-      - Police
-      - Portals
-      - Predators
-      - Prison
-      - Puzzles
-      - Radioactivity
-      - Revolution
-      - Riding
-      - Robots
-      - Romans
-      - Saboteurs
-      - Samurai
-      - Sandbox
-      - Skeletons
-      - Skydiving
-      - Space
-      - Space Stations
-      - Spaceships
-      - Special Forces
-      - Steampunk
-      - Stone Age
-      - Submarines
-      - Super Villains
-      - Superheroes
-      - Survival
-      - Tanks
-      - Thieves
-      - Time Travel
-      - Treasure Hunters
-      - Trolls
-      - UFOs
-      - Vampires
-      - Vikings
-      - Werewolves
-      - Wild West
-      - Witches
-      - Wizards
-      - World Wars
-      - Zombies
-  - name: visual_novel
+      - "agents"
+      - "aliens"
+      - "androids"
+      - "angels"
+      - "apocalypse"
+      - "assassins"
+      - "barbarians"
+      - "bountyhunter"
+      - "boxing"
+      - "bunker"
+      - "castles"
+      - "climbing"
+      - "conspiracies"
+      - "contractkiller"
+      - "cowboys"
+      - "crime"
+      - "cyberpunk"
+      - "cyberspace"
+      - "cyborgs"
+      - "demons"
+      - "detective"
+      - "devils"
+      - "dinosaurs"
+      - "dragons"
+      - "druids"
+      - "dungeons"
+      - "dwarfs"
+      - "elves"
+      - "endtimes"
+      - "espionage"
+      - "fantasy"
+      - "gangsters"
+      - "ghosts"
+      - "gods"
+      - "helicopters"
+      - "hell"
+      - "historical"
+      - "horror"
+      - "hunting"
+      - "iceage"
+      - "insects"
+      - "karate"
+      - "knights"
+      - "mafia"
+      - "martialarts"
+      - "mecha"
+      - "mercenary"
+      - "middleages"
+      - "military"
+      - "monster"
+      - "ninjas"
+      - "orcs"
+      - "parallelworlds"
+      - "physics"
+      - "police"
+      - "portals"
+      - "predators"
+      - "prison"
+      - "puzzles"
+      - "radioactivity"
+      - "revolution"
+      - "riding"
+      - "robots"
+      - "romans"
+      - "saboteurs"
+      - "samurai"
+      - "sandbox"
+      - "skeletons"
+      - "skydiving"
+      - "space"
+      - "spacestations"
+      - "spaceships"
+      - "specialforces"
+      - "steampunk"
+      - "stoneage"
+      - "submarines"
+      - "supervillains"
+      - "superheroes"
+      - "survival"
+      - "tanks"
+      - "thieves"
+      - "timetravel"
+      - "treasurehunters"
+      - "trolls"
+      - "ufos"
+      - "vampires"
+      - "vikings"
+      - "werewolves"
+      - "wildwest"
+      - "witches"
+      - "wizards"
+      - "worldwars"
+      - "zombies"
+  - name: "visual_novel"
     targets:
       - "Children"
       - "Teenagers"
@@ -1644,72 +1642,72 @@ genres:
       cruelty: 4
       complexity: 2
     subgenres:
-      - skill
-      - puzzle
-      - adventure
-      - interactive_movie
-      - rpg
+      - "skill"
+      - "puzzle"
+      - "adventure"
+      - "interactive_movie"
+      - "rpg"
     topics:
-      - Androids
-      - Angels
-      - Anime
-      - Art
-      - Assassins
-      - Birds
-      - Cats
-      - Chickens
-      - Comedy
-      - Conspiracies
-      - Contract Killer
-      - Cowboys
-      - Cyberpunk
-      - Dancing
-      - Dating
-      - Demons
-      - Detective
-      - Doctors
-      - Dogs
-      - Dragons
-      - Drawing
-      - Elves
-      - Erotica
-      - Everyday Life
-      - Fairies
-      - Fantasy
-      - Fashion
-      - Ghosts
-      - Goats
-      - Horror
-      - Hospital
-      - Hunting
-      - Kids
-      - Middle Ages
-      - Military
-      - Movies
-      - Music
-      - Ninjas
-      - Noble Houses
-      - Politics
-      - Rabbits
-      - Reporters
-      - Samurai
-      - School
-      - Sheep
-      - Singing
-      - Steampunk
-      - Super Villains
-      - Superheroes
-      - Theme Parks
-      - Thieves
-      - Toys
-      - Treasure
-      - Werewolves
-      - Wild West
-      - World Wars
-      - Zombies
-      - Zoo
-      - Pets
-  - name: tps
+      - "androids"
+      - "angels"
+      - "anime"
+      - "art"
+      - "assassins"
+      - "birds"
+      - "cats"
+      - "chickens"
+      - "comedy"
+      - "conspiracies"
+      - "contractkiller"
+      - "cowboys"
+      - "cyberpunk"
+      - "dancing"
+      - "dating"
+      - "demons"
+      - "detective"
+      - "doctors"
+      - "dogs"
+      - "dragons"
+      - "drawing"
+      - "elves"
+      - "erotica"
+      - "everydaylife"
+      - "fairies"
+      - "fantasy"
+      - "fashion"
+      - "ghosts"
+      - "goats"
+      - "horror"
+      - "hospital"
+      - "hunting"
+      - "kids"
+      - "middleages"
+      - "military"
+      - "movies"
+      - "music"
+      - "ninjas"
+      - "noblehouses"
+      - "politics"
+      - "rabbits"
+      - "reporters"
+      - "samurai"
+      - "school"
+      - "sheep"
+      - "singing"
+      - "steampunk"
+      - "supervillains"
+      - "superheroes"
+      - "themeparks"
+      - "thieves"
+      - "toys"
+      - "treasure"
+      - "werewolves"
+      - "wildwest"
+      - "worldwars"
+      - "zombies"
+      - "zoo"
+      - "pets"
+  - name: "tps"
     targets:
       - "Teenagers"
       - "Adults"
@@ -1731,109 +1729,109 @@ genres:
       cruelty: 7
       complexity: 5
     subgenres:
-      - skill
-      - adventure
-      - rpg
-      - action
-      - platformer
-      - simulation
-      - sports
-      - fighting
-      - fps
+      - "skill"
+      - "adventure"
+      - "rpg"
+      - "action"
+      - "platformer"
+      - "simulation"
+      - "sports"
+      - "fighting"
+      - "fps"
     topics:
-      - Agents
-      - Aliens
-      - Androids
-      - Angels
-      - Apocalypse
-      - Assassins
-      - Barbarians
-      - Bounty Hunter
-      - Boxing
-      - Bunker
-      - Castles
-      - Climbing
-      - Conquest
-      - Conspiracies
-      - Contract Killer
-      - Cowboys
-      - Crime
-      - Cyberpunk
-      - Cyberspace
-      - Cyborgs
-      - Demons
-      - Detective
-      - Devils
-      - Dinosaurs
-      - Dragons
-      - Druids
-      - Dungeons
-      - Dwarfs
-      - Elves
-      - End Times
-      - Espionage
-      - Fantasy
-      - Fruits
-      - Gangsters
-      - Ghosts
-      - Gods
-      - Helicopters
-      - Hell
-      - Historical
-      - Horror
-      - Ice Age
-      - Insects
-      - Karate
-      - Knights
-      - Mafia
-      - Martial Arts
-      - Mecha
-      - Mercenary
-      - Middle Ages
-      - Monster
-      - Ninjas
-      - Orcs
-      - Parallel Worlds
-      - Physics
-      - Police
-      - Portals
-      - Predators
-      - Prison
-      - Puzzles
-      - Radioactivity
-      - Revolution
-      - Riding
-      - Robots
-      - Romans
-      - Saboteurs
-      - Sailing
-      - Samurai
-      - Sandbox
-      - Skateboards
-      - Skeletons
-      - Skydiving
-      - Space
-      - Space Stations
-      - Spaceships
-      - Special Forces
-      - Steampunk
-      - Stone Age
-      - Submarines
-      - Super Villains
-      - Superheroes
-      - Survival
-      - Tanks
-      - Thieves
-      - Time Travel
-      - Treasure Hunters
-      - Trolls
-      - UFOs
-      - Vampires
-      - Vikings
-      - Werewolves
-      - Wild West
-      - Witches
-      - Wizards
-      - World Wars
-      - Zombies
-      - Pets
+      - "agents"
+      - "aliens"
+      - "androids"
+      - "angels"
+      - "apocalypse"
+      - "assassins"
+      - "barbarians"
+      - "bountyhunter"
+      - "boxing"
+      - "bunker"
+      - "castles"
+      - "climbing"
+      - "conquest"
+      - "conspiracies"
+      - "contractkiller"
+      - "cowboys"
+      - "crime"
+      - "cyberpunk"
+      - "cyberspace"
+      - "cyborgs"
+      - "demons"
+      - "detective"
+      - "devils"
+      - "dinosaurs"
+      - "dragons"
+      - "druids"
+      - "dungeons"
+      - "dwarfs"
+      - "elves"
+      - "endtimes"
+      - "espionage"
+      - "fantasy"
+      - "fruits"
+      - "gangsters"
+      - "ghosts"
+      - "gods"
+      - "helicopters"
+      - "hell"
+      - "historical"
+      - "horror"
+      - "iceage"
+      - "insects"
+      - "karate"
+      - "knights"
+      - "mafia"
+      - "martialarts"
+      - "mecha"
+      - "mercenary"
+      - "middleages"
+      - "monster"
+      - "ninjas"
+      - "orcs"
+      - "parallelworlds"
+      - "physics"
+      - "police"
+      - "portals"
+      - "predators"
+      - "prison"
+      - "puzzles"
+      - "radioactivity"
+      - "revolution"
+      - "riding"
+      - "robots"
+      - "romans"
+      - "saboteurs"
+      - "sailing"
+      - "samurai"
+      - "sandbox"
+      - "skateboards"
+      - "skeletons"
+      - "skydiving"
+      - "space"
+      - "spacestations"
+      - "spaceships"
+      - "specialforces"
+      - "steampunk"
+      - "stoneage"
+      - "submarines"
+      - "supervillains"
+      - "superheroes"
+      - "survival"
+      - "tanks"
+      - "thieves"
+      - "timetravel"
+      - "treasurehunters"
+      - "trolls"
+      - "ufos"
+      - "vampires"
+      - "vikings"
+      - "werewolves"
+      - "wildwest"
+      - "witches"
+      - "wizards"
+      - "worldwars"
+      - "zombies"
+      - "pets"
