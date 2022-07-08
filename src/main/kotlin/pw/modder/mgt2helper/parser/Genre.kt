@@ -5,7 +5,7 @@ import java.util.EnumSet
 data class Genre(
     val id: Int,
     val names: Map<String, String>,
-    val subjenres: Set<Int>,
+    val subgenres: Set<Int>,
     val properties: Properties
 ) {
     enum class Targets {
@@ -81,5 +81,9 @@ data class Genre(
                 complexity = (complexity + other.complexity) / 2
             )
         }
+    }
+
+    override fun toString(): String {
+        return names["EN"] ?: names.values.first()
     }
 }

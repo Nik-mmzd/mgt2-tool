@@ -26,7 +26,7 @@ class Parser(game: Path) {
         return with(stringMap) {
             Genre(
                 id = getIntValue("ID"),
-                subjenres = getValue("GENRE COMB").parseIntArray(),
+                subgenres = getValue("GENRE COMB").parseIntArray(),
                 properties = Genre.Properties(
                     targets = getValue("TGROUP").parseTargetsArray(),
                     gameplay = getIntValue("GAMEPLAY"),

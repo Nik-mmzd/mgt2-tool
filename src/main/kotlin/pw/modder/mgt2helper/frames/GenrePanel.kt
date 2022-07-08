@@ -1,24 +1,20 @@
 package pw.modder.mgt2helper.frames
 
-import pw.modder.mgt2helper.data.*
+import pw.modder.mgt2helper.parser.*
 import pw.modder.mgt2helper.utils.*
 import java.awt.*
 import java.util.*
 import javax.swing.*
 
-class GenrePanel(private val loc: ResourceBundle, data: Genres): JPanel(GridBagLayout()) {
-    val subgenres = listOf<Subgenre>(Subgenre.None) + data.genres.map { Subgenre.Genre(it) }
+class GenrePanel(private val loc: ResourceBundle, var lang: String, genres: List<Genre>): JPanel(GridBagLayout()) {
+    val subgenres = listOf<Genre?>(null) + genres
 
-    val genre = JComboBox(data.genres.toTypedArray()).apply {
+    val genre = JComboBox(genres.toTypedArray()).apply {
         val constraints = generateConstrains(0, 0, fill = GridBagConstraints.HORIZONTAL)
 
         renderer = object : DefaultListCellRenderer() {
             override fun getListCellRendererComponent(list: JList<*>, value: Any?, index: Int, isSelected: Boolean, cellHasFocus: Boolean): Component {
-                val string = when(value) {
-                    is Genre -> loc.getString("genre.${value.name}")
-                    else -> null
-                }
-                super.getListCellRendererComponent(list, string ?: value, index, isSelected, cellHasFocus)
+                super.getListCellRendererComponent(list, (value as? Genre)?.names?.get(lang) ?: value, index, isSelected, cellHasFocus)
                 return this
             }
         }
@@ -28,17 +24,17 @@ class GenrePanel(private val loc: ResourceBundle, data: Genres): JPanel(GridBagL
         this@GenrePanel.add(this, constraints)
     }
 
-    val subgenre = JComboBox<Subgenre>().apply {
+    val subgenre = JComboBox<Genre?>().apply {
         val genre = genre.selectedItem as Genre
-        subgenres.filter { it is Subgenre.None || it.name in genre.subgenres }.forEach(this::addItem)
+        subgenres.filter { it == null || it.id in genre.subgenres }.forEach(this::addItem)
 
         val constraints = generateConstrains(1, 0, fill = GridBagConstraints.HORIZONTAL)
 
         renderer = object : DefaultListCellRenderer() {
             override fun getListCellRendererComponent(list: JList<*>, value: Any?, index: Int, isSelected: Boolean, cellHasFocus: Boolean): Component {
                 val string = when(value) {
-                    is Subgenre -> loc.getString("genre.${value.name}")
-                    else -> null
+                    is Genre -> value.names[lang]
+                    else -> loc.getString("genre.null")
                 }
                 super.getListCellRendererComponent(list, string ?: value, index, isSelected, cellHasFocus)
                 return this
