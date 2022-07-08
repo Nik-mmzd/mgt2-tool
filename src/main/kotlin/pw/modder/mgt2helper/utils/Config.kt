@@ -10,8 +10,10 @@ class Config() {
         .resolve("config.properties")
 
     private val config = Properties().also {
-        path.reader(Charsets.UTF_8).use { reader ->
-            it.load(reader)
+        if (Files.isRegularFile(path)) {
+            path.reader(Charsets.UTF_8).use { reader ->
+                it.load(reader)
+            }
         }
     }
 
@@ -21,7 +23,7 @@ class Config() {
         }
         set(value) {
             if (value != null)
-                config.setProperty(config.getProperty("game.path"), value.toAbsolutePath().normalize().toString())
+                config.setProperty("game.path", value.toAbsolutePath().normalize().toString())
         }
 
     var lang: String

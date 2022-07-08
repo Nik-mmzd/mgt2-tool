@@ -8,19 +8,20 @@ class Parser(game: Path) {
     private val gamePath = game.resolve(GAME_DATA_PATH)
 
     private fun String.parseIntArray(): Set<Int> {
-        return REGEX_INT_ARRAY.findAll(this).map { it.value.toInt() }.toSet()
+        return REGEX_INT_ARRAY.findAll(this).map { it.value.drop(1).dropLast(1).toInt() }.toSet()
     }
 
     private fun String.parseTargetsArray(): Set<Genre.Targets> {
-        return EnumSet.copyOf(REGEX_STRING_ARRAY.findAll(this).map { Genre.Targets.valueOf(it.value) }.toSet())
+        return EnumSet.copyOf(REGEX_STRING_ARRAY.findAll(this).map { Genre.Targets.valueOf(it.value.drop(1).dropLast(1)) }.toSet())
     }
 
     private fun Map<String, String>.getIntValue(key: String): Int = getValue(key).toInt()
 
     private fun parseGenre(strings: List<String>): Genre {
         val stringMap = strings.associate {
-            val separatorChar = it.indexOf(']')
-            it.substring(1, separatorChar - 1) to it.substring(separatorChar + 1, it.length)
+            val left = it.indexOf('[')
+            val right = it.indexOf(']')
+            it.substring(left + 1, right) to it.substring(right + 1, it.length)
         }
 
         return with(stringMap) {
@@ -69,7 +70,7 @@ class Parser(game: Path) {
                     }
                 }
 
-            if (temp.isNotEmpty()) {
+            if (temp.isNotEmpty() && temp.firstOrNull() != "[EOF]") {
                 add(parseGenre(temp))
                 temp.clear()
             }
@@ -97,14 +98,14 @@ class Parser(game: Path) {
         return gamePath.resolve(DATA_LANG).resolve("Themes_${DATA_LANG}.txt") // resolve file
             .readLines(Charsets.UTF_16LE)                                     // read all lines
             .mapIndexed { index, theme ->
-                index to REGEX_INT_ARRAY.findAll(theme).map { it.value.toInt() }.toSet()
+                index to REGEX_INT_ARRAY.findAll(theme).map { it.value.drop(1).dropLast(1).toInt() }.toSet()
             }.toMap()
     }
 
     companion object {
         private const val GAME_DATA_PATH = "Mad Games Tycoon 2_Data/Extern/Text"
         private const val DATA_LANG = "GE"
-        private val REGEX_INT_ARRAY = "<(\\d+)>".toRegex()
-        private val REGEX_STRING_ARRAY = "<(\\w+)>".toRegex()
+        private val REGEX_INT_ARRAY = "<\\d+>".toRegex()
+        private val REGEX_STRING_ARRAY = "<\\w+>".toRegex()
     }
 }

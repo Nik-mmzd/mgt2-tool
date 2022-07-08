@@ -12,7 +12,7 @@ class ProjectDirectionPanel(private val loc: ResourceBundle): JPanel(GridBagLayo
     }
 
     private fun createProgressBar(max: Int = 10, y: Int): JProgressBar {
-        return JProgressBar().apply {
+        return ProgressBar().apply {
             maximum = max
             minimum = 0
             isStringPainted = true
