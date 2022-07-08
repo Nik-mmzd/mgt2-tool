@@ -30,14 +30,6 @@ class DesignDirectionPanel(private val loc: ResourceBundle): JPanel(GridBagLayou
         }
     }
 
-    // Game length: 5
-    //Game Depth: 2
-    //Beginner-friendly: 6
-    //Innovation: 2
-    //Story: 10
-    //Character Design: 10
-    //Level Design: 3
-    //Mission Design: 2
     init {
         listOf("length", "depth", "friendliness", "innovation", "story", "characters", "levels", "missions").forEachIndexed { index, name ->
             createLabel(name, index)
