@@ -45,12 +45,10 @@ class MainFrame(private val config: Config): JFrame() {
         // setup window
         title = loc.getString("title")
         defaultCloseOperation = EXIT_ON_CLOSE
-        val ss = Toolkit.getDefaultToolkit().screenSize
-        setLocation((ss.getWidth() - 640).toInt() / 2, (ss.getHeight() - 480*2).toInt() / 2)
-        setSize(640, 480*2)
         contentPane = JPanel(GridBagLayout())
         isResizable = true
         isVisible = true
+        minimumSize = Dimension(360, 800)
     }
 
     private fun printData() {
@@ -114,9 +112,9 @@ class MainFrame(private val config: Config): JFrame() {
             }.forEach(subgenre::addItem)
         }
 
-        border = TitledBorder(loc.getString("label.genre"))
+        border = BorderFactory.createTitledBorder(loc.getString("label.genre"))
 
-        val constraints = generateConstrains(0, 0, 2, GridBagConstraints.HORIZONTAL).apply {
+        val constraints = generateConstrains(0, 0, 2).apply {
             this.anchor = GridBagConstraints.NORTH
         }
 
@@ -124,26 +122,34 @@ class MainFrame(private val config: Config): JFrame() {
     }
 
     private val targets = JList<String>().apply {
-        val constraints = generateConstrains(0, 1)
+        val constraints = generateConstrains(0, 1, fill = GridBagConstraints.BOTH).apply {
+            weighty = 100.0
+        }
 
         val pane = JScrollPane(this).apply {
-            border = TitledBorder(loc.getString("label.targetGroups"))
+            border = BorderFactory.createTitledBorder(loc.getString("label.targetGroups"))
+            minimumSize = Dimension(50, 120)
+            preferredSize = Dimension(120, 240)
         }
 
         contentPane.add(pane, constraints)
     }
 
     private val topics = JList<String>().apply {
-        val constraints = generateConstrains(1, 1)
+        val constraints = generateConstrains(1, 1, fill = GridBagConstraints.BOTH).apply {
+            weighty = 100.0
+        }
 
         val pane = JScrollPane(this).apply {
-            border = TitledBorder(loc.getString("label.topics"))
+            border = BorderFactory.createTitledBorder(loc.getString("label.topics"))
+            minimumSize = Dimension(50, 120)
+            preferredSize = Dimension(120, 240)
         }
         contentPane.add(pane, constraints)
     }
 
     val designDirection = DesignDirectionPanel(loc).apply {
-        border = TitledBorder(loc.getString("label.designDirection"))
+        border = BorderFactory.createTitledBorder(loc.getString("label.designDirection"))
 
         val constraints = generateConstrains(0, 2, 2)
 
@@ -151,7 +157,7 @@ class MainFrame(private val config: Config): JFrame() {
     }
 
     val projectDirection = ProjectDirectionPanel(loc).apply {
-        border = TitledBorder(loc.getString("label.projectDirection"))
+        border = BorderFactory.createTitledBorder(loc.getString("label.projectDirection"))
 
         val constraints = generateConstrains(0, 3, 2)
 
@@ -159,7 +165,7 @@ class MainFrame(private val config: Config): JFrame() {
     }
 
     val designPriority = DesignPriorityPanel(loc).apply {
-        border = TitledBorder(loc.getString("label.designPriority"))
+        border = BorderFactory.createTitledBorder(loc.getString("label.designPriority"))
 
         val constraints = generateConstrains(0, 4, 2)
 

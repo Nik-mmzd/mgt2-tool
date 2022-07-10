@@ -16,6 +16,7 @@ class DesignDirectionPanel(private val loc: ResourceBundle): JPanel(GridBagLayou
             maximum = max
             minimum = 0
             isStringPainted = true
+            setDefaultSize()
 
             val constraints = generateConstrains(1, y)
 
@@ -26,6 +27,7 @@ class DesignDirectionPanel(private val loc: ResourceBundle): JPanel(GridBagLayou
         JLabel(loc.getString("label.$name")).apply {
             val constraints = generateConstrains(x, y)
 
+            setDefaultSize()
             this@DesignDirectionPanel.add(this, constraints)
         }
     }

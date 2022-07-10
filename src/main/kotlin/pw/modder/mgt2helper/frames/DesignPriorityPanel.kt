@@ -11,6 +11,7 @@ class DesignPriorityPanel(private val loc: ResourceBundle): JPanel(GridBagLayout
             maximum = max
             minimum = 0
             isStringPainted = true
+            setDefaultSize()
 
             val constraints = generateConstrains(1, y)
 
@@ -21,6 +22,7 @@ class DesignPriorityPanel(private val loc: ResourceBundle): JPanel(GridBagLayout
         JLabel(loc.getString("label.$name")).apply {
             val constraints = generateConstrains(x, y)
 
+            setDefaultSize()
             this@DesignPriorityPanel.add(this, constraints)
         }
     }

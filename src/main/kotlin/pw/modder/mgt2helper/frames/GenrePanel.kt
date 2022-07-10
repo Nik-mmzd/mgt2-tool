@@ -10,7 +10,7 @@ class GenrePanel(private val loc: ResourceBundle, var lang: String, genres: List
     val subgenres = listOf<Genre?>(null) + genres
 
     val genre = JComboBox(genres.toTypedArray()).apply {
-        val constraints = generateConstrains(0, 0, fill = GridBagConstraints.HORIZONTAL)
+        val constraints = generateConstrains(0, 0)
 
         renderer = object : DefaultListCellRenderer() {
             override fun getListCellRendererComponent(list: JList<*>, value: Any?, index: Int, isSelected: Boolean, cellHasFocus: Boolean): Component {
@@ -20,6 +20,7 @@ class GenrePanel(private val loc: ResourceBundle, var lang: String, genres: List
         }
 
         toolTipText = loc.getString("tooltip.genre")
+        setDefaultSize()
 
         this@GenrePanel.add(this, constraints)
     }
@@ -28,7 +29,7 @@ class GenrePanel(private val loc: ResourceBundle, var lang: String, genres: List
         val genre = genre.selectedItem as Genre
         subgenres.filter { it == null || it.id in genre.subgenres }.forEach(this::addItem)
 
-        val constraints = generateConstrains(1, 0, fill = GridBagConstraints.HORIZONTAL)
+        val constraints = generateConstrains(1, 0)
 
         renderer = object : DefaultListCellRenderer() {
             override fun getListCellRendererComponent(list: JList<*>, value: Any?, index: Int, isSelected: Boolean, cellHasFocus: Boolean): Component {
@@ -42,15 +43,17 @@ class GenrePanel(private val loc: ResourceBundle, var lang: String, genres: List
         }
 
         toolTipText = loc.getString("tooltip.subgenre")
+        setDefaultSize()
 
         this@GenrePanel.add(this, constraints)
     }
 
     val matchingOnly = JCheckBox().apply {
         isSelected = true
-        val constraints = generateConstrains(1, 1, fill = GridBagConstraints.HORIZONTAL)
+        val constraints = generateConstrains(1, 1)
 
         text = loc.getString("checkbox.matching")
+        setDefaultSize()
 
         this@GenrePanel.add(this, constraints)
     }

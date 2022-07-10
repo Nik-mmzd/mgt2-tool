@@ -6,16 +6,12 @@ import java.util.*
 import javax.swing.*
 
 class ProjectDirectionPanel(private val loc: ResourceBundle): JPanel(GridBagLayout()) {
-    fun JProgressBar.setValue(new: Byte) {
-        value = new.toInt()
-        string = new.toString()
-    }
-
     private fun createProgressBar(max: Int = 10, y: Int): JProgressBar {
         return ProgressBar().apply {
             maximum = max
             minimum = 0
             isStringPainted = true
+            setDefaultSize()
 
             val constraints = generateConstrains(1, y)
 
@@ -27,6 +23,7 @@ class ProjectDirectionPanel(private val loc: ResourceBundle): JPanel(GridBagLayo
         JLabel(loc.getString("label.$name")).apply {
             val constraints = generateConstrains(x, y)
 
+            setDefaultSize()
             this@ProjectDirectionPanel.add(this, constraints)
         }
     }
