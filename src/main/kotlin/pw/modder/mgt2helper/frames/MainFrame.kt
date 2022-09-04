@@ -58,7 +58,7 @@ class MainFrame(private val config: Config): JFrame() {
             else -> main.properties to localizedTopics.filter { main.id in it.matches }
         }
 
-        topics.setListData(themes.map { it.name }.toTypedArray())
+        topics.setListData(themes.map { it.name }.sorted().toTypedArray())
         targets.setListData(props.targets.map { loc.getString("target.${it.name}") }.toTypedArray())
 
         with(designDirection) {
