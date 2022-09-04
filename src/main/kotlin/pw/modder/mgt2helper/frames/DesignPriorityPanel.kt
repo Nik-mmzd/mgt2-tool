@@ -6,7 +6,7 @@ import java.util.*
 import javax.swing.*
 
 class DesignPriorityPanel(private val loc: ResourceBundle): JPanel(GridBagLayout()) {
-    private fun createProgressBar(max: Int = 100, y: Int): JProgressBar {
+    private fun createProgressBar(max: Int = 50, y: Int): JProgressBar {
         return ProgressBar().apply {
             maximum = max
             minimum = 0

@@ -7,7 +7,6 @@ import java.io.*
 import java.nio.file.*
 import java.util.*
 import javax.swing.*
-import javax.swing.border.*
 import kotlin.system.*
 
 class MainFrame(private val config: Config): JFrame() {

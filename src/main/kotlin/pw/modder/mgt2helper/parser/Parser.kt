@@ -94,11 +94,11 @@ class Parser(game: Path) {
             }
     }
 
-    private fun loadThemeMatches(): Map<Int, Set<Int>> {
+    private fun loadThemeMatches(): Map<Int, List<Int>> {
         return gamePath.resolve(DATA_LANG).resolve("Themes_${DATA_LANG}.txt") // resolve file
             .readLines(Charsets.UTF_16LE)                                     // read all lines
             .mapIndexed { index, theme ->
-                index to REGEX_INT_ARRAY.findAll(theme).map { it.value.drop(1).dropLast(1).toInt() }.toSet()
+                index to REGEX_INT_ARRAY.findAll(theme).map { it.value.drop(1).dropLast(1).toInt() }.toList()
             }.toMap()
     }
 

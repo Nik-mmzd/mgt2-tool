@@ -17,7 +17,8 @@ application {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
-    implementation("com.formdev:flatlaf:2.3")
+    implementation("com.formdev:flatlaf:2.4")
+    implementation(kotlin("test-junit"))
 }
 
 kotlin {

@@ -6,11 +6,6 @@ import java.util.*
 import javax.swing.*
 
 class DesignDirectionPanel(private val loc: ResourceBundle): JPanel(GridBagLayout()) {
-    fun JProgressBar.setValue(new: Byte) {
-        value = new.toInt()
-        string = new.toString()
-    }
-
     private fun createProgressBar(max: Int = 10, y: Int): JProgressBar {
         return ProgressBar().apply {
             maximum = max

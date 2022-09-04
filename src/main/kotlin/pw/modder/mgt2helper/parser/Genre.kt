@@ -42,21 +42,20 @@ data class Genre(
                 }
 
                 var freePoints = 40 - sum()
-                if (freePoints > 0) {
-                    forEachIndexed { index, i ->
-                        if (i < 10) {
-                            set(index, i + 1)
+
+                forEachIndexed { index, value ->
+                    if (freePoints == 0)
+                        return@buildList
+
+                    if (freePoints > 0) {
+                        if (value < 10) {
+                            set(index, value + 1)
                             freePoints--
-                            if (freePoints == 0) return@forEachIndexed
                         }
-                    }
-                }
-                if (freePoints < 0) {
-                    forEachIndexed { index, i ->
-                        if (i > 0) {
-                            set(index, i - 1)
+                    } else {
+                        if (value > 0) {
+                            set(index, value - 1)
                             freePoints++
-                            if (freePoints == 0) return@forEachIndexed
                         }
                     }
                 }
