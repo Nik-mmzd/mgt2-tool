@@ -9,7 +9,7 @@ data class Genre(
     val properties: Properties
 ) {
     enum class Targets {
-        ALL, KID, TEEN, ADULT, OLD
+        KID, TEEN, ADULT, OLD, ALL
     }
 
     data class Properties(
