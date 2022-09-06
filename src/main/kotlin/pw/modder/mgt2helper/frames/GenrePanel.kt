@@ -7,7 +7,22 @@ import java.util.*
 import javax.swing.*
 
 class GenrePanel(private val loc: ResourceBundle, var lang: String, genres: List<Genre>): JPanel(GridBagLayout()) {
-    val subgenres = listOf<Genre?>(null) + genres
+    var subgenres = listOf<Genre?>(null) + genres
+        private set
+
+    fun updateGenres(newGenres: List<Genre>) {
+        subgenres = listOf<Genre?>(null) + newGenres
+        val selected = genre.selectedIndex
+        genre.removeAllItems()
+        newGenres.forEach(genre::addItem)
+        genre.selectedIndex = selected
+        val selectedGenre = genre.selectedItem as Genre
+        subgenre.removeAllItems()
+        when(matchingOnly.isSelected) {
+            true -> subgenres.filter { it == null || it.id in selectedGenre.subgenres }
+            false -> subgenres.filter { it?.id != selectedGenre.id }
+        }.forEach(subgenre::addItem)
+    }
 
     val genre = JComboBox(genres.toTypedArray()).apply {
         val constraints = generateConstrains(0, 0)

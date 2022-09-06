@@ -1,17 +1,30 @@
 package pw.modder.mgt2helper.frames
 
 import pw.modder.mgt2helper.parser.*
+import pw.modder.mgt2helper.parser.savegame.*
 import pw.modder.mgt2helper.utils.*
 import java.awt.*
+import java.awt.event.*
 import java.io.*
 import java.nio.file.*
 import java.util.*
 import javax.swing.*
+import kotlin.io.path.*
 import kotlin.system.*
 
 class MainFrame(private val config: Config): JFrame() {
     private val loc: ResourceBundle = ResourceBundle.getBundle("locale.gui", UTF8Control)
     init {
+        addWindowListener(object : WindowAdapter() {
+            override fun windowClosing(e: WindowEvent?) {
+                config.matchingOnly = genrePanel.matchingOnly.isSelected
+                config.selectedGenre = genrePanel.genre.selectedIndex
+                config.selectedSubgenre = genrePanel.subgenre.selectedIndex
+                config.save()
+                super.windowClosing(e)
+            }
+        })
+
         // check folder exists
         val gamePath = config.gamePath
         if (gamePath == null || !Files.exists(gamePath.resolve("Mad Games Tycoon 2_Data"))) {
@@ -37,7 +50,8 @@ class MainFrame(private val config: Config): JFrame() {
     }
 
     val parser = Parser(config.gamePath!!)
-    val genres = parser.loadGenres()
+    private val genresBase = parser.loadGenres()
+    var genres = genresBase
     var localizedTopics = parser.loadThemes(config.lang)
 
     init {
@@ -88,6 +102,8 @@ class MainFrame(private val config: Config): JFrame() {
 
     val genrePanel = GenrePanel(loc, config.lang, genres).apply {
         genre.addActionListener {
+            if (genre.selectedItem == null)
+                return@addActionListener
             subgenre.removeAllItems()
             val genre = genre.selectedItem as Genre
             when(matchingOnly.isSelected) {
@@ -170,8 +186,66 @@ class MainFrame(private val config: Config): JFrame() {
 
         contentPane.add(this, constraints)
     }
+    val save = SavePanel(loc).apply {
+        border = BorderFactory.createTitledBorder(loc.getString("label.save"))
+
+        val constraints = generateConstrains(0, 5, 2)
+
+        contentPane.add(this, constraints)
+
+        btnReset.addActionListener {
+            genres = genresBase
+            genrePanel.updateGenres(genres)
+            config.lastSave = null
+            savePath.text = loc.getString("label.save.null")
+            printData()
+        }
+
+        btnLoad.addActionListener {
+            if (fileChooser.showOpenDialog(this@MainFrame) == JFileChooser.APPROVE_OPTION) {
+                loadSave(fileChooser.selectedFile.toPath())
+            }
+        }
+    }
+
+    private fun loadSave(path: Path) {
+        val save = try {
+            SaveGame.loadFrom(path).also {
+                config.lastSave = path
+                save.savePath.text = path.fileName.toString()
+            }
+        } catch (e: Exception) {
+            JOptionPane.showMessageDialog(
+                this@MainFrame,
+                e.stackTraceToString(),
+                loc.getString("file.error.save.title"),
+                JOptionPane.ERROR_MESSAGE
+            )
+            return
+        }
+        genres = save.updateFromSave(genresBase)
+        printData()
+        genrePanel.updateGenres(genres)
+    }
 
     init {
+        config.lastSave?.run {
+            loadSave(this)
+        }
+        save.fileChooser.currentDirectory = (if (System.getProperty("os.name", "unknown").startsWith("win", true)) {
+            Paths.get(System.getenv("LOCALAPPDATA")).parent
+                .resolve("locallow").resolve("eggcode").resolve("Mad Games Tycoon 2")
+                .takeIf { it.isDirectory() }
+        } else {
+            config.gamePath?.parent?.parent
+                ?.resolve("compatdata/1342330/pfx/drive_c/users/steamuser/AppData/LocalLow/Eggcode/Mad Games Tycoon 2")
+                ?.takeIf { it.isDirectory() }
+        } ?: Paths.get(".")).toFile()
+        genrePanel.matchingOnly.isSelected = config.matchingOnly
+        if (config.selectedGenre in 0 until genrePanel.genre.itemCount)
+            genrePanel.genre.selectedIndex = config.selectedGenre
+        if (config.selectedSubgenre in 0 until genrePanel.subgenre.itemCount)
+            genrePanel.subgenre.selectedIndex = config.selectedSubgenre
         printData()
         pack()
     }

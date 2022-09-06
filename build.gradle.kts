@@ -1,11 +1,12 @@
 plugins {
     kotlin("jvm") version "1.7.10"
+    kotlin("plugin.serialization") version "1.7.10"
     application
     id("com.github.johnrengelman.shadow") version "7.1.2"
 }
 
 group = "pw.modder"
-version = "1.3.4"
+version = "1.4.0"
 
 repositories {
     mavenCentral()
@@ -17,6 +18,7 @@ application {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0")
     implementation("com.formdev:flatlaf:2.4")
     implementation(kotlin("test-junit"))
 }

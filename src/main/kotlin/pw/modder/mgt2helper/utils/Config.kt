@@ -32,6 +32,23 @@ class Config() {
             config.setProperty("language", value)
         }
 
+    var selectedGenre: Int
+        get() = config.getProperty("selected.genre", "0").toInt()
+        set(value) { config.setProperty("selected.genre", value.toString()) }
+    var selectedSubgenre: Int
+        get() = config.getProperty("selected.subgenre", "0").toInt()
+        set(value) { config.setProperty("selected.subgenre", value.toString()) }
+    var matchingOnly: Boolean
+        get() = config.getProperty("matching", "true").toBoolean()
+        set(value) { config.setProperty("matching", value.toString()) }
+
+    var lastSave: Path?
+        get() = config.getProperty("save.path", null)
+            ?.takeIf { it.isNotEmpty() && it != "null" }
+            ?.let { Paths.get(it) }
+            ?.takeIf { it.exists() }
+        set(value) { config.setProperty("save.path", value?.toAbsolutePath()?.normalize().toString()) }
+
     fun save(comment: String = "Mad Games Tycoon 2 Helper Tool config") {
         path.writer(Charsets.UTF_8).use {
             config.store(it, comment)
