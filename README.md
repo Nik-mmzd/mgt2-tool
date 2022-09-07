@@ -1,10 +1,13 @@
 # Mad Games Tycoon 2 Helper
+## Features
+* Shows perfect genre combinations
+* Shows perfect genre focus, design, alignment
+* Shows perfect genre topics
+* Calculates mentioned above for any genre combinations
+* Loads game data from game folder
+* Loads genre focus, design, alignment data from save
+* Works with Random game concept and Random genre combinations modes
 
-A little program that can help you to create a perfect game in MGT2
+*Tested with Mad Games Tycoon 2 build **2022.09.04B***
 
-Just select Genre and Subgenre, and it'll show you matching target groups directions, design and topics
-
-Made just for fun
-
-P.S.
-Compilation: Java, Gradle, `gradlew shadowJar`...
+Download from Releases or compile by yourself using Gradle
