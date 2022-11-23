@@ -5,7 +5,7 @@ import kotlin.test.*
 class PropertiesTest {
     private fun Genre.Properties.verifyDesignDirections(): Boolean {
         val points = length + depth + friendliness + innovation + story + characters + levels + missions
-        assertEquals(40, points)
+        assertEquals(Genre.Properties.FOCUS_POINTS, points)
         return true
     }
 

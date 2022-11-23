@@ -75,7 +75,7 @@ data class Genre(
                     add(index, (value + other.focus[index]) / 2)
                 }
 
-                var freePoints = 40 - sum()
+                var freePoints = FOCUS_POINTS - sum()
 
                 forEachIndexed { index, value ->
                     if (freePoints == 0)
@@ -106,6 +106,10 @@ data class Genre(
                 cruelty = (cruelty + other.cruelty) / 2,
                 complexity = (complexity + other.complexity) / 2
             )
+        }
+
+        companion object {
+            internal const val FOCUS_POINTS = 40
         }
     }
 
