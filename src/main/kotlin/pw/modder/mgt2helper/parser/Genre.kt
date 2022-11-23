@@ -1,6 +1,6 @@
 package pw.modder.mgt2helper.parser
 
-import java.util.EnumSet
+import java.util.*
 
 data class Genre(
     val id: Int,
@@ -18,27 +18,61 @@ data class Genre(
         val graphics: Int,
         val sound: Int,
         val control: Int,
-        val length: Int,
-        val depth: Int,
-        val friendliness: Int,
-        val innovation: Int,
-        val story: Int,
-        val characters: Int,
-        val levels: Int,
-        val missions: Int,
+        private val focus: List<Int>,
         val hardcore: Int,
         val cruelty: Int,
         val complexity: Int
     ) {
-        operator fun plus(other: Properties): Properties {
-            val focus = listOf(length, depth, friendliness, innovation, story, characters, levels, missions)
-            val otherFocus = with(other) {
-                listOf(length, depth, friendliness, innovation, story, characters, levels, missions)
-            }
+        constructor(
+            targets: Set<Targets>,
+            gameplay: Int,
+            graphics: Int,
+            sound: Int,
+            control: Int,
+            length: Int,
+            depth: Int,
+            friendliness: Int,
+            innovation: Int,
+            story: Int,
+            characters: Int,
+            levels: Int,
+            missions: Int,
+            hardcore: Int,
+            cruelty: Int,
+            complexity: Int
+        ) : this(
+            targets,
+            gameplay,
+            graphics,
+            sound,
+            control,
+            listOf(length, depth, friendliness, innovation, story, characters, levels, missions),
+            hardcore,
+            cruelty,
+            complexity
+        )
 
+        val length: Int
+            get() = focus[0]
+        val depth: Int
+            get() = focus[1]
+        val friendliness: Int
+            get() = focus[2]
+        val innovation: Int
+            get() = focus[3]
+        val story: Int
+            get() = focus[4]
+        val characters: Int
+            get() = focus[5]
+        val levels: Int
+            get() = focus[6]
+        val missions: Int
+            get() = focus[7]
+
+        operator fun plus(other: Properties): Properties {
             val result = buildList<Int> {
                 focus.forEachIndexed { index, value ->
-                    add(index, (value + otherFocus[index]) / 2)
+                    add(index, (value + other.focus[index]) / 2)
                 }
 
                 var freePoints = 40 - sum()
@@ -67,14 +101,7 @@ data class Genre(
                 graphics = graphics,
                 sound = sound,
                 control = control,
-                length = result[0],
-                depth = result[1],
-                friendliness = result[2],
-                innovation = result[3],
-                story = result[4],
-                characters = result[5],
-                levels = result[6],
-                missions = result[7],
+                focus = result,
                 hardcore = (hardcore + other.hardcore) / 2,
                 cruelty = (cruelty + other.cruelty) / 2,
                 complexity = (complexity + other.complexity) / 2
