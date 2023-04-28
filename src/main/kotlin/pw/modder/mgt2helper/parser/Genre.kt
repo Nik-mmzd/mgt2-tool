@@ -1,6 +1,7 @@
 package pw.modder.mgt2helper.parser
 
 import java.util.*
+import kotlin.math.*
 
 data class Genre(
     val id: Int,
@@ -69,10 +70,18 @@ data class Genre(
         val missions: Int
             get() = focus[7]
 
+        // add first, add half of second, convert to float, divide by 1.5, round to int, goto hell
+        private fun eggcodeAverage(first: Int, second: Int): Int {
+            // (first + second) / 2 // way too easy
+            return first.plus(second.div(2))
+                .toFloat()
+                .div(1.5f)
+                .roundToInt()
+        }
         operator fun plus(other: Properties): Properties {
             val result = buildList<Int> {
                 focus.forEachIndexed { index, value ->
-                    add(index, (value + other.focus[index]) / 2)
+                    add(index, eggcodeAverage(value, other.focus[index]))
                 }
 
                 var freePoints = FOCUS_POINTS - sum()
@@ -102,9 +111,9 @@ data class Genre(
                 sound = sound,
                 control = control,
                 focus = result,
-                hardcore = (hardcore + other.hardcore) / 2,
-                cruelty = (cruelty + other.cruelty) / 2,
-                complexity = (complexity + other.complexity) / 2
+                hardcore = eggcodeAverage(hardcore, other.hardcore),
+                cruelty = eggcodeAverage(cruelty, other.cruelty),
+                complexity = eggcodeAverage(complexity, other.complexity)
             )
         }
 

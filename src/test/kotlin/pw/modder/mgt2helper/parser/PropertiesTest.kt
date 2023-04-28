@@ -39,14 +39,14 @@ class PropertiesTest {
     private val `RPG ACTION` = Genre.Properties(
         setOf(Genre.Targets.ADULT),
         40, 30, 15, 15,
-        6, 4, 3, 4, 6, 6, 7, 4,
-        3, 6, 8
+        6, 4, 2, 3, 7, 7, 7, 4,
+        3, 6, 7
     )
 
     private val `RPG ADVENTURE` = Genre.Properties(
         setOf(Genre.Targets.ADULT, Genre.Targets.OLD),
         40, 30, 15, 15,
-        6, 4, 2, 1, 9, 8, 6, 4,
+        7, 4, 2, 1, 9, 8, 5, 4,
         3, 5, 7
     )
 
