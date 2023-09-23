@@ -7,6 +7,14 @@ import kotlin.io.path.*
 class Parser(game: Path) {
     private val gamePath = game.resolve(GAME_DATA_PATH)
 
+    private fun List<String>.dropBOM(): List<String> {
+        return listOf(first().replaceFirst(BOM, "")) + drop(1)
+    }
+
+    private fun List<String>.filterComments(): List<String> {
+        return filterNot { it.trim().startsWith(COMMENT_MARKER) }
+    }
+
     private fun String.parseIntArray(): Set<Int> {
         return REGEX_INT_ARRAY.findAll(this).map { it.value.drop(1).dropLast(1).toInt() }.toSet()
     }
@@ -17,12 +25,15 @@ class Parser(game: Path) {
 
     private fun Map<String, String>.getIntValue(key: String): Int = getValue(key).toInt()
 
-    private fun parseGenre(strings: List<String>): Genre {
+    private fun parseGenre(strings: List<String>): Genre? {
         val stringMap = strings.associate {
             val left = it.indexOf('[')
             val right = it.indexOf(']')
             it.substring(left + 1, right) to it.substring(right + 1, it.length)
         }
+
+        if (!stringMap.containsKey("ID"))
+            return null
 
         return with(stringMap) {
             Genre(
@@ -59,10 +70,10 @@ class Parser(game: Path) {
             val temp = mutableListOf<String>()
 
             gamePath.resolve("DATA").resolve("Genres.txt")
-                .readLines(Charsets.UTF_8).forEach {
+                .readLines(Charsets.UTF_8).dropBOM().filterComments().forEach {
                     if (it.isEmpty()) {
                         if (temp.isNotEmpty()) {
-                            add(parseGenre(temp))
+                            parseGenre(temp)?.let { add(it) }
                             temp.clear()
                         }
                     } else {
@@ -71,7 +82,7 @@ class Parser(game: Path) {
                 }
 
             if (temp.isNotEmpty() && temp.firstOrNull() != "[EOF]") {
-                add(parseGenre(temp))
+                parseGenre(temp)?.let { add(it) }
                 temp.clear()
             }
         }
@@ -81,7 +92,7 @@ class Parser(game: Path) {
         val matches = loadThemeMatches()
 
         return gamePath.resolve(lang).resolve("Themes_${lang}.txt")
-            .readLines(Charsets.UTF_16LE)
+            .readLines(Charsets.UTF_16LE).dropBOM().filterComments()
             .mapIndexed { index, theme ->
                 val pos = theme.indexOf('<')
                 val name = if (pos == -1) {
@@ -104,8 +115,10 @@ class Parser(game: Path) {
 
     companion object {
         private const val GAME_DATA_PATH = "Mad Games Tycoon 2_Data/Extern/Text"
-        private const val DATA_LANG = "GE"
+        private const val DATA_LANG = "EN"
         private val REGEX_INT_ARRAY = "<\\d+>".toRegex()
         private val REGEX_STRING_ARRAY = "<\\w+>".toRegex()
+        private const val BOM = "\uFEFF"
+        private const val COMMENT_MARKER = "//"
     }
 }

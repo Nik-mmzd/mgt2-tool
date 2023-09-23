@@ -105,7 +105,7 @@ data class Genre(
             }
 
             return Properties(
-                targets = EnumSet.copyOf(targets.intersect(other.targets)),
+                targets = EnumSet.noneOf(Targets::class.java).apply { addAll(targets.intersect(other.targets)) },
                 gameplay = gameplay,
                 graphics = graphics,
                 sound = sound,
